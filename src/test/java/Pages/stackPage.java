@@ -48,7 +48,7 @@ public class stackPage extends DriverFactory{
 		return null;
 	}
 	public String getExcelPath() {
-		return configReader.getStackDataPath();
+		return configReader.getExcelDataPath();
 	}
 	public void checkApplicationsLink() {
 		Actions act=new Actions(driver);

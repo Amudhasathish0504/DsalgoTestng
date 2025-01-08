@@ -2,8 +2,8 @@
 
  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>SDET_BDD</groupId>
-  <artifactId>SDET_BDD</artifactId>
+  <groupId>DsAlgoProject-TestNG</groupId>
+  <artifactId>DsAlgoProject-TestNG</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <!-- Properties section -->
     <properties>
@@ -27,11 +27,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.2</version>
-                <configuration>
-					<suiteXmlFiles>
-                    <suiteXmlFile>src/test/resources/testng2.xml</suiteXmlFile>  <!-- Path to your testng.xml -->
-					</suiteXmlFiles>
-                </configuration>
+                
             </plugin>
             <plugin>
             <groupId>io.qameta.allure</groupId>
@@ -55,13 +51,6 @@
     <version>3.5.2</version>
     
 </dependency>
-	<!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
-<dependency>
-    <groupId>tech.grasshopper</groupId>
-    <artifactId>extentreports-cucumber7-adapter</artifactId>
-    <version>1.14.0</version>
-</dependency>
-
 	<dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>

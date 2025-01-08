@@ -113,6 +113,6 @@ public class treePJava extends DriverFactory{
 		return null;
 	}
 	public String getExcelPath() {
-		return configReader.getTreeDataPath();
+		return configReader.getExcelDataPath();
 	}
 }

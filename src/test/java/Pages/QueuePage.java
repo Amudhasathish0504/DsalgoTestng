@@ -53,7 +53,7 @@ public class QueuePage extends DriverFactory{
 		return null;
 	}
 	public String getExcelPath() {
-		return configReader.getQueueDataPath();
+		return configReader.getExcelDataPath();
 	}
 	public void checkTryEditorLink() {
 		LoggerLoad.info("clicking the tryEditor link");
