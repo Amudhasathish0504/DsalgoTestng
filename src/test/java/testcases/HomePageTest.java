@@ -9,12 +9,14 @@ import Pages.loginPage;
 import testbase.TestBase;
 
 public class HomePageTest extends TestBase{
-	HomePage hp=new HomePage();
-	loginPage lp=new loginPage(DriverFactory.getDriver());
-	
+	HomePage hp;
+	loginPage lp;
 	@BeforeMethod
 	public void InitialSetUp() {
 		setUp();
+		 hp=new HomePage();
+		 lp=new loginPage();
+		
 		lp.getStarted();
 		lp.clkSignin();
 		lp.enterLogin(configReader.getUserName(), configReader.getPassword());

@@ -5,8 +5,10 @@ import java.util.List;
 import java.util.Map;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -23,7 +25,8 @@ import testbase.TestBase;
 public class StackPageTest extends TestBase{
 	loginPage lp;
 	HomePage hp;
-	stackPage sp=new stackPage();
+	stackPage sp;
+	String SharedpageName;
 	TryEditorPage tp=new TryEditorPage();
 	List<Map<String,String>> excelData;
 	@BeforeClass
@@ -32,10 +35,11 @@ public class StackPageTest extends TestBase{
         excelData = reader.getData(configReader.getExcelDataPath(),"StackPage");
 	}
 	@BeforeMethod 
-	public void BackgroundSetUp() {
+	public void BackgroundSetUp() throws InvalidFormatException, IOException {
 		setUp();
-		lp=new loginPage(DriverFactory.getDriver());
+		lp=new loginPage();
 		hp=new HomePage();
+		sp=new stackPage();
 		lp.getStarted();
 		lp.clkSignin();
 		lp.enterLogin(configReader.getUserName(), configReader.getPassword());
@@ -44,6 +48,7 @@ public class StackPageTest extends TestBase{
 	
 	@Test (dataProvider = "StackPage")
 	public void checkStackPageLinksTest(String pageName,String expectedResult) {
+			SharedpageName=pageName;
 			sp.checkStackPageLink(pageName);
 			Assert.assertEquals(sp.validateStackPageTitles(), expectedResult);
 		
@@ -100,7 +105,8 @@ public class StackPageTest extends TestBase{
 		}
 	@DataProvider
     public Object[][] StackPage() throws Exception{
-		 Object [][] objArray = new Object[excelData.size()][];
+		Object [][] objArray = new Object[excelData.size()][];
+		 System.out.println(excelData.size());
          for(int i=0;i< excelData.size();i++){
             objArray[i] = new Object[2];
             objArray[i][0] = excelData.get(i).get("Links");
@@ -135,7 +141,8 @@ public class StackPageTest extends TestBase{
 	
 	@AfterClass
 	 public void tearDownDriver() {
-   		tearDown();
+		tearDown();
+		
    }
 
 	

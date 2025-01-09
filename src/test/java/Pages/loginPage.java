@@ -75,7 +75,7 @@ public class loginPage extends DriverFactory{
 		driver.findElement(btn_login).click();
 	}
 	
-	public loginPage(WebDriver driver)
+	public loginPage()
 	{
 		this.driver = DriverFactory.getDriver();
 	}

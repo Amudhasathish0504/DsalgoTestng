@@ -28,5 +28,6 @@ public class TestBase extends DriverFactory {
     public void tearDown() {
     	LoggerLoad.info("-------------------------------------------------------");
     	DriverFactory.quitDriver();
+    	
     }
 }
