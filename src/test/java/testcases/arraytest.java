@@ -1,5 +1,6 @@
 package testcases;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +13,7 @@ public class arraytest extends Basetest {
 	arrayPage ap=new arrayPage();
 
 	
-   @Test
+   @Test(priority=2)
 	public void TestNavigationofArrayPage()
 	{
 	   
@@ -21,5 +22,13 @@ public class arraytest extends Basetest {
 		Assert.assertEquals(ap.validatePageTitle(),"Array") ;
 		
 	}
+   @Test(priority=1)
+   public void testNavigationofArraysinPythonPage() 
+   {
+	   hp.click_btn_Arraygetstarted();
+	   ap.navigate_arraysinPythonPage();
+	   
+	   Assert.assertEquals("Arrays in Python", ap.validatePageTitle());
+   }
 
 }
