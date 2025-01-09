@@ -16,6 +16,11 @@ public class arrayPage extends DriverFactory{
 	By lnk_BasicOperationsinLists=By.xpath("//a[text()=\"Basic Operations in Lists\"]");
 	By lnk_ApplicationsofArray=By.xpath("//a[text()=\"Applications of Array\"]");
 	By lnk_PracticeQuestions=By.xpath("//a[text()=\"Practice Questions\"]");
+	By lnk_SearchtheArray=By.xpath("//a[text()='Search the array']");
+	By lnk_MaxConsecutiveOnes=By.xpath("//a[text()='Max Consecutive Ones']");
+	By lnk_FindNumbers=By.xpath("//a[text()='Find Numbers with Even Number of Digits']");
+	By lnk_SquaresofaSortedArray=By.xpath("//a[text()='Squares of  a Sorted Array']");
+
 	
 	public void navigate_arraysinPythonPage() {
 	 driver.findElement(lnk_ArraysinPython).click();
@@ -54,6 +59,32 @@ public class arrayPage extends DriverFactory{
 		
 	
 }
+   public void click_searchthearray()
+	{
+		driver.findElement(lnk_SearchtheArray).click();
+		LoggerLoad.info("Clicking the Search the array link of array practice questions page");
+	}
+	public void click_max()
+	{
+		driver.findElement(lnk_MaxConsecutiveOnes).click();
+		LoggerLoad.info("Clicking the Max consecutive ones link of array practice questions page");
+
+	}
+	public void click_findnumbers()
+	{
+		driver.findElement(lnk_FindNumbers).click();
+		LoggerLoad.info("Clicking the Find numbers with even number of digits link of array practice questions page");
+
+	}
+	public void click_squares()
+	{
+		driver.findElement(lnk_SquaresofaSortedArray).click();
+		LoggerLoad.info("Clicking the Squares of a sorted array link of array practice questions page");
+
+	
+	
+}
+
 }
 
 
