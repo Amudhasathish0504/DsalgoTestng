@@ -35,7 +35,7 @@ public class StackPageTest extends TestBase{
         excelData = reader.getData(configReader.getExcelDataPath(),"StackPage");
 	}
 	@BeforeMethod 
-	public void BackgroundSetUp() throws InvalidFormatException, IOException {
+	public void BackgroundSetUp() {
 		setUp();
 		lp=new loginPage();
 		hp=new HomePage();
