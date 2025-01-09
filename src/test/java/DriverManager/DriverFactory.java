@@ -32,7 +32,7 @@ public class DriverFactory {
 
 	public static WebDriver getDriver() {
 		 if(driver.get()==null) {
-			 createDriver(BrowserConfig.getBrowserType());
+			 createDriver(configReader.getBrowser());
 			 }
 		 	
 		        return driver.get();

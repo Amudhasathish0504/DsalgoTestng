@@ -14,7 +14,7 @@
 	
 		<classes>
 
-			<class name="testrunners.TestRunner"></class>
+			<class name="testcases.arraytest"></class>
 
 		</classes>
 
