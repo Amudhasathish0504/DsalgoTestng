@@ -7,9 +7,13 @@ import Utilities.LoggerLoad;
 	import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchSessionException;
 import org.openqa.selenium.WebDriver;
-	import org.testng.annotations.AfterMethod;
-	import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
 	
 	public class Basetest extends DriverFactory {
@@ -22,8 +26,15 @@ import org.openqa.selenium.WebDriver;
 				LoggerLoad.info("-------------------------------------------------------");*/
 				
 		        // Set the URL for navigation
+			
+			
 		       String url = configReader.getApplicationUrl();
+		       
+		       
+		       
 		        WebDriver driver = DriverFactory.getDriver();
+		       
+		       
 		        driver.get(url);
 		        driver.manage().window().maximize();
 				driver.manage().deleteAllCookies();
@@ -35,16 +46,17 @@ import org.openqa.selenium.WebDriver;
 				driver.findElement(loginBtn).click();
 				loginPage lp=new loginPage(driver);
 				lp.enterLogin(configReader.getUserName(), configReader.getPassword());
-				
+}
 				
 		        
-			}
+			
 
 		    @AfterMethod
 		    public void tearDown() {
 		    	  WebDriver driver = DriverFactory.getDriver();
 		    	
 		    	DriverFactory.quitDriver();
+		    	//driver.quit();
 		    }
 	}
 
