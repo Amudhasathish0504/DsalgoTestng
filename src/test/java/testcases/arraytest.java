@@ -1,7 +1,7 @@
 package testcases;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import BaseClass.Basetest;
@@ -10,12 +10,18 @@ import Pages.TryEditorPage;
 import Pages.arrayPage;
 
 public class arraytest extends Basetest {
+	@BeforeMethod
+	public void setup()  {
+		hp = new HomePage();
+        ap=new arrayPage();
+        tp=new TryEditorPage();
+}
 	HomePage hp=new HomePage();
 	arrayPage ap=new arrayPage();
 	TryEditorPage tp=new TryEditorPage();
 
 	
-   
+   @Test
 	public void TestNavigationofArrayPage()
 	{
 	   
@@ -24,6 +30,7 @@ public class arraytest extends Basetest {
 		Assert.assertEquals(ap.validatePageTitle(),"Array") ;
 		
 	}
+      @Test
       public void testNavigationofArraysinPythonPage() 
    {
 	   hp.click_btn_Arraygetstarted();
@@ -31,7 +38,7 @@ public class arraytest extends Basetest {
 	   
 	   Assert.assertEquals("Arrays in Python", ap.validatePageTitle());
    }
-      
+   @Test   
   public void testNavigationofTryeditorPageofArraysinPythonPage()
   {
 	  hp.click_btn_Arraygetstarted();
@@ -40,7 +47,8 @@ public class arraytest extends Basetest {
 	  Assert.assertEquals(ap.validatePageTitle(), "Assessment");    
 	  
   }
-  @Test(priority=1)
+  
+   @Test
 
       public void testTryeditorWithoutCode()
       {
@@ -50,6 +58,7 @@ public class arraytest extends Basetest {
     	  tp.click_runBtn();
     	  Assert.assertEquals(tp.isAlertPresent(), false);
       }
+   
   
 
 
