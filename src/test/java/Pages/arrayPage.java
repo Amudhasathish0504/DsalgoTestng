@@ -32,7 +32,7 @@ public class arrayPage extends DriverFactory{
 		return driver.getTitle();
 	}
 	public String getExcelPath() {
-		return configReader.getDataStructuresPath();
+		return configReader.getExcelDataPath();
 		
 	}
 

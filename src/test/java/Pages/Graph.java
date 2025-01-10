@@ -50,7 +50,7 @@ public class Graph extends DriverFactory {
 		return null;
 	}
 	public String getExcelPath() {
-		return configReader.getGraphDataPath();
+		return configReader.getExcelDataPath();
 	}
 	
 	}
