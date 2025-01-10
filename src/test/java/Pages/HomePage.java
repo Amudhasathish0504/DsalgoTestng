@@ -3,6 +3,7 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import DriverManager.DriverFactory;
 
 public class HomePage extends DriverFactory{
@@ -40,7 +41,10 @@ public class HomePage extends DriverFactory{
 	}
 	public void click_btn_Arraygetstarted()
 	{
+		Actions act=new Actions(driver);
+		act.moveToElement(driver.findElement(btn_ArraygetStarted)).perform();
 		driver.findElement(btn_ArraygetStarted).click();
+		
 	}
 	public void clickGraphLink() {
 		driver.findElement(graph).click();

@@ -45,4 +45,8 @@ public class TryEditorPage extends DriverFactory{
 			return false;  
 		}
 	}
+	public void click_runBtn()
+	{
+		driver.findElement(runBtn).click();
+	}
 }

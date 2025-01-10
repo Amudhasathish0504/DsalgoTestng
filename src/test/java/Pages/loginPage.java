@@ -3,6 +3,8 @@ package Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+
 
 import DriverManager.DriverFactory;
 
@@ -68,11 +70,14 @@ public class loginPage extends DriverFactory{
 	return errorMessage.getText();
 	}
 	
-	public void enterLogin(String username,String password)
+
+	public void enterLogin(String username,String password) 
+
 	{
 		driver.findElement(txt_UserName).sendKeys(username);
 		driver.findElement(txt_Password).sendKeys(password);
-		driver.findElement(btn_login).click();
+	    driver.findElement(btn_login).click();
+	
 	}
 	
 	public loginPage()
