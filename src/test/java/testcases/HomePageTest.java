@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import DriverManager.DriverFactory;
 import Pages.HomePage;
 import Pages.loginPage;
-import testbase.TestBase;
+import TestBaseClass.TestBase;
 
 public class HomePageTest extends TestBase{
 	HomePage hp;

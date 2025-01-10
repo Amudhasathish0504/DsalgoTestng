@@ -18,7 +18,7 @@ import Pages.HomePage;
 import Pages.QueuePage;
 import Pages.TryEditorPage;
 import Pages.loginPage;
-import testbase.TestBase;
+import TestBaseClass.TestBase;
 
 public class QueuePageTest extends TestBase{
 	loginPage lp;
