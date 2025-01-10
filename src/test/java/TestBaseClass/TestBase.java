@@ -1,4 +1,4 @@
-package testbase;
+package TestBaseClass;
 
 import java.time.Duration;
 

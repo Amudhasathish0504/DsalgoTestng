@@ -18,7 +18,7 @@ import Pages.HomePage;
 import Pages.TryEditorPage;
 import Pages.loginPage;
 import Pages.stackPage;
-import testbase.TestBase;
+import TestBaseClass.TestBase;
 
 public class StackPageTest extends TestBase{
 	loginPage lp;

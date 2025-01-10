@@ -4,12 +4,13 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import BaseClass.Basetest;
+
 import Pages.HomePage;
 import Pages.TryEditorPage;
 import Pages.arrayPage;
+import TestBaseClass.TestBase;
 
-public class arraytest extends Basetest {
+public class arraytest extends TestBase {
 	@BeforeMethod
 	public void setup()  {
 		hp = new HomePage();
