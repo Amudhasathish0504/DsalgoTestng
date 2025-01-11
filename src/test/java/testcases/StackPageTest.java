@@ -10,7 +10,9 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import DataProvider.ExcelReader;
@@ -20,6 +22,7 @@ import Pages.loginPage;
 import Pages.stackPage;
 import TestBaseClass.TestBase;
 
+@Listeners(listeners.TestStatusListener.class)
 public class StackPageTest extends TestBase{
 	loginPage lp;
 	HomePage hp;
@@ -27,7 +30,7 @@ public class StackPageTest extends TestBase{
 	String SharedpageName;
 	TryEditorPage tp;
 	List<Map<String,String>> excelData;
-	@BeforeClass
+	@BeforeSuite
 	public void LoadList() throws InvalidFormatException, IOException {
 		ExcelReader reader=new ExcelReader();
         excelData = reader.getData(configReader.getExcelDataPath(),"StackPage");

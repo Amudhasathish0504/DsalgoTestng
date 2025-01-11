@@ -8,6 +8,7 @@ import DriverManager.DriverFactory;
 import Utilities.LoggerLoad;
 
 public class TestBase extends DriverFactory {
+	
 	public void setUp() {
        	LoggerLoad.info("Loading the driver in  "+configReader.getBrowser());
 		LoggerLoad.info("-------------------------------------------------------");
@@ -30,4 +31,5 @@ public class TestBase extends DriverFactory {
     	DriverFactory.quitDriver();
     	
     }
+   
 }
