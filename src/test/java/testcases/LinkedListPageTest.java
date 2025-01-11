@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
@@ -121,6 +122,11 @@ public class LinkedListPageTest extends TestBase {
 			 Assert.assertEquals(tp.validateOutput(), expectedResult);
 		}
 	}
+	@AfterMethod
+	 public void tearDownDriver() {
+		tearDown();
+		
+}
 
 
 	

@@ -25,6 +25,8 @@ public class ArrayEditorPage extends DriverFactory{
 			
 
 	By def=By.xpath("//*[@class=\"CodeMirror-code\"]");
+			//By def =By.xpath("//*[@id='editor']");
+			
 	Actions actions=new Actions(driver);
 			actions.moveToElement(driver.findElement(def)).click()
 	        .sendKeys(Keys.chord(Keys.CONTROL, "a") + Keys.BACK_SPACE).perform();
