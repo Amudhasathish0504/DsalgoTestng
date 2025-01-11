@@ -2,6 +2,7 @@ package DataProvider;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellUtil;
+import org.testng.annotations.DataProvider;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +14,8 @@ import java.util.Map;
 public class ExcelReader {
 	public static int totalRow;
 
-	public List<Map<String, String>> getData(String excelFilePath, String sheetName)
+	
+    public List<Map<String, String>> getData(String excelFilePath, String sheetName)
 			throws InvalidFormatException, IOException {
 
 		Workbook workbook = WorkbookFactory.create(new File(excelFilePath));

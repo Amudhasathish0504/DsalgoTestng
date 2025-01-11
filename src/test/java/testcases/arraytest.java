@@ -16,9 +16,9 @@ public class arraytest extends Basetest {
         ap=new arrayPage();
         tp=new TryEditorPage();
 }
-	HomePage hp=new HomePage();
-	arrayPage ap=new arrayPage();
-	TryEditorPage tp=new TryEditorPage();
+	HomePage hp;
+	arrayPage ap;
+	TryEditorPage tp;;
 
 	
    @Test
@@ -58,7 +58,7 @@ public class arraytest extends Basetest {
     	  tp.click_runBtn();
     	  Assert.assertEquals(tp.isAlertPresent(), false);
       }
-   
+ 
   
 
 
