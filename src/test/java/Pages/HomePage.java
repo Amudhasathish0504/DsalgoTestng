@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import DriverManager.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class HomePage extends DriverFactory{
 	WebDriver driver;
@@ -21,6 +22,9 @@ public class HomePage extends DriverFactory{
 	By graphdropdown=By.xpath("//a[@href='/graph']");
 	By treedropdown=By.xpath("//a[@href='/tree']");
 	By btn_ArraygetStarted=By.xpath("//a[@href='array']");
+	By dropdown=By.xpath("//a[text()=\"Data Structures\"]");
+	By listdropdown=By.xpath("//a[text()=\"Linked List\"]");
+	By btn_dataGetStarted=By.xpath("//a[@href=\"data-structures-introduction\"]");
 	
 	public void clickStackLink() {
 		driver.findElement(stack).click();
@@ -61,6 +65,18 @@ public class HomePage extends DriverFactory{
 	public void clickTreeFromDropDown() {
 		driver.findElement(datastructuresLink).click();
 		driver.findElement(treedropdown).click();
+	}
+	public void navigate_linkedlistPage() 
+	{
+		//Thread.sleep(2000);
+		driver.findElement(dropdown).click();
+
+		driver.findElement(listdropdown).click();
+		LoggerLoad.info("Selecting the Linked List option from dropdown");
+	}
+	public void click_dataGetStarted()
+	{
+		driver.findElement(btn_dataGetStarted).click();
 	}
 
 	

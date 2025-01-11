@@ -6,8 +6,16 @@
   <test name="testng">
 	  <parameter name="browser" value="chrome" />
     <classes>
-	  <class name="testcases.HomePageTest"/>
-      <class name="testcases.StackPageTest"/>	<class name="testcases.QueuePageTest"/>
+	  
+      
+      	<class name="testcases.arraytest"/>
+      	<class name="testcases.dataStructuresIntroPage"/>
+      	<class name="testcases.LinkedListPageTest"/>
+      	<class name="testcases.StackPageTest"/>
+      	<class name="testcases.QueuePageTest"/>
+      	<class name="testcases.HomePageTest"/>
+
+
    
     </classes>
   </test> <!-- Test -->

@@ -37,9 +37,7 @@ public class stackPage extends DriverFactory{
 		}
 		else if(pageName.equalsIgnoreCase("applications"))
 			checkApplicationsLink();
-		else if(pageName.equalsIgnoreCase("practice-questions"))
-			clickPracticeLink();
-		
+				
 	}
 	public String validateStackPageTitles() {
 		List<WebElement> list=driver.findElements(By.xpath("//a[@href='/tryEditor']"));

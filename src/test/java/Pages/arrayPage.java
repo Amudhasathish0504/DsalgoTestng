@@ -1,7 +1,10 @@
 package Pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import DriverManager.DriverFactory;
@@ -13,6 +16,7 @@ public class arrayPage extends DriverFactory{
 	public arrayPage() {
 		this.driver=DriverFactory.getDriver();
 	}
+	HomePage hp=new HomePage();
 	By lnk_ArraysinPython =By.xpath("//a[@href='arrays-in-python']");
 	By lnk_ArraysUsingList=By.xpath("//a[text()='Arrays Using List']");
 	By lnk_BasicOperationsinLists=By.xpath("//a[text()=\"Basic Operations in Lists\"]");
@@ -24,66 +28,31 @@ public class arrayPage extends DriverFactory{
 	By lnk_SquaresofaSortedArray=By.xpath("//a[text()='Squares of  a Sorted Array']");
 	By tryeditor=By.xpath("//a[@href='/tryEditor']");
 	
-	public void navigate_arraysinPythonPage() {
-	 driver.findElement(lnk_ArraysinPython).click();
-	 LoggerLoad.info("Clicking the Arrays in Python link of Array page");
+	public void checkArrayPageLink(String pageName) {
+		if(pageName.equalsIgnoreCase("Arrays in Python")) {
+			driver.findElement(lnk_ArraysinPython).click();
+			LoggerLoad.info("Clicking the Arrays in Python link of array page");
 		}
-	public String validatePageTitle() {
+		else if(pageName.equalsIgnoreCase("Arrays Using List")) {
+			driver.findElement(lnk_ArraysUsingList).click();
+			LoggerLoad.info("Clicking the Arrays Using List link of array page");
+		}
+		else if(pageName.equalsIgnoreCase("Basic Operations in Lists"))
+			driver.findElement(lnk_BasicOperationsinLists).click();
+		else if(pageName.equalsIgnoreCase("Applications of Array"))
+			driver.findElement(lnk_ApplicationsofArray).click();
+		else if(pageName.equalsIgnoreCase("Practice Questions"))
+		{
+			driver.findElement(lnk_ArraysinPython).click();
+            driver.findElement(lnk_PracticeQuestions).click();
+        }}
+	public String validateArrayPageTitles() {
+		List<WebElement> list=driver.findElements(By.xpath("//a[@href='/tryEditor']"));
+		if(list.size()>0)
 		return driver.getTitle();
+		return null;
 	}
-	public String getExcelPath() {
-		return configReader.getExcelDataPath();
-		
-	}
-
-
-    public void navigate_ArraysUsingListPage() {
-    	
-    	driver.findElement(lnk_ArraysUsingList).click();
-    	LoggerLoad.info("Clicking the Arrays Using List link of Array page");
-		
-	}
-    public void navigate_BasicOperationsinListsPage() {
-    	driver.findElement(lnk_BasicOperationsinLists).click();
-    	LoggerLoad.info("Clicking the Basic operations in Lists of Array page");
-
-		
-	}
-   public void navigate_ApplicationsofArrayPage() {
-	   driver.findElement(lnk_ApplicationsofArray).click();
-	   LoggerLoad.info("Clicking the Applications of Array of array page");
-	   
-		
-	}
-   public void navigate_PracticeQuestionsPage() {
-	   driver.findElement(lnk_PracticeQuestions).click(); 
-	   LoggerLoad.info("Clicking the practice questions page of array page");
-		
 	
-}
-   public void click_searchthearray()
-	{
-		driver.findElement(lnk_SearchtheArray).click();
-		LoggerLoad.info("Clicking the Search the array link of array practice questions page");
-	}
-	public void click_max()
-	{
-		driver.findElement(lnk_MaxConsecutiveOnes).click();
-		LoggerLoad.info("Clicking the Max consecutive ones link of array practice questions page");
-
-	}
-	public void click_findnumbers()
-	{
-		driver.findElement(lnk_FindNumbers).click();
-		LoggerLoad.info("Clicking the Find numbers with even number of digits link of array practice questions page");
-
-	}
-	public void click_squares()
-	{
-		driver.findElement(lnk_SquaresofaSortedArray).click();
-		LoggerLoad.info("Clicking the Squares of a sorted array link of array practice questions page");
-
-}
 	public void click_TryEditor() {
 		
 		Actions act=new Actions(driver);
@@ -91,6 +60,41 @@ public class arrayPage extends DriverFactory{
 		driver.findElement(tryeditor).click();
 		LoggerLoad.info("Clicking the tryEditor link");
 	}
+	public void checkTryEditorLink() {
+		By tryeditor=By.xpath("//a[@href='/tryEditor']");
+		Actions act=new Actions(driver);
+		act.moveToElement(driver.findElement(tryeditor)).perform();
+		driver.findElement(tryeditor).click();
+		LoggerLoad.info("Clicking the tryEditor link");
+	}
+	public void navigate_arrayPracticePage()
+	{
+		hp.click_btn_Arraygetstarted();
+		driver.findElement(lnk_ArraysinPython).click();
+        driver.findElement(lnk_PracticeQuestions).click();
+	}
+	public void checkArrayPracticePageLink(String pageName) {
+		if(pageName.equalsIgnoreCase("Search the array")) {
+			driver.findElement(lnk_SearchtheArray).click();
+			LoggerLoad.info("Clicking the Search the array link of array page");
+		}
+		else if(pageName.equalsIgnoreCase("Max Consecutive Ones")) {
+			driver.findElement(lnk_MaxConsecutiveOnes).click();
+			LoggerLoad.info("Clicking the Max Consecutive Ones link of array page");
+		}
+		else if(pageName.equalsIgnoreCase("Find Numbers with Even Number of Digits"))
+			driver.findElement(lnk_FindNumbers).click();
+		else if(pageName.equalsIgnoreCase("Squares of a Sorted Array"))
+			driver.findElement(lnk_SquaresofaSortedArray).click();
+		}
+	
+	public String validateArrayPracticePageTitles() {
+		List<WebElement> list=driver.findElements(By.xpath("//input[@type='submit']"));
+		if(list.size()>0)
+		return driver.getTitle();
+		return null;
+	}
+
 
 
 }
