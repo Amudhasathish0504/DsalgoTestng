@@ -37,9 +37,7 @@ public class stackPage extends DriverFactory{
 		}
 		else if(pageName.equalsIgnoreCase("applications"))
 			checkApplicationsLink();
-		else if(pageName.equalsIgnoreCase("practice-questions"))
-			clickPracticeLink();
-		
+				
 	}
 	public String validateStackPageTitles() {
 		List<WebElement> list=driver.findElements(By.xpath("//a[@href='/tryEditor']"));
@@ -48,7 +46,7 @@ public class stackPage extends DriverFactory{
 		return null;
 	}
 	public String getExcelPath() {
-		return configReader.getStackDataPath();
+		return configReader.getExcelDataPath();
 	}
 	public void checkApplicationsLink() {
 		Actions act=new Actions(driver);

@@ -1,3 +1,4 @@
+
 package testcases;
 
 import java.io.IOException;
@@ -7,44 +8,44 @@ import java.util.Map;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import DataProvider.ExcelReader;
 import Pages.HomePage;
+import Pages.QueuePage;
 import Pages.TryEditorPage;
-import Pages.arrayPage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
 
-public class arraytest extends TestBase {
+public class QueuePageTest extends TestBase{
 	loginPage lp;
 	HomePage hp;
-	arrayPage ap;
-	String SharedpageName;
+	QueuePage qp;
 	TryEditorPage tp;
 	List<Map<String,String>> excelData;
-	@BeforeSuite
+	@BeforeClass
 	public void LoadList() throws InvalidFormatException, IOException {
 		ExcelReader reader=new ExcelReader();
-        excelData = reader.getData(configReader.getExcelDataPath(),"ArrayPage");
+        excelData = reader.getData(configReader.getExcelDataPath(),"QueuePage");
 	}
 	@BeforeMethod 
 	public void BackgroundSetUp() {
 		setUp();
 		lp=new loginPage();
 		hp=new HomePage();
-		ap=new arrayPage();
+		qp=new QueuePage();
 		tp=new TryEditorPage();
 		lp.getStarted();
 		lp.clkSignin();
 		lp.enterLogin(configReader.getUserName(), configReader.getPassword());
-		hp.click_btn_Arraygetstarted();
+		hp.clickQueueFromDropDown();
 	}
-	@DataProvider (name="arraypage") 
-	public Object[][] arraypage() throws Exception {
+	
+	@DataProvider (name="queuepage") 
+	public Object[][] queuepage() throws Exception {
 		Object[][] objArray=new Object[excelData.size()][];
 		for(int i=0;i< excelData.size();i++){
             objArray[i] = new Object[1];
@@ -53,81 +54,78 @@ public class arraytest extends TestBase {
          return objArray;
 	}
 	
-		
-	@Test (dataProvider = "arraypage")
-
-	public void checkArrayPageLinksTest(Map<String,String> data) {
-			String pageName=data.get("Links");
+	@Test (dataProvider="queuepage")
+	public void checkqueuepageLinksTest(Map<String,String> data) {
+			String pageName=data.get("links");
 			String expectedResult=data.get("Expected Result");
-			ap.checkArrayPageLink(pageName);
-			Assert.assertEquals(ap.validateArrayPageTitles(), expectedResult);
+			qp.checkQueuePageLink(pageName);
+			Assert.assertEquals(qp.validateQueuePageTitles(), expectedResult);
 		
 	}
-	@Test (dataProvider = "arraypage")
-	public void checkArrayPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
-			String pageName=data.get("Links");
+	@Test (dataProvider = "queuepage")
+	public void checkqueuepageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
+			String pageName=data.get("links");
 			String invalidCode=data.get("InvalidCode");
 			if(!(pageName.equalsIgnoreCase("practice questions"))) {
-			ap.checkArrayPageLink(pageName);
-			ap.click_TryEditor();
+			qp.checkQueuePageLink(pageName);
+			qp.checkTryEditorLink();
 			tp.checkCode(invalidCode);
 			Assert.assertEquals(tp.isAlertPresent(), true);
 			tp.acceptAlert();
 			}
 	}
 	
-	@Test (dataProvider = "arraypage")
-
-	public void checkArrayPageTryEditorLinksTest(Map<String,String> data) {
-			String pageName=data.get("Links");
+	@Test (dataProvider = "queuepage")
+	public void checkqueuepageTryEditorLinksTest(Map<String,String> data) {
+			String pageName=data.get("links");
 			if(!(pageName.equalsIgnoreCase("practice questions"))) {
-			ap.checkArrayPageLink(pageName);
-			ap.checkTryEditorLink();
+			qp.checkQueuePageLink(pageName);
+			qp.checkTryEditorLink();
 			Assert.assertEquals(hp.validatePageTitle(),"Assessment");
 			}
 	}
-	@Test (dataProvider = "arraypage")
-
-		public void checkArrayPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
-		String pageName=data.get("Links");
+	
+	@Test (dataProvider = "queuepage")
+	public void checkqueuepageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
+		String pageName=data.get("links");
 		if(!(pageName.equalsIgnoreCase("practice questions"))) {
-			ap.checkArrayPageLink(pageName);
-			ap.checkTryEditorLink();
+			qp.checkQueuePageLink(pageName);
+			qp.checkTryEditorLink();
 			tp.checkCode(" ");
 			Assert.assertEquals(tp.isAlertPresent(), false);
 		}
 	}
-	@Test (dataProvider = "arraypage")
-
-	public void checkArrayPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
-			String pageName=data.get("Links");
+	
+	@Test (dataProvider = "queuepage")
+	public void checkqueuepageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
+			String pageName=data.get("links");
 			String invalidCode=data.get("InvalidCode");
 			if(invalidCode!=null) {
-		    ap.checkArrayPageLink(pageName);
-		    ap.checkTryEditorLink();
+			qp.checkQueuePageLink(pageName);
+			qp.checkTryEditorLink();
 			tp.checkCode(invalidCode);
 			tp.acceptAlert();
 			Assert.assertEquals(hp.validatePageTitle(), "Assessment");
 			}
 	}
-	
-	@Test (dataProvider = "arraypage")
-	public void checkArrayPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
-		String pageName=data.get("Links");
+	@Test (dataProvider = "queuepage")
+	public void checkqueuepageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
+		String pageName=data.get("links");
 		String validCode=data.get("ValidCode");
 		String expectedResult=data.get("Expected Result for Code");
 		if(validCode!=null) {
-			ap.checkArrayPageLink(pageName);
-		    ap.checkTryEditorLink();
+			qp.checkQueuePageLink(pageName);
+			qp.checkTryEditorLink();
 			tp.checkCode(validCode);
 			 Assert.assertEquals(tp.validateOutput(), expectedResult);
 		}
 	}
-
-@AfterMethod
+	
+	@AfterMethod
 	 public void tearDownDriver() {
 		tearDown();
 		
- }
+   }
 
+	
 }

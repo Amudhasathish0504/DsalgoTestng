@@ -1,26 +1,16 @@
 
 package Pages;
 
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.Test;
 import DriverManager.DriverFactory;
+import Utilities.LoggerLoad;
 
 public class HomePage extends DriverFactory{
 	WebDriver driver;
 	public HomePage() {
 		this.driver=DriverFactory.getDriver();
-		/*driver.get(configReader.getApplicationUrl());
-		By getStartedBtn=By.className("btn");
-		By loginBtn=By.xpath("//a[@href='/login']");
-		driver.findElement(getStartedBtn).click();
-		driver.findElement(loginBtn).click();
-		loginPage lp=new loginPage(driver);
-		lp.enterLogin(configReader.getUserName(), configReader.getPassword());*/
 	}
 	By graph=By.xpath("//a[@href='graph']");
 	By stack=By.xpath("//a[@href='stack']");
@@ -32,6 +22,9 @@ public class HomePage extends DriverFactory{
 	By graphdropdown=By.xpath("//a[@href='/graph']");
 	By treedropdown=By.xpath("//a[@href='/tree']");
 	By btn_ArraygetStarted=By.xpath("//a[@href='array']");
+	By dropdown=By.xpath("//a[text()=\"Data Structures\"]");
+	By listdropdown=By.xpath("//a[text()=\"Linked List\"]");
+	By btn_dataGetStarted=By.xpath("//a[@href=\"data-structures-introduction\"]");
 	
 	public void clickStackLink() {
 		driver.findElement(stack).click();
@@ -72,6 +65,18 @@ public class HomePage extends DriverFactory{
 	public void clickTreeFromDropDown() {
 		driver.findElement(datastructuresLink).click();
 		driver.findElement(treedropdown).click();
+	}
+	public void navigate_linkedlistPage() 
+	{
+		//Thread.sleep(2000);
+		driver.findElement(dropdown).click();
+
+		driver.findElement(listdropdown).click();
+		LoggerLoad.info("Selecting the Linked List option from dropdown");
+	}
+	public void click_dataGetStarted()
+	{
+		driver.findElement(btn_dataGetStarted).click();
 	}
 
 	

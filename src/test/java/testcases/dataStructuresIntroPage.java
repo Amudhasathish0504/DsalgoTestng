@@ -16,34 +16,35 @@ import DataProvider.ExcelReader;
 import Pages.HomePage;
 import Pages.TryEditorPage;
 import Pages.arrayPage;
+import Pages.dataStructureIntroductionPage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
 
-public class arraytest extends TestBase {
+public class dataStructuresIntroPage extends TestBase {
 	loginPage lp;
 	HomePage hp;
-	arrayPage ap;
+	dataStructureIntroductionPage dp;
 	String SharedpageName;
 	TryEditorPage tp;
 	List<Map<String,String>> excelData;
 	@BeforeSuite
 	public void LoadList() throws InvalidFormatException, IOException {
 		ExcelReader reader=new ExcelReader();
-        excelData = reader.getData(configReader.getExcelDataPath(),"ArrayPage");
+        excelData = reader.getData(configReader.getExcelDataPath(),"DataPage");
 	}
 	@BeforeMethod 
 	public void BackgroundSetUp() {
 		setUp();
 		lp=new loginPage();
 		hp=new HomePage();
-		ap=new arrayPage();
+		dp=new dataStructureIntroductionPage();
 		tp=new TryEditorPage();
 		lp.getStarted();
 		lp.clkSignin();
 		lp.enterLogin(configReader.getUserName(), configReader.getPassword());
-		hp.click_btn_Arraygetstarted();
+		hp.click_dataGetStarted();
 	}
-	@DataProvider (name="arraypage") 
+	@DataProvider (name="datapage") 
 	public Object[][] arraypage() throws Exception {
 		Object[][] objArray=new Object[excelData.size()][];
 		for(int i=0;i< excelData.size();i++){
@@ -52,73 +53,74 @@ public class arraytest extends TestBase {
           } 
          return objArray;
 	}
-	
-		
-	@Test (dataProvider = "arraypage")
+	@Test (dataProvider = "datapage")
 
-	public void checkArrayPageLinksTest(Map<String,String> data) {
+	public void checkListPageLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String expectedResult=data.get("Expected Result");
-			ap.checkArrayPageLink(pageName);
-			Assert.assertEquals(ap.validateArrayPageTitles(), expectedResult);
-		
+			dp.checkListPageLink(pageName);
+			Assert.assertEquals(dp.validateListPageTitles(), expectedResult);		
 	}
-	@Test (dataProvider = "arraypage")
-	public void checkArrayPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
+	
+	@Test (dataProvider = "datapage")
+
+	public void checkListPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
 			if(!(pageName.equalsIgnoreCase("practice questions"))) {
-			ap.checkArrayPageLink(pageName);
-			ap.click_TryEditor();
+			dp.navigate_time_complexity();
+			dp.click_TryEditor();
 			tp.checkCode(invalidCode);
 			Assert.assertEquals(tp.isAlertPresent(), true);
 			tp.acceptAlert();
 			}
 	}
 	
-	@Test (dataProvider = "arraypage")
+	@Test (dataProvider = "datapage")
 
-	public void checkArrayPageTryEditorLinksTest(Map<String,String> data) {
+	public void checkListPageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			if(!(pageName.equalsIgnoreCase("practice questions"))) {
-			ap.checkArrayPageLink(pageName);
-			ap.checkTryEditorLink();
+			dp.navigate_time_complexity();
+			dp.click_TryEditor();
 			Assert.assertEquals(hp.validatePageTitle(),"Assessment");
 			}
 	}
-	@Test (dataProvider = "arraypage")
+	@Test (dataProvider = "datapage")
 
-		public void checkArrayPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
+			public void checkListPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		if(!(pageName.equalsIgnoreCase("practice questions"))) {
-			ap.checkArrayPageLink(pageName);
-			ap.checkTryEditorLink();
+			dp.navigate_time_complexity();
+			dp.click_TryEditor();			
 			tp.checkCode(" ");
 			Assert.assertEquals(tp.isAlertPresent(), false);
 		}
 	}
-	@Test (dataProvider = "arraypage")
+	
+	@Test (dataProvider = "datapage")
 
-	public void checkArrayPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
+	public void checkListPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
 			if(invalidCode!=null) {
-		    ap.checkArrayPageLink(pageName);
-		    ap.checkTryEditorLink();
-			tp.checkCode(invalidCode);
+				dp.navigate_time_complexity();
+				dp.click_TryEditor();
+		    	tp.checkCode(invalidCode);
 			tp.acceptAlert();
 			Assert.assertEquals(hp.validatePageTitle(), "Assessment");
 			}
 	}
 	
-	@Test (dataProvider = "arraypage")
-	public void checkArrayPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
+	@Test (dataProvider = "datapage")
+
+	public void checkListPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String validCode=data.get("ValidCode");
 		String expectedResult=data.get("Expected Result for Code");
 		if(validCode!=null) {
-			ap.checkArrayPageLink(pageName);
-		    ap.checkTryEditorLink();
+			dp.navigate_time_complexity();
+			dp.click_TryEditor();
 			tp.checkCode(validCode);
 			 Assert.assertEquals(tp.validateOutput(), expectedResult);
 		}
@@ -129,5 +131,7 @@ public class arraytest extends TestBase {
 		tearDown();
 		
  }
+	
+	
 
 }

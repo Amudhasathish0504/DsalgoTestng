@@ -1,3 +1,4 @@
+
 package DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -5,9 +6,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import DataProvider.BrowserConfig;
 import DataProvider.ConfigFileReader;
-
-
-
 
 public class DriverFactory {
 	public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
@@ -20,10 +18,6 @@ public class DriverFactory {
 
 	}
 	
-	public static void SetBrowser(String browser) {
-		BrowserConfig.setBrowserType(browser);
-	}
-
 	public static WebDriver getDriver() {
 		 if(driver.get()==null) {
 			 createDriver(configReader.getBrowser());

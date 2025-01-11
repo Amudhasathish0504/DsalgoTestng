@@ -28,7 +28,7 @@ public class ConfigFileReader {
 		}
 		
 		
-	public String getBrowser() {		
+		public String getBrowser() {		
 			return properties.getProperty("browser");
 
 		}
@@ -45,29 +45,14 @@ public class ConfigFileReader {
 		public String getPassword() {
 			return properties.getProperty("password");
 		}
-		public String getStackDataPath() {
-			return properties.getProperty("stackPageExcelPath");
+		public String getExcelDataPath() {
+			return properties.getProperty("ExcelDataPath");
 		}
-		public String getTreeDataPath() {
-			return properties.getProperty("treePageExcelPath");
-		}
-		public String getGraphDataPath() {
-			return properties.getProperty("graphPageExcelPath");
-		}
-		public String getQueueDataPath() {
-			return properties.getProperty("queuePageExcelPath");
-		}
-		public String getDataStructuresPath() {
-			return properties.getProperty("DataStructuresExcelPath");
-		}
-
-		
+				
 		public long getImplicitlyWait() {		
 			String implicitlyWait = properties.getProperty("implicitlyWait");
 			if(implicitlyWait != null) return Long.parseLong(implicitlyWait);
 			else throw new RuntimeException("implicitlyWait not specified in the Configuration.properties file.");		
 		}
-		public String getHomePageUrl() {
-			return properties.getProperty("homepageurl");
-		}
+		
 }
