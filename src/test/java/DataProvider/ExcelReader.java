@@ -48,7 +48,9 @@ private List<Map<String, String>> readSheet(Sheet sheet) {
 
 				String columnHeaderName = sheet.getRow(sheet.getFirstRowNum()).getCell(currentColumn).getStringCellValue();
 
-				columnMapdata.put(columnHeaderName, cell.getStringCellValue());
+				DataFormatter dft = new DataFormatter();
+				String value = dft.formatCellValue(cell);
+				columnMapdata.put(columnHeaderName, value);
 			}
 
 			excelRows.add(columnMapdata);
