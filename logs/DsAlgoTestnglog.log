@@ -1,0 +1,417 @@
+[INFO ]2025-01-1020:53:52.510[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:53:52.513[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:53:52.514[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:53:52.514[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:01.758[main]Utilities.LoggerLoad1)-onTestSuccess MethodclickQueueDropDownTest
+[INFO ]2025-01-1020:54:01.760[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:02.606[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:02.606[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:02.606[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:02.607[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:09.704[main]Utilities.LoggerLoad1)-onTestSuccess MethodclickStackLinkTest
+[INFO ]2025-01-1020:54:09.706[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:09.907[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:09.908[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:09.908[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:09.908[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:14.209[main]Utilities.LoggerLoad1)-Clicking the implementation-lists link of queue page
+[INFO ]2025-01-1020:54:14.240[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageLinksTest
+[INFO ]2025-01-1020:54:14.241[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:14.423[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:14.424[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:14.424[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:14.424[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:19.050[main]Utilities.LoggerLoad1)-Clicking the implementation-collections.deque link of queue page
+[INFO ]2025-01-1020:54:19.087[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageLinksTest
+[INFO ]2025-01-1020:54:19.088[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:19.233[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:19.234[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:19.234[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:19.234[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:23.051[main]Utilities.LoggerLoad1)-Clicking the queue operations link of queue page
+[INFO ]2025-01-1020:54:23.097[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageLinksTest
+[INFO ]2025-01-1020:54:23.098[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:23.248[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:23.249[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:23.249[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:23.249[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:27.192[main]Utilities.LoggerLoad1)-Clicking the implementation-array link of queue page
+[INFO ]2025-01-1020:54:27.232[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageLinksTest
+[INFO ]2025-01-1020:54:27.233[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:27.378[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:27.378[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:27.378[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:27.379[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:31.477[main]Utilities.LoggerLoad1)-Clicking the queue operations link of queue page
+[INFO ]2025-01-1020:54:31.731[main]Utilities.LoggerLoad1)-Clicking the practice questions link of queue page
+[INFO ]2025-01-1020:54:31.731[main]Utilities.LoggerLoad1)-Clicking the practice questions link of queue page
+[INFO ]2025-01-1020:54:41.807[main]Utilities.LoggerLoad1)-onTestFailure MethodcheckqueuepageLinksTest
+[INFO ]2025-01-1020:54:41.968[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:42.713[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:42.714[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:42.714[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:42.714[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:46.549[main]Utilities.LoggerLoad1)-Clicking the implementation-lists link of queue page
+[INFO ]2025-01-1020:54:46.550[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:54:47.281[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinksTest
+[INFO ]2025-01-1020:54:47.282[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:47.467[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:47.467[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:47.467[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:47.467[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:51.463[main]Utilities.LoggerLoad1)-Clicking the implementation-collections.deque link of queue page
+[INFO ]2025-01-1020:54:51.464[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:54:52.232[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinksTest
+[INFO ]2025-01-1020:54:52.233[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:52.473[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:52.474[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:52.475[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:52.475[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:56.598[main]Utilities.LoggerLoad1)-Clicking the queue operations link of queue page
+[INFO ]2025-01-1020:54:56.599[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:54:57.333[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinksTest
+[INFO ]2025-01-1020:54:57.334[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:57.543[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:54:57.544[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:54:57.544[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:54:57.544[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:02.139[main]Utilities.LoggerLoad1)-Clicking the implementation-array link of queue page
+[INFO ]2025-01-1020:55:02.139[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:02.883[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinksTest
+[INFO ]2025-01-1020:55:02.886[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:03.088[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:03.088[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:03.089[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:03.089[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:06.468[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinksTest
+[INFO ]2025-01-1020:55:06.469[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:06.651[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:06.652[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:06.652[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:06.653[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:10.639[main]Utilities.LoggerLoad1)-Clicking the implementation-lists link of queue page
+[INFO ]2025-01-1020:55:10.640[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:11.884[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:55:11.885[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:12.051[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:12.051[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:12.051[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:12.052[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:15.851[main]Utilities.LoggerLoad1)-Clicking the implementation-collections.deque link of queue page
+[INFO ]2025-01-1020:55:15.851[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:16.974[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:55:16.975[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:17.352[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:17.352[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:17.352[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:17.353[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:21.203[main]Utilities.LoggerLoad1)-Clicking the queue operations link of queue page
+[INFO ]2025-01-1020:55:21.203[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:22.281[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:55:22.283[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:22.461[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:22.462[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:22.462[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:22.462[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:26.375[main]Utilities.LoggerLoad1)-Clicking the implementation-array link of queue page
+[INFO ]2025-01-1020:55:26.375[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:27.459[main]Utilities.LoggerLoad1)-onTestFailure MethodcheckqueuepageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:55:27.574[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:27.731[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:27.732[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:27.732[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:27.732[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:31.352[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:55:31.354[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:31.506[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:31.507[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:31.507[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:31.507[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:35.957[main]Utilities.LoggerLoad1)-Clicking the implementation-lists link of queue page
+[INFO ]2025-01-1020:55:35.958[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:36.990[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:55:36.991[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:37.222[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:37.222[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:37.222[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:37.222[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:41.134[main]Utilities.LoggerLoad1)-Clicking the implementation-collections.deque link of queue page
+[INFO ]2025-01-1020:55:41.134[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:42.372[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:55:42.374[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:42.528[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:42.529[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:42.529[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:42.529[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:46.698[main]Utilities.LoggerLoad1)-Clicking the queue operations link of queue page
+[INFO ]2025-01-1020:55:46.699[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:48.326[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:55:48.328[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:48.499[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:48.499[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:48.499[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:48.499[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:52.467[main]Utilities.LoggerLoad1)-Clicking the implementation-array link of queue page
+[INFO ]2025-01-1020:55:52.467[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:55:53.528[main]Utilities.LoggerLoad1)-onTestFailure MethodcheckqueuepageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:55:53.661[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:53.851[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:53.851[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:53.852[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:53.852[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:57.630[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:55:57.631[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:57.840[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:55:57.840[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:55:57.840[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:55:57.840[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:01.933[main]Utilities.LoggerLoad1)-Clicking the implementation-lists link of queue page
+[INFO ]2025-01-1020:56:01.934[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:56:03.034[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:56:03.036[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:03.285[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:03.285[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:03.286[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:03.286[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:07.000[main]Utilities.LoggerLoad1)-Clicking the implementation-collections.deque link of queue page
+[INFO ]2025-01-1020:56:07.000[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:56:07.839[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:56:07.840[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:08.000[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:08.000[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:08.000[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:08.000[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:12.085[main]Utilities.LoggerLoad1)-Clicking the queue operations link of queue page
+[INFO ]2025-01-1020:56:12.085[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:56:13.164[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:56:13.165[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:13.321[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:13.321[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:13.321[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:13.322[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:17.331[main]Utilities.LoggerLoad1)-Clicking the implementation-array link of queue page
+[INFO ]2025-01-1020:56:17.331[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:56:18.170[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:56:18.171[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:18.339[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:18.340[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:18.340[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:18.340[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:21.792[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:56:21.793[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:21.968[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:21.968[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:21.969[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:21.969[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:25.712[main]Utilities.LoggerLoad1)-Clicking the implementation-lists link of queue page
+[INFO ]2025-01-1020:56:25.713[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:56:26.785[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:56:26.786[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:26.950[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:26.951[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:26.951[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:26.952[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:32.033[main]Utilities.LoggerLoad1)-Clicking the implementation-collections.deque link of queue page
+[INFO ]2025-01-1020:56:32.033[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:56:33.139[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:56:33.140[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:33.288[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:33.288[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:33.288[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:33.288[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:36.982[main]Utilities.LoggerLoad1)-Clicking the queue operations link of queue page
+[INFO ]2025-01-1020:56:36.982[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:56:38.168[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:56:38.169[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:38.334[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:38.334[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:38.335[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:38.335[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:42.026[main]Utilities.LoggerLoad1)-Clicking the implementation-array link of queue page
+[INFO ]2025-01-1020:56:42.026[main]Utilities.LoggerLoad1)-clicking the tryEditor link
+[INFO ]2025-01-1020:56:43.340[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:56:43.341[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:43.479[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:43.479[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:43.479[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:43.479[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:46.891[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckqueuepageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:56:46.892[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:47.096[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:47.097[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:47.097[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:47.097[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:51.066[main]Utilities.LoggerLoad1)-Clicking the operations-in-stack link of stack page
+[INFO ]2025-01-1020:56:51.093[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageLinksTest
+[INFO ]2025-01-1020:56:51.094[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:51.247[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:51.248[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:51.248[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:51.248[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:55.056[main]Utilities.LoggerLoad1)-Clicking the implementation link of stack page
+[INFO ]2025-01-1020:56:55.095[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageLinksTest
+[INFO ]2025-01-1020:56:55.095[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:55.456[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:55.456[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:55.456[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:55.457[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:59.474[main]Utilities.LoggerLoad1)-Clicking the applications link of stack page
+[INFO ]2025-01-1020:56:59.521[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageLinksTest
+[INFO ]2025-01-1020:56:59.521[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:59.670[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:56:59.670[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:56:59.670[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:56:59.670[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:03.620[main]Utilities.LoggerLoad1)-Clicking the practice questions link of stack page
+[INFO ]2025-01-1020:57:13.636[main]Utilities.LoggerLoad1)-onTestFailure MethodcheckStackPageLinksTest
+[INFO ]2025-01-1020:57:13.776[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:14.705[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:14.705[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:14.705[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:14.705[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:18.493[main]Utilities.LoggerLoad1)-Clicking the operations-in-stack link of stack page
+[INFO ]2025-01-1020:57:19.631[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:57:19.645[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinksTest
+[INFO ]2025-01-1020:57:19.646[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:19.830[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:19.830[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:19.830[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:19.830[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:26.393[main]Utilities.LoggerLoad1)-Clicking the implementation link of stack page
+[INFO ]2025-01-1020:57:28.116[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:57:28.130[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinksTest
+[INFO ]2025-01-1020:57:28.131[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:28.305[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:28.305[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:28.305[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:28.305[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:32.534[main]Utilities.LoggerLoad1)-Clicking the applications link of stack page
+[INFO ]2025-01-1020:57:33.553[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:57:33.567[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinksTest
+[INFO ]2025-01-1020:57:33.567[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:33.722[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:33.723[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:33.723[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:33.723[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:38.138[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinksTest
+[INFO ]2025-01-1020:57:38.139[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:38.302[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:38.303[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:38.303[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:38.303[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:42.129[main]Utilities.LoggerLoad1)-Clicking the operations-in-stack link of stack page
+[INFO ]2025-01-1020:57:42.830[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:57:43.165[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:57:43.166[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:43.343[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:43.343[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:43.343[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:43.343[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:47.052[main]Utilities.LoggerLoad1)-Clicking the implementation link of stack page
+[INFO ]2025-01-1020:57:47.830[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:57:48.183[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:57:48.184[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:48.341[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:48.341[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:48.341[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:48.341[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:52.238[main]Utilities.LoggerLoad1)-Clicking the applications link of stack page
+[INFO ]2025-01-1020:57:52.970[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:57:53.290[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:57:53.290[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:53.476[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:53.476[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:53.476[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:53.476[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:56.819[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithInvalidCodeTest
+[INFO ]2025-01-1020:57:56.820[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:56.993[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:57:56.994[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:57:56.994[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:57:56.994[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:00.599[main]Utilities.LoggerLoad1)-Clicking the operations-in-stack link of stack page
+[INFO ]2025-01-1020:58:01.283[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:01.593[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:58:01.594[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:01.780[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:01.780[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:01.780[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:01.780[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:05.392[main]Utilities.LoggerLoad1)-Clicking the implementation link of stack page
+[INFO ]2025-01-1020:58:06.131[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:06.440[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:58:06.441[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:06.611[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:06.611[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:06.611[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:06.611[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:10.423[main]Utilities.LoggerLoad1)-Clicking the applications link of stack page
+[INFO ]2025-01-1020:58:11.176[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:11.473[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:58:11.474[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:11.664[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:11.664[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:11.665[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:11.665[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:14.993[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithInvalidCodeTestforError
+[INFO ]2025-01-1020:58:14.994[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:15.149[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:15.149[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:15.149[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:15.149[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:18.866[main]Utilities.LoggerLoad1)-Clicking the operations-in-stack link of stack page
+[INFO ]2025-01-1020:58:19.627[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:19.755[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:58:19.755[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:19.919[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:19.919[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:19.919[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:19.919[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:23.613[main]Utilities.LoggerLoad1)-Clicking the implementation link of stack page
+[INFO ]2025-01-1020:58:24.401[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:24.526[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:58:24.526[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:24.683[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:24.683[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:24.683[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:24.683[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:28.645[main]Utilities.LoggerLoad1)-Clicking the applications link of stack page
+[INFO ]2025-01-1020:58:29.386[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:29.513[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:58:29.513[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:29.673[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:29.674[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:29.674[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:29.674[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:33.460[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithNoScriptsTest
+[INFO ]2025-01-1020:58:33.461[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:33.628[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:33.629[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:33.629[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:33.629[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:37.335[main]Utilities.LoggerLoad1)-Clicking the operations-in-stack link of stack page
+[INFO ]2025-01-1020:58:38.026[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:38.399[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:58:38.399[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:38.559[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:38.559[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:38.559[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:38.559[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:42.177[main]Utilities.LoggerLoad1)-Clicking the implementation link of stack page
+[INFO ]2025-01-1020:58:42.931[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:43.339[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:58:43.339[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:43.492[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:43.492[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:43.492[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:43.492[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:47.788[main]Utilities.LoggerLoad1)-Clicking the applications link of stack page
+[INFO ]2025-01-1020:58:48.537[main]Utilities.LoggerLoad1)-Clicking the tryEditor link
+[INFO ]2025-01-1020:58:48.978[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:58:48.978[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:49.125[main]Utilities.LoggerLoad1)-Loading the driver in  chrome
+[INFO ]2025-01-1020:58:49.125[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:49.125[main]Utilities.LoggerLoad1)-Scenario Name: 
+[INFO ]2025-01-1020:58:49.125[main]Utilities.LoggerLoad1)--------------------------------------------------------
+[INFO ]2025-01-1020:58:52.975[main]Utilities.LoggerLoad1)-onTestSuccess MethodcheckStackPageTryEditorLinkswithValidCodeTest
+[INFO ]2025-01-1020:58:52.977[main]Utilities.LoggerLoad1)--------------------------------------------------------
