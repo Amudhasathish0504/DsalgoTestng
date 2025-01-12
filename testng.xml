@@ -5,21 +5,20 @@
 	<listeners>
 	<listener class-name="listeners.TestStatusListener">
 		<listener class-name="listeners.RetryListener"/>
-
-	
-	</listener></listeners>
+    </listener></listeners>
   <test name="testng">
 	  <parameter name="browser" value="chrome" />
     <classes>
-	  
-      	<class name="testcases.HomePageTest"/>
+	  <class name="testcases.ArrayPracticeTest"/>
+	  <class name="testcases.HomePageTest"/>
 
       	<class name="testcases.arraytest"/>
       	<class name="testcases.dataStructuresIntroPage"/>
       	<class name="testcases.LinkedListPageTest"/>
-         <class name="testcases.ArrayPracticeTest"/>
+         
          <class name="testcases.StackPageTest"/>
       	<class name="testcases.QueuePageTest"/>
+      	
          </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
