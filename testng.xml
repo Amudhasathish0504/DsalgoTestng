@@ -7,16 +7,14 @@
 	  <parameter name="browser" value="chrome" />
     <classes>
 	  
-      
+      	<class name="testcases.HomePageTest"/>
+
       	<class name="testcases.arraytest"/>
       	<class name="testcases.dataStructuresIntroPage"/>
       	<class name="testcases.LinkedListPageTest"/>
-      	<class name="testcases.StackPageTest"/>
+         <class name="testcases.ArrayPracticeTest"/>
+         <class name="testcases.StackPageTest"/>
       	<class name="testcases.QueuePageTest"/>
-      	<class name="testcases.HomePageTest"/>
-
-
-   
-    </classes>
+         </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
