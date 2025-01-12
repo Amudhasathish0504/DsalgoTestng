@@ -19,6 +19,7 @@ import Pages.TryEditorPage;
 import Pages.arrayPage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
+import retryautomation.Retryautomationscripts;
 
 public class ArrayPracticeTest {
 	public class arraytest extends TestBase {
@@ -57,7 +58,7 @@ public class ArrayPracticeTest {
 	          } 
 	         return objArray;
 		}
-		@Test (dataProvider = "arrayPracticepage")
+		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)		
 		public void checkArrayPracticePageLinksTest(Map<String,String> data) {
 				String pageName=data.get("Links");
 				String expectedResult=data.get("Expected Result");
@@ -66,8 +67,8 @@ public class ArrayPracticeTest {
 			
 		}
 		
-		  @Test (dataProvider = "arrayPracticepage")
-		    public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickRun(Map<String,String> data) throws InterruptedException {
+		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)		    
+		public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickRun(Map<String,String> data) throws InterruptedException {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
 			if(invalidCode!=null) {
@@ -78,8 +79,8 @@ public class ArrayPracticeTest {
 			}
 	}
 		
-		    @Test (dataProvider = "arrayPracticepage")
-			public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickSubmit(Map<String,String> data) throws InterruptedException {
+		    @Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)			
+		    public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickSubmit(Map<String,String> data) throws InterruptedException {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
 			if(invalidCode!=null) {
@@ -93,7 +94,7 @@ public class ArrayPracticeTest {
 	}
 		
 		    
-		    @Test (dataProvider = "arrayPracticepage")
+			@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)
 	
 		public void checkArrayPageTryEditorLinkswithValidCodeTestandClickRunBTn(Map<String,String> data)   {
 			String pageName=data.get("Links");
@@ -112,7 +113,7 @@ public class ArrayPracticeTest {
 			}
 		}
 		
-		@Test (dataProvider = "arrayPracticepage")
+		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)
 		public void checkArrayPageTryEditorLinkswithValidCodeandClickSubmitBtn(Map<String,String> data) throws InterruptedException  {
 			String pageName=data.get("Links");
 			String validCode=data.get("ValidCode");
@@ -121,6 +122,7 @@ public class ArrayPracticeTest {
 				ap.checkArrayPracticePageLink(pageName);
 				ae.Enter_inputCode(validCode);
 				ae.click_run();
+				Thread.sleep(2000);
 				ae.click_submit();
 				Assert.assertEquals(ae.get_outputText(), "Submission successful");
 			}

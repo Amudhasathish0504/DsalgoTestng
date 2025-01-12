@@ -2,19 +2,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="DsAlgo-testngsuite" parallel="classes" thread-count="3">
-	<listeners><listener class-name="listeners.TestStatusListener"></listener></listeners>
+	<listeners>
+	<listener class-name="listeners.TestStatusListener">
+		<listener class-name="listeners.RetryListener"/>
+    </listener></listeners>
   <test name="testng">
 	  <parameter name="browser" value="chrome" />
     <classes>
-	  
-      	<class name="testcases.HomePageTest"/>
+	  <class name="testcases.ArrayPracticeTest"/>
+	  <class name="testcases.HomePageTest"/>
 
       	<class name="testcases.arraytest"/>
       	<class name="testcases.dataStructuresIntroPage"/>
       	<class name="testcases.LinkedListPageTest"/>
-         <class name="testcases.ArrayPracticeTest"/>
+         
          <class name="testcases.StackPageTest"/>
       	<class name="testcases.QueuePageTest"/>
+      	
          </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

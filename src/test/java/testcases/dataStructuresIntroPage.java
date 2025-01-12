@@ -18,6 +18,7 @@ import Pages.TryEditorPage;
 import Pages.dataStructureIntroductionPage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
+import retryautomation.Retryautomationscripts;
 
 public class dataStructuresIntroPage extends TestBase {
 	loginPage lp;
@@ -52,7 +53,7 @@ public class dataStructuresIntroPage extends TestBase {
           } 
          return objArray;
 	}
-	@Test (dataProvider = "datapage")
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
 
 	public void checkListPageLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -61,7 +62,7 @@ public class dataStructuresIntroPage extends TestBase {
 			Assert.assertEquals(dp.validateListPageTitles(), expectedResult);		
 	}
 	
-	@Test (dataProvider = "datapage")
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
 
 	public void checkListPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -75,7 +76,7 @@ public class dataStructuresIntroPage extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "datapage")
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
 
 	public void checkListPageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -85,7 +86,7 @@ public class dataStructuresIntroPage extends TestBase {
 			Assert.assertEquals(hp.validatePageTitle(),"Assessment");
 			}
 	}
-	@Test (dataProvider = "datapage")
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
 
 			public void checkListPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
@@ -97,7 +98,7 @@ public class dataStructuresIntroPage extends TestBase {
 		}
 	}
 	
-	@Test (dataProvider = "datapage")
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
 
 	public void checkListPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -111,7 +112,8 @@ public class dataStructuresIntroPage extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "datapage")
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
+
 
 	public void checkListPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
