@@ -18,6 +18,7 @@ import Pages.TryEditorPage;
 import Pages.linkedListPage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
+import retryautomation.Retryautomationscripts;
 
 public class LinkedListPageTest extends TestBase {
 	loginPage lp;
@@ -52,7 +53,7 @@ public class LinkedListPageTest extends TestBase {
           } 
          return objArray;
 	}
-	@Test (dataProvider = "listpage")
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
 
 	public void checkListPageLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -61,7 +62,7 @@ public class LinkedListPageTest extends TestBase {
 			Assert.assertEquals(Lp.validateListPageTitles(), expectedResult);
 		
 	}
-	@Test (dataProvider = "listpage")
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkListPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
@@ -74,7 +75,7 @@ public class LinkedListPageTest extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "listpage")
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
 
 	public void checkListPageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -84,7 +85,7 @@ public class LinkedListPageTest extends TestBase {
 			Assert.assertEquals(hp.validatePageTitle(),"Assessment");
 			}
 	}
-	@Test (dataProvider = "listpage")
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
 
 		public void checkListPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
@@ -95,7 +96,7 @@ public class LinkedListPageTest extends TestBase {
 			Assert.assertEquals(tp.isAlertPresent(), false);
 		}
 	}
-	@Test (dataProvider = "listpage")
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
 
 	public void checkListPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -109,7 +110,7 @@ public class LinkedListPageTest extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "listpage")
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkListPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String validCode=data.get("ValidCode");
