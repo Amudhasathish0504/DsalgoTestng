@@ -57,7 +57,7 @@ public class ArrayPracticeTest {
 	          } 
 	         return objArray;
 		}
-		
+		@Test (dataProvider = "arrayPracticepage")
 		public void checkArrayPracticePageLinksTest(Map<String,String> data) {
 				String pageName=data.get("Links");
 				String expectedResult=data.get("Expected Result");
@@ -65,9 +65,9 @@ public class ArrayPracticeTest {
 				Assert.assertEquals(ap.validateArrayPracticePageTitles(), expectedResult);
 			
 		}
-		@Test (dataProvider = "arrayPracticepage")
-
-				public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickRun(Map<String,String> data) {
+		
+		  @Test (dataProvider = "arrayPracticepage")
+		    public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickRun(Map<String,String> data) throws InterruptedException {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
 			if(invalidCode!=null) {
@@ -78,9 +78,8 @@ public class ArrayPracticeTest {
 			}
 	}
 		
-		@Test (dataProvider = "arrayPracticepage")
-
-				public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickSubmit(Map<String,String> data) throws InterruptedException {
+		    @Test (dataProvider = "arrayPracticepage")
+			public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickSubmit(Map<String,String> data) throws InterruptedException {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
 			if(invalidCode!=null) {
@@ -93,33 +92,36 @@ public class ArrayPracticeTest {
 			}
 	}
 		
-		@Test (dataProvider = "arrayPracticepage")
-
-		public void checkArrayPageTryEditorLinkswithValidCodeTestandClickRunBTn(Map<String,String> data)  {
+		    
+		    @Test (dataProvider = "arrayPracticepage")
+	
+		public void checkArrayPageTryEditorLinkswithValidCodeTestandClickRunBTn(Map<String,String> data)   {
 			String pageName=data.get("Links");
 			String validCode=data.get("ValidCode");
 			String expectedResult=data.get("Expected Result for Code");
 			if(validCode!=null) {
 				
-				ap.checkArrayPageLink(pageName);
+				ap.checkArrayPracticePageLink(pageName);
 				
-				ae.Enter_inputCode(validCode);
+				 ae.Enter_inputCode(validCode);
+				
+				//ae.Enter_inputCode("validCode");
 			    ae.click_run();
+			    
 				Assert.assertEquals(ae.get_outputText(), expectedResult);
 			}
 		}
+		
 		@Test (dataProvider = "arrayPracticepage")
-
-		public void checkArrayPageTryEditorLinkswithValidCodeandClickSubmitBtn(Map<String,String> data)  {
+		public void checkArrayPageTryEditorLinkswithValidCodeandClickSubmitBtn(Map<String,String> data) throws InterruptedException  {
 			String pageName=data.get("Links");
 			String validCode=data.get("ValidCode");
 			String expectedResult=data.get("Expected Result for Code");
 			if(validCode!=null) {
-				
-				ap.checkArrayPageLink(pageName);
-				
+				ap.checkArrayPracticePageLink(pageName);
 				ae.Enter_inputCode(validCode);
-			    ae.click_submit();
+				ae.click_run();
+				ae.click_submit();
 				Assert.assertEquals(ae.get_outputText(), "Submission successful");
 			}
 		}
