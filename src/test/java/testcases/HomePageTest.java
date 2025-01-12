@@ -37,6 +37,11 @@ public class HomePageTest extends TestBase{
 		hp.clickTreeFromDropDown();
 		Assert.assertEquals(hp.validatePageTitle(), "Tree");
 	}
+	@Test
+	public void clickGraphLinkTest() {
+		hp.clickGraphLink();
+		Assert.assertEquals(hp.validatePageTitle(), "Graph") ;
+	}
 
 	
 	@AfterMethod
