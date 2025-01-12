@@ -32,6 +32,13 @@ public class HomePageTest extends TestBase{
 		hp.clickQueueFromDropDown();
 		Assert.assertEquals(hp.validatePageTitle(), "Queue");
 	}
+	@Test
+	public void clickTreeDropDownTest() {
+		hp.clickTreeFromDropDown();
+		Assert.assertEquals(hp.validatePageTitle(), "Tree");
+	}
+
+	
 	@AfterMethod
 	 public void tearDownDriver() {
     		tearDown();
