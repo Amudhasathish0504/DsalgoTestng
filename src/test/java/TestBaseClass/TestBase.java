@@ -5,20 +5,22 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 import DriverManager.DriverFactory;
 import Utilities.LoggerLoad;
 
 public class TestBase extends DriverFactory {
-	
-	public void setUp() {
-       	LoggerLoad.info("Loading the driver in  "+configReader.getBrowser());
+	@Parameters("browser")
+	public void setUp(String browser) {
+       	//LoggerLoad.info("Loading the driver in  "+configReader.getBrowser());
 		LoggerLoad.info("-------------------------------------------------------");
 		LoggerLoad.info("Scenario Name: ");
 		LoggerLoad.info("-------------------------------------------------------");
 		
         // Set the URL for navigation
         String url = configReader.getApplicationUrl();
+        DriverFactory.createDriver(browser);
         WebDriver driver = DriverFactory.getDriver();
         driver.get(url);
         driver.manage().window().maximize();

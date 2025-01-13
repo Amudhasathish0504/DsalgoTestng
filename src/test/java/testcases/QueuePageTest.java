@@ -1,16 +1,16 @@
 
 package testcases;
 
-import java.io.IOException;
+
 import java.util.List;
 import java.util.Map;
 
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import DataProvider.ExcelReader;
@@ -19,21 +19,20 @@ import Pages.QueuePage;
 import Pages.TryEditorPage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
+import retryautomation.Retryautomationscripts;
 
+@Test(retryAnalyzer = Retryautomationscripts.class) 
 public class QueuePageTest extends TestBase{
 	loginPage lp;
 	HomePage hp;
 	QueuePage qp;
 	TryEditorPage tp;
 	List<Map<String,String>> excelData;
-	@BeforeClass
-	public void LoadList() throws InvalidFormatException, IOException {
-		ExcelReader reader=new ExcelReader();
-        excelData = reader.getData(configReader.getExcelDataPath(),"QueuePage");
-	}
+	
+	@Parameters("browser")
 	@BeforeMethod 
-	public void BackgroundSetUp() {
-		setUp();
+	public void BackgroundSetUp(String browser) {
+		setUp(browser);
 		lp=new loginPage();
 		hp=new HomePage();
 		qp=new QueuePage();
@@ -46,6 +45,8 @@ public class QueuePageTest extends TestBase{
 	
 	@DataProvider (name="queuepage") 
 	public Object[][] queuepage() throws Exception {
+		ExcelReader reader=new ExcelReader();
+        excelData = reader.getData(configReader.getExcelDataPath(),"QueuePage");
 		Object[][] objArray=new Object[excelData.size()][];
 		for(int i=0;i< excelData.size();i++){
             objArray[i] = new Object[1];
