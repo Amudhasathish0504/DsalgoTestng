@@ -19,6 +19,7 @@ package testcases;
 	import Pages.loginPage;
 	import Pages.Graph;
 	import TestBaseClass.TestBase;
+import retryautomation.Retryautomationscripts;
 
 	@Listeners(listeners.TestStatusListener.class)
 	public class graphtest extends TestBase{
@@ -56,7 +57,7 @@ package testcases;
 	         return objArray;
 		}
 		
-		@Test (dataProvider="Graph")
+		@Test (dataProvider="Graph",retryAnalyzer=Retryautomationscripts.class)
 		public void checkGraphPageLinksTest(Map<String,String> data) {
 				String pageName=data.get("Links");
 				String expectedResult=data.get("Expected Result");
