@@ -20,7 +20,9 @@ public class loginPage extends DriverFactory{
 	
 	By btn_getStarted = By.xpath("//button[@class='btn']");
 	By link_signin = By.xpath("//a[normalize-space()='Sign in']");
-	By btn_signout =  By.xpath("//*[contains(text(), 'sign out')]");
+	//By btn_signout =  By.xpath("//*[contains(text(), 'sign out')]");
+	
+	By btn_signout =  By.xpath("//a[normalize-space()='Sign out']");
 	
 	
 	//home screen get started button
@@ -41,10 +43,11 @@ public class loginPage extends DriverFactory{
 	By arrayDropdown=By.xpath("//a[normalize-space()='Arrays']");
 	By LLdropDown=By.xpath("//a[normalize-space()='Linked List']");
 	
-	public String clk_signout()
+	public void clk_signout()
 	{
-	WebElement profileText = driver.findElement(btn_signout);
-	return profileText.getText();
+	//WebElement profileText = driver.findElement(btn_signout);
+	//return profileText.getText();
+		driver.findElement(btn_signout).click();
 	}
 	
 	public String chk_signin()

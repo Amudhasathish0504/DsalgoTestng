@@ -13,6 +13,9 @@
 	  <parameter name="browser" value="chrome" />
 
      <classes>
+		 <class name="testcases.Login"/>
+		<class name="testcases.RegisterTS"/>
+		<class name="testcases.HomewithoutSignin"/>
 	   	<class name="testcases.HomePageTest"/>
         <class name="testcases.arraytest"/>
         <class name="testcases.ArrayPracticeTest"/>
@@ -28,7 +31,10 @@
   <test name="FireFoxTest" thread-count="5">
 	  <parameter name="browser" value="firefox" />
      <classes>
-	  <class name="testcases.HomePageTest"/>
+		 <class name="testcases.Login"/>
+		 <class name="testcases.RegisterTS"/>
+		<class name="testcases.HomewithoutSignin"/>
+	  	<class name="testcases.HomePageTest"/>
         <class name="testcases.arraytest"/>
         <class name="testcases.ArrayPracticeTest"/>
         <class name="testcases.dataStructuresIntroPage"/>
@@ -36,7 +42,7 @@
         <class name="testcases.StackPageTest"/>
         <class name="testcases.QueuePageTest"/>
         <class name="testcases.TreePageTest"/>
-         <class name="testcases.graphtest"/>
+        <class name="testcases.graphtest"/>
       	
          </classes>
   </test>  
@@ -44,6 +50,9 @@
    <test name="EdgeTest" parallel="classes" thread-count="5">
 	  <parameter name="browser" value="edge" />
     <classes>
+		<class name="testcases.Login"/>
+ 		<class name="testcases.RegisterTS"/>
+		<class name="testcases.HomewithoutSignin"/>
 	  <class name="testcases.HomePageTest"/>
         <class name="testcases.arraytest"/>
         <class name="testcases.ArrayPracticeTest"/>
