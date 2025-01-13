@@ -21,7 +21,7 @@ import Pages.treePJava;
 import TestBaseClass.TestBase;
 import retryautomation.Retryautomationscripts;
 
-@Test(retryAnalyzer = Retryautomationscripts.class) 
+
 @Listeners(listeners.TestStatusListener.class)
 public class TreePageTest extends TestBase{
 	loginPage lp;
@@ -57,7 +57,7 @@ public class TreePageTest extends TestBase{
 		return objArray;
 	}
 
-	@Test (dataProvider="treePJava")
+	@Test (dataProvider="treePJava",retryAnalyzer=Retryautomationscripts.class)
 	public void checkTreePageLinksTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String expectedResult=data.get("Expected Result");
@@ -65,7 +65,7 @@ public class TreePageTest extends TestBase{
 		Assert.assertEquals(T.validateTreePageTitles(), expectedResult);
 
 	}
-	@Test (dataProvider = "treePJava")
+	@Test (dataProvider = "treePJava",retryAnalyzer=Retryautomationscripts.class)
 	public void checkGraphPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String invalidCode=data.get("InvalidCode");
@@ -78,7 +78,7 @@ public class TreePageTest extends TestBase{
 		}
 	}
 
-	@Test (dataProvider = "treePJava")
+	@Test (dataProvider = "treePJava",retryAnalyzer=Retryautomationscripts.class)
 	public void checkTreePageTryEditorLinksTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		if(!(pageName.equalsIgnoreCase("practice-questions"))) {
@@ -88,7 +88,7 @@ public class TreePageTest extends TestBase{
 		}
 	}
 
-	@Test (dataProvider = "treePJava")
+	@Test (dataProvider = "treePJava",retryAnalyzer=Retryautomationscripts.class)
 	public void checkTreePageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		if(!(pageName.equalsIgnoreCase("practice-questions"))) {
@@ -99,7 +99,7 @@ public class TreePageTest extends TestBase{
 		}
 	}
 
-	@Test (dataProvider = "treePJava")
+	@Test (dataProvider = "treePJava",retryAnalyzer=Retryautomationscripts.class)
 	public void checkTreePageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String invalidCode=data.get("InvalidCode");
@@ -111,7 +111,7 @@ public class TreePageTest extends TestBase{
 			Assert.assertEquals(hp.validatePageTitle(), "Assessment");
 		}
 	}
-	@Test (dataProvider = "treePJava")
+	@Test (dataProvider = "treePJava",retryAnalyzer=Retryautomationscripts.class)
 	public void checkTreePageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String validCode=data.get("ValidCode");

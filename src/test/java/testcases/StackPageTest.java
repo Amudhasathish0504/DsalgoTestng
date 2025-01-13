@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -23,7 +24,7 @@ import Pages.loginPage;
 import Pages.stackPage;
 import TestBaseClass.TestBase;
 import retryautomation.Retryautomationscripts;
-@Test(retryAnalyzer = Retryautomationscripts.class) 
+
 public class StackPageTest extends TestBase{
 	loginPage lp;
 	HomePage hp;
@@ -31,14 +32,10 @@ public class StackPageTest extends TestBase{
 	String SharedpageName;
 	TryEditorPage tp;
 	List<Map<String,String>> excelData;
-	@BeforeSuite
-	public void LoadList() throws InvalidFormatException, IOException {
-		ExcelReader reader=new ExcelReader();
-        excelData = reader.getData(configReader.getExcelDataPath(),"StackPage");
-	}
+	
 	@Parameters("browser")
 	@BeforeMethod 
-	public void BackgroundSetUp(String browser) {
+	public void BackgroundSetUp(@Optional("chrome")String browser) {
 		setUp(browser);
 		lp=new loginPage();
 		hp=new HomePage();
@@ -52,6 +49,8 @@ public class StackPageTest extends TestBase{
 	
 	@DataProvider (name="stackpage") 
 	public Object[][] stackpage() throws Exception {
+		ExcelReader reader=new ExcelReader();
+        excelData = reader.getData(configReader.getExcelDataPath(),"StackPage");
 		Object[][] objArray=new Object[excelData.size()][];
 		for(int i=0;i< excelData.size();i++){
             objArray[i] = new Object[1];
@@ -60,7 +59,7 @@ public class StackPageTest extends TestBase{
          return objArray;
 	}
 	
-	@Test (dataProvider="stackpage")
+	@Test (dataProvider="stackpage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkStackPageLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String expectedResult=data.get("Expected Result");
@@ -68,7 +67,7 @@ public class StackPageTest extends TestBase{
 			Assert.assertEquals(sp.validateStackPageTitles(), expectedResult);
 		
 	}
-	@Test (dataProvider = "stackpage")
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkStackPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
@@ -81,7 +80,7 @@ public class StackPageTest extends TestBase{
 			}
 	}
 	
-	@Test (dataProvider = "stackpage")
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkStackPageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			if(!(pageName.equalsIgnoreCase("practice-questions"))) {
@@ -91,7 +90,7 @@ public class StackPageTest extends TestBase{
 			}
 	}
 	
-	@Test (dataProvider = "stackpage")
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkStackPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		if(!(pageName.equalsIgnoreCase("practice-questions"))) {
@@ -102,7 +101,7 @@ public class StackPageTest extends TestBase{
 		}
 	}
 	
-	@Test (dataProvider = "stackpage")
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkStackPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
@@ -116,7 +115,7 @@ public class StackPageTest extends TestBase{
 	}
 	
 	
-	@Test (dataProvider = "stackpage")
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkStackPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String validCode=data.get("ValidCode");

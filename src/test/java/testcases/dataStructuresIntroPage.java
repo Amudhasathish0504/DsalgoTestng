@@ -10,6 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -31,7 +32,7 @@ public class dataStructuresIntroPage extends TestBase {
 	
 	@Parameters("browser")
 	@BeforeMethod 
-	public void BackgroundSetUp(String browser) {
+	public void BackgroundSetUp(@Optional("chrome")String browser) {
 		setUp(browser);
 		lp=new loginPage();
 		hp=new HomePage();
