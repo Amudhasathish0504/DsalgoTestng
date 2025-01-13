@@ -2,15 +2,12 @@ package testcases;
 
 import java.util.List;
 import java.util.Map;
-
-
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-
 import org.testng.annotations.BeforeMethod;
 
 import org.testng.annotations.DataProvider;
-
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -33,7 +30,7 @@ public class graphtest extends TestBase{
 	
 	@Parameters("browser")
 	@BeforeMethod 
-	public void BackgroundSetUp(String browser) {
+	public void BackgroundSetUp(@Optional("chrome") String browser) {
 		setUp(browser);
 		lp=new loginPage();
 		hp=new HomePage();
@@ -57,7 +54,7 @@ public class graphtest extends TestBase{
 		return objArray;
 	}
 
-	@Test (dataProvider="Graph")
+	@Test (dataProvider="Graph",retryAnalyzer=Retryautomationscripts.class)
 	public void checkGraphPageLinksTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String expectedResult=data.get("Expected Result");
@@ -65,7 +62,7 @@ public class graphtest extends TestBase{
 		Assert.assertEquals(gp.validateGraphPageTitles(), expectedResult);
 
 	}
-	@Test (dataProvider = "Graph")
+	@Test (dataProvider = "Graph",retryAnalyzer=Retryautomationscripts.class)
 	public void checkGraphPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String invalidCode=data.get("InvalidCode");
@@ -78,7 +75,7 @@ public class graphtest extends TestBase{
 		}
 	}
 
-	@Test (dataProvider = "Graph")
+	@Test (dataProvider = "Graph",retryAnalyzer=Retryautomationscripts.class)
 	public void checkGraphPageTryEditorLinksTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		if(!(pageName.equalsIgnoreCase("practice-questions"))) {
@@ -88,7 +85,7 @@ public class graphtest extends TestBase{
 		}
 	}
 
-	@Test (dataProvider = "Graph")
+	@Test (dataProvider = "Graph",retryAnalyzer=Retryautomationscripts.class)
 	public void checkGraphPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		if(!(pageName.equalsIgnoreCase("practice-questions"))) {
@@ -99,7 +96,7 @@ public class graphtest extends TestBase{
 		}
 	}
 
-	@Test (dataProvider = "Graph")
+	@Test (dataProvider = "Graph",retryAnalyzer=Retryautomationscripts.class)
 	public void checkGraphPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String invalidCode=data.get("InvalidCode");
@@ -111,7 +108,7 @@ public class graphtest extends TestBase{
 			Assert.assertEquals(hp.validatePageTitle(), "Assessment");
 		}
 	}
-	@Test (dataProvider = "Graph")
+	@Test (dataProvider = "Graph",retryAnalyzer=Retryautomationscripts.class)
 	public void checkGraphPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String validCode=data.get("ValidCode");
