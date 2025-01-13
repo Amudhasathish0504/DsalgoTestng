@@ -10,6 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import DataProvider.ExcelReader;
@@ -27,14 +28,10 @@ public class LinkedListPageTest extends TestBase {
 	String SharedpageName;
 	TryEditorPage tp;
 	List<Map<String,String>> excelData;
-	@BeforeSuite
-	public void LoadList() throws InvalidFormatException, IOException {
-		ExcelReader reader=new ExcelReader();
-        excelData = reader.getData(configReader.getExcelDataPath(),"ListPage");
-	}
+	@Parameters("browser")
 	@BeforeMethod 
-	public void BackgroundSetUp() {
-		setUp();
+	public void BackgroundSetUp(String browser) {
+		setUp(browser);
 		lp=new loginPage();
 		hp=new HomePage();
 		Lp=new linkedListPage();
@@ -46,6 +43,8 @@ public class LinkedListPageTest extends TestBase {
 	}
 	@DataProvider (name="listpage") 
 	public Object[][] listpage() throws Exception {
+		ExcelReader reader=new ExcelReader();
+        excelData = reader.getData(configReader.getExcelDataPath(),"ListPage");
 		Object[][] objArray=new Object[excelData.size()][];
 		for(int i=0;i< excelData.size();i++){
             objArray[i] = new Object[1];

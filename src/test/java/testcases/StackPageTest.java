@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import DataProvider.ExcelReader;
@@ -21,8 +22,8 @@ import Pages.TryEditorPage;
 import Pages.loginPage;
 import Pages.stackPage;
 import TestBaseClass.TestBase;
-
-@Listeners(listeners.TestStatusListener.class)
+import retryautomation.Retryautomationscripts;
+@Test(retryAnalyzer = Retryautomationscripts.class) 
 public class StackPageTest extends TestBase{
 	loginPage lp;
 	HomePage hp;
@@ -35,9 +36,10 @@ public class StackPageTest extends TestBase{
 		ExcelReader reader=new ExcelReader();
         excelData = reader.getData(configReader.getExcelDataPath(),"StackPage");
 	}
+	@Parameters("browser")
 	@BeforeMethod 
-	public void BackgroundSetUp() {
-		setUp();
+	public void BackgroundSetUp(String browser) {
+		setUp(browser);
 		lp=new loginPage();
 		hp=new HomePage();
 		sp=new stackPage();
@@ -112,6 +114,8 @@ public class StackPageTest extends TestBase{
 			Assert.assertEquals(hp.validatePageTitle(), "Assessment");
 			}
 	}
+	
+	
 	@Test (dataProvider = "stackpage")
 	public void checkStackPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
