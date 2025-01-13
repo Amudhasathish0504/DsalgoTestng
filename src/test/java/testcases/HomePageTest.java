@@ -2,18 +2,22 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import DriverManager.DriverFactory;
 import Pages.HomePage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
-
+import retryautomation.Retryautomationscripts;
+@Test(retryAnalyzer = Retryautomationscripts.class) 
 public class HomePageTest extends TestBase{
 	HomePage hp;
 	loginPage lp;
+	@Parameters("browser")
 	@BeforeMethod
-	public void InitialSetUp() {
-		setUp();
+	public void InitialSetUp(@Optional("chrome")String browser) {
+		setUp(browser);
 		 hp=new HomePage();
 		 lp=new loginPage();
 		

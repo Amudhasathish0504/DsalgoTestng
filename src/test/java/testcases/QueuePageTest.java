@@ -1,16 +1,17 @@
 
 package testcases;
 
-import java.io.IOException;
+
 import java.util.List;
 import java.util.Map;
 
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import DataProvider.ExcelReader;
@@ -19,6 +20,8 @@ import Pages.QueuePage;
 import Pages.TryEditorPage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
+import retryautomation.Retryautomationscripts;
+
 
 public class QueuePageTest extends TestBase{
 	loginPage lp;
@@ -26,14 +29,11 @@ public class QueuePageTest extends TestBase{
 	QueuePage qp;
 	TryEditorPage tp;
 	List<Map<String,String>> excelData;
-	@BeforeClass
-	public void LoadList() throws InvalidFormatException, IOException {
-		ExcelReader reader=new ExcelReader();
-        excelData = reader.getData(configReader.getExcelDataPath(),"QueuePage");
-	}
+	
+	@Parameters("browser")
 	@BeforeMethod 
-	public void BackgroundSetUp() {
-		setUp();
+	public void BackgroundSetUp(@Optional("chrome")String browser) {
+		setUp(browser);
 		lp=new loginPage();
 		hp=new HomePage();
 		qp=new QueuePage();
@@ -46,6 +46,8 @@ public class QueuePageTest extends TestBase{
 	
 	@DataProvider (name="queuepage") 
 	public Object[][] queuepage() throws Exception {
+		ExcelReader reader=new ExcelReader();
+        excelData = reader.getData(configReader.getExcelDataPath(),"QueuePage");
 		Object[][] objArray=new Object[excelData.size()][];
 		for(int i=0;i< excelData.size();i++){
             objArray[i] = new Object[1];
@@ -54,7 +56,7 @@ public class QueuePageTest extends TestBase{
          return objArray;
 	}
 	
-	@Test (dataProvider="queuepage")
+	@Test (dataProvider="queuepage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkqueuepageLinksTest(Map<String,String> data) {
 			String pageName=data.get("links");
 			String expectedResult=data.get("Expected Result");
@@ -62,7 +64,7 @@ public class QueuePageTest extends TestBase{
 			Assert.assertEquals(qp.validateQueuePageTitles(), expectedResult);
 		
 	}
-	@Test (dataProvider = "queuepage")
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkqueuepageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("links");
 			String invalidCode=data.get("InvalidCode");
@@ -75,7 +77,7 @@ public class QueuePageTest extends TestBase{
 			}
 	}
 	
-	@Test (dataProvider = "queuepage")
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkqueuepageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("links");
 			if(!(pageName.equalsIgnoreCase("practice questions"))) {
@@ -85,7 +87,7 @@ public class QueuePageTest extends TestBase{
 			}
 	}
 	
-	@Test (dataProvider = "queuepage")
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkqueuepageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("links");
 		if(!(pageName.equalsIgnoreCase("practice questions"))) {
@@ -96,7 +98,7 @@ public class QueuePageTest extends TestBase{
 		}
 	}
 	
-	@Test (dataProvider = "queuepage")
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkqueuepageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("links");
 			String invalidCode=data.get("InvalidCode");
@@ -108,7 +110,7 @@ public class QueuePageTest extends TestBase{
 			Assert.assertEquals(hp.validatePageTitle(), "Assessment");
 			}
 	}
-	@Test (dataProvider = "queuepage")
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
 	public void checkqueuepageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("links");
 		String validCode=data.get("ValidCode");

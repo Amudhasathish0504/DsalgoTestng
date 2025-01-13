@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import DataProvider.BrowserConfig;
 import DataProvider.ConfigFileReader;
 
 public class DriverFactory {
@@ -19,15 +18,11 @@ public class DriverFactory {
 	}
 	
 	public static WebDriver getDriver() {
-		 if(driver.get()==null) {
-			 createDriver(configReader.getBrowser());
-			 }
-		 	
-		        return driver.get();
-	    }
-
-	    public static void createDriver(String browser) {
-	        WebDriver webDriver = null;
+		   return driver.get();
+	}
+	
+	public static void createDriver(String browser) {
+	    	WebDriver webDriver = null;
 	        switch (browser.toLowerCase()) {
 	            case "chrome":
 	                webDriver = new ChromeDriver();

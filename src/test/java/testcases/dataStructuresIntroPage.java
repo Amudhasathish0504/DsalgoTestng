@@ -10,6 +10,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import DataProvider.ExcelReader;
@@ -27,14 +29,11 @@ public class dataStructuresIntroPage extends TestBase {
 	String SharedpageName;
 	TryEditorPage tp;
 	List<Map<String,String>> excelData;
-	@BeforeSuite
-	public void LoadList() throws InvalidFormatException, IOException {
-		ExcelReader reader=new ExcelReader();
-        excelData = reader.getData(configReader.getExcelDataPath(),"DataPage");
-	}
+	
+	@Parameters("browser")
 	@BeforeMethod 
-	public void BackgroundSetUp() {
-		setUp();
+	public void BackgroundSetUp(@Optional("chrome")String browser) {
+		setUp(browser);
 		lp=new loginPage();
 		hp=new HomePage();
 		dp=new dataStructureIntroductionPage();
@@ -46,6 +45,8 @@ public class dataStructuresIntroPage extends TestBase {
 	}
 	@DataProvider (name="datapage") 
 	public Object[][] arraypage() throws Exception {
+		ExcelReader reader=new ExcelReader();
+        excelData = reader.getData(configReader.getExcelDataPath(),"DataPage");
 		Object[][] objArray=new Object[excelData.size()][];
 		for(int i=0;i< excelData.size();i++){
             objArray[i] = new Object[1];
