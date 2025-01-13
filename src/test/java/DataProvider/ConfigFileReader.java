@@ -48,6 +48,10 @@ public class ConfigFileReader {
 		public String getExcelDataPath() {
 			return properties.getProperty("ExcelDataPath");
 		}
+		public String getExtentReportPath() {
+			return properties.getProperty("SparkReportPath");
+		}
+
 				
 		public long getImplicitlyWait() {		
 			String implicitlyWait = properties.getProperty("implicitlyWait");

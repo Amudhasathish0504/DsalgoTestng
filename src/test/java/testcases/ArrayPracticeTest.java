@@ -117,7 +117,7 @@ public class ArrayPracticeTest {
 		public void checkArrayPageTryEditorLinkswithValidCodeandClickSubmitBtn(Map<String,String> data) throws InterruptedException  {
 			String pageName=data.get("Links");
 			String validCode=data.get("ValidCode");
-			String expectedResult=data.get("Expected Result for Code");
+		
 			if(validCode!=null) {
 				ap.checkArrayPracticePageLink(pageName);
 				ae.Enter_inputCode(validCode);
