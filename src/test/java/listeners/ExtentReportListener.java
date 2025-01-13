@@ -30,37 +30,37 @@ import org.testng.ITestContext;
 
 	    @Override
 	    public void onTestStart(ITestResult result) {
-	        // Create a new test in the report
+	        
 	        test = extent.createTest(result.getMethod().getMethodName());
 	    }
 
 	    @Override
 	    public void onTestSuccess(ITestResult result) {
-	        // Log test success
+	        
 	        test.pass("Test passed");
 	    }
 
 	    @Override
 	    public void onTestFailure(ITestResult result) {
-	        // Log test failure and capture screenshot if needed
+	        
 	        test.fail("Test failed");
 	    }
 
 	    @Override
 	    public void onTestSkipped(ITestResult result) {
-	        // Log test skipped
+	        
 	        test.skip("Test skipped");
 	    }
 
 	    @Override
 	    public void onFinish(ITestContext context) {
-	        // Save the report to the specified file
+	        
 	        extent.flush();
 	    }
 
 	    @Override
 	    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-	        // Handle tests that failed but within success percentage
+	        
 	    }
 	}
 
