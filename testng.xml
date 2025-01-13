@@ -5,20 +5,27 @@
 	<listeners>
 	<listener class-name="listeners.TestStatusListener">
 		<listener class-name="listeners.RetryListener"/>
+		<listener class-name="listeners.ExtentReportListener"/>
+
     </listener></listeners>
   <test name="testng">
 	  <parameter name="browser" value="chrome" />
     <classes>
-	  <class name="testcases.ArrayPracticeTest"/>
-	  <class name="testcases.HomePageTest"/>
+	   
+      	<class name="testcases.HomePageTest"/>
+        <class name="testcases.arraytest"/>
+        <class name="testcases.ArrayPracticeTest"/>
+        <class name="testcases.dataStructuresIntroPage"/>
 
-      	<class name="testcases.arraytest"/>
-      	<class name="testcases.dataStructuresIntroPage"/>
-      	<class name="testcases.LinkedListPageTest"/>
+        <class name="testcases.LinkedListPageTest"/>
+        <class name="testcases.StackPageTest"/>
+        <class name="testcases.QueuePageTest"/>
+        <class name="testcases.TreePageTest"/>
+         <class name="testcases.graphtest"/>
          
-         <class name="testcases.StackPageTest"/>
-      	<class name="testcases.QueuePageTest"/>
-      	
-         </classes>
+
+
+
+</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
