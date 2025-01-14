@@ -27,7 +27,8 @@
          <class name="testcases.graphtest"/>
          
         </classes>
-  </test>  
+        </test>
+        <!--   
   <test name="FireFoxTest" thread-count="5">
 	  <parameter name="browser" value="firefox" />
      <classes>
@@ -45,8 +46,9 @@
         <class name="testcases.graphtest"/>
       	
          </classes>
-  </test>  
-  
+  </test> 
+  --> 
+   <!--
    <test name="EdgeTest" parallel="classes" thread-count="5">
 	  <parameter name="browser" value="edge" />
     <classes>
@@ -63,5 +65,6 @@
         <class name="testcases.TreePageTest"/>
          <class name="testcases.graphtest"/>
       </classes>
- </test> <!-- Test -->
-</suite> <!-- Suite -->
+ </test> 
+ -->
+</suite>

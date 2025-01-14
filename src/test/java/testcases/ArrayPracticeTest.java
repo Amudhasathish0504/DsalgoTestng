@@ -58,7 +58,7 @@ public class ArrayPracticeTest {
 	          } 
 	         return objArray;
 		}
-		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)		
+		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class,priority =1)		
 		public void checkArrayPracticePageLinksTest(Map<String,String> data) {
 				String pageName=data.get("Links");
 				String expectedResult=data.get("Expected Result");
@@ -67,7 +67,7 @@ public class ArrayPracticeTest {
 			
 		}
 		
-		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)		    
+		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class,priority =2)		    
 		public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickRun(Map<String,String> data) throws InterruptedException {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
@@ -79,22 +79,22 @@ public class ArrayPracticeTest {
 			}
 	}
 		
-		    @Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)			
-		    public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickSubmit(Map<String,String> data) throws InterruptedException {
+		    @Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class,priority =3)			
+		    public void checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickSubmit(Map<String,String> data)  {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
 			if(invalidCode!=null) {
 		    ap.checkArrayPracticePageLink(pageName);
 		    ae.Enter_inputCode(invalidCode);
 			ae.click_submit();
-			Thread.sleep(2000);
+			
 			Assert.assertEquals(ae.get_outputText(), "Error occurred during submission");
 			
 			}
 	}
 		
 		    
-			@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)
+			@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class,priority =4)
 	
 		public void checkArrayPageTryEditorLinkswithValidCodeTestandClickRunBTn(Map<String,String> data)   {
 			String pageName=data.get("Links");
@@ -106,15 +106,15 @@ public class ArrayPracticeTest {
 				
 				 ae.Enter_inputCode(validCode);
 				
-				//ae.Enter_inputCode("validCode");
+
 			    ae.click_run();
 			    
 				Assert.assertEquals(ae.get_outputText(), expectedResult);
 			}
 		}
 		
-		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class)
-		public void checkArrayPageTryEditorLinkswithValidCodeandClickSubmitBtn(Map<String,String> data) throws InterruptedException  {
+		@Test (dataProvider = "arrayPracticepage",retryAnalyzer=Retryautomationscripts.class,priority =5)
+		public void checkArrayPageTryEditorLinkswithValidCodeandClickSubmitBtn(Map<String,String> data)   {
 			String pageName=data.get("Links");
 			String validCode=data.get("ValidCode");
 		
@@ -122,7 +122,7 @@ public class ArrayPracticeTest {
 				ap.checkArrayPracticePageLink(pageName);
 				ae.Enter_inputCode(validCode);
 				ae.click_run();
-				Thread.sleep(2000);
+			
 				ae.click_submit();
 				Assert.assertEquals(ae.get_outputText(), "Submission successful");
 			}

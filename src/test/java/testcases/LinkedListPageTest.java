@@ -53,7 +53,7 @@ public class LinkedListPageTest extends TestBase {
           } 
          return objArray;
 	}
-	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class,priority =1)
 
 	public void checkListPageLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -62,7 +62,7 @@ public class LinkedListPageTest extends TestBase {
 			Assert.assertEquals(Lp.validateListPageTitles(), expectedResult);
 		
 	}
-	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class,priority =2)
 	public void checkListPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
@@ -75,7 +75,7 @@ public class LinkedListPageTest extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class,priority =3)
 
 	public void checkListPageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -85,7 +85,7 @@ public class LinkedListPageTest extends TestBase {
 			Assert.assertEquals(hp.validatePageTitle(),"Assessment");
 			}
 	}
-	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class,priority =4)
 
 		public void checkListPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
@@ -96,7 +96,7 @@ public class LinkedListPageTest extends TestBase {
 			Assert.assertEquals(tp.isAlertPresent(), false);
 		}
 	}
-	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class,priority =5)
 
 	public void checkListPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -110,7 +110,7 @@ public class LinkedListPageTest extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "listpage",retryAnalyzer=Retryautomationscripts.class,priority =6)
 	public void checkListPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String validCode=data.get("ValidCode");
