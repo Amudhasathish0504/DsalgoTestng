@@ -1,0 +1,95 @@
+{
+  "uid" : "5838cad2b51effe7",
+  "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+  "fullName" : "testcases.StackPageTest.checkStackPageTryEditorLinkswithNoScriptsTest",
+  "historyId" : "faeee4ca2969d47f9964ecd151fc7be6",
+  "time" : {
+    "start" : 1736545115168,
+    "stop" : 1736545116609,
+    "duration" : 1441
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736545111679,
+      "stop" : 1736545115165,
+      "duration" : 3486
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736545116611,
+      "stop" : 1736545116773,
+      "duration" : 162
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkStackPageTryEditorLinkswithNoScriptsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "46132@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5838cad2b51effe7.json",
+  "parameterValues" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+}

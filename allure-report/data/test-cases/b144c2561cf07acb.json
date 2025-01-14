@@ -1,0 +1,98 @@
+{
+  "uid" : "b144c2561cf07acb",
+  "name" : "checkqueuepageTryEditorLinksTest",
+  "fullName" : "testcases.QueuePageTest.checkqueuepageTryEditorLinksTest",
+  "historyId" : "55bd7a0c8c6a8d6d5cf542211fd47989",
+  "time" : {
+    "start" : 1736729516509,
+    "stop" : 1736729517856,
+    "duration" : 1347
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736729511269,
+      "stop" : 1736729516452,
+      "duration" : 5183
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736729517858,
+      "stop" : 1736729518017,
+      "duration" : 159
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkqueuepageTryEditorLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "75616@LAPTOP-39NIES78.TestNG-test=ChromeTest-5(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b144c2561cf07acb.json",
+  "parameterValues" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+}

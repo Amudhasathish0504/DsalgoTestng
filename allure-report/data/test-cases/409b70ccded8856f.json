@@ -1,0 +1,108 @@
+{
+  "uid" : "409b70ccded8856f",
+  "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+  "fullName" : "testcases.graphtest.checkGraphPageTryEditorLinkswithNoScriptsTest",
+  "historyId" : "236c9c154b90eb2442290c4e0c16536",
+  "time" : {
+    "start" : 1736737982256,
+    "stop" : 1736737982257,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736737977965,
+      "stop" : 1736737982251,
+      "duration" : 4286
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736737982258,
+      "stop" : 1736737982462,
+      "duration" : 204
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageTryEditorLinkswithNoScriptsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "79724@LAPTOP-39NIES78.TestNG-test=ChromeTest-1(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=practice-questions, Expected Result=Practice Questions}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e967ac56b9a1d347",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736731903552,
+        "stop" : 1736731903555,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "409b70ccded8856f.json",
+  "parameterValues" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+}

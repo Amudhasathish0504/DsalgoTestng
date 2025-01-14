@@ -1,0 +1,161 @@
+{
+  "uid" : "8ce6d2ccc27d4c5c",
+  "name" : "checkStackPageTryEditorLinksTest",
+  "fullName" : "testcases.StackPageTest.checkStackPageTryEditorLinksTest",
+  "historyId" : "4c22ae0bd5a7292b0c56cb11269df1d",
+  "time" : {
+    "start" : 1736524400640,
+    "stop" : 1736524401892,
+    "duration" : 1252
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736524397103,
+      "stop" : 1736524400630,
+      "duration" : 3527
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736524392887,
+      "stop" : 1736524393539,
+      "duration" : 652
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736524401894,
+      "stop" : 1736524402059,
+      "duration" : 165
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkStackPageTryEditorLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "52220@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "implementation"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4b648212d8a1b438",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736468017630,
+        "stop" : 1736468019031,
+        "duration" : 1401
+      }
+    }, {
+      "uid" : "23cb2a7673797b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736467917059,
+        "stop" : 1736467919553,
+        "duration" : 2494
+      }
+    }, {
+      "uid" : "7adce69cfc126dfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736467817987,
+        "stop" : 1736467819589,
+        "duration" : 1602
+      }
+    }, {
+      "uid" : "7ad8b1a041ee20f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736467597973,
+        "stop" : 1736467599395,
+        "duration" : 1422
+      }
+    }, {
+      "uid" : "846b7a55a7986018",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736467369330,
+        "stop" : 1736467370425,
+        "duration" : 1095
+      }
+    }, {
+      "uid" : "991ce829d45e3f5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736466795038,
+        "stop" : 1736466795853,
+        "duration" : 815
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ce6d2ccc27d4c5c.json",
+  "parameterValues" : [ "implementation" ]
+}

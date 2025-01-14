@@ -1,0 +1,111 @@
+{
+  "uid" : "7086cceed5ac9ace",
+  "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+  "fullName" : "testcases.StackPageTest.checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+  "historyId" : "995f25b8ea01f04ee32e675ab1baa8f",
+  "time" : {
+    "start" : 1736726010357,
+    "stop" : 1736726012236,
+    "duration" : 1879
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736726003089,
+      "stop" : 1736726010312,
+      "duration" : 7223
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736725978068,
+      "stop" : 1736725981220,
+      "duration" : 3152
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736726012240,
+      "stop" : 1736726012511,
+      "duration" : 271
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "58956@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7086cceed5ac9ace.json",
+  "parameterValues" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+}

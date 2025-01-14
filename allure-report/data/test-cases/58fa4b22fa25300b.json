@@ -1,0 +1,98 @@
+{
+  "uid" : "58fa4b22fa25300b",
+  "name" : "checkqueuepageTryEditorLinksTest",
+  "fullName" : "testcases.QueuePageTest.checkqueuepageTryEditorLinksTest",
+  "historyId" : "8f7cc28fea14834377cf8d27f48616a8",
+  "time" : {
+    "start" : 1736729509283,
+    "stop" : 1736729510915,
+    "duration" : 1632
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736729503404,
+      "stop" : 1736729509272,
+      "duration" : 5868
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736729510919,
+      "stop" : 1736729511264,
+      "duration" : 345
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkqueuepageTryEditorLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "75616@LAPTOP-39NIES78.TestNG-test=ChromeTest-5(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58fa4b22fa25300b.json",
+  "parameterValues" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+}

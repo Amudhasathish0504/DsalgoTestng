@@ -1,0 +1,98 @@
+{
+  "uid" : "f9529432dfee51c3",
+  "name" : "checkqueuepageLinksTest",
+  "fullName" : "testcases.QueuePageTest.checkqueuepageLinksTest",
+  "historyId" : "40b5d9ea7a9836c9a0f9b8d6fafbb941",
+  "time" : {
+    "start" : 1736729483352,
+    "stop" : 1736729484188,
+    "duration" : 836
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736729473685,
+      "stop" : 1736729483345,
+      "duration" : 9660
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736729484195,
+      "stop" : 1736729484707,
+      "duration" : 512
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkqueuepageLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "75616@LAPTOP-39NIES78.TestNG-test=ChromeTest-5(43)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9529432dfee51c3.json",
+  "parameterValues" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+}

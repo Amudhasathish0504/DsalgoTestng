@@ -1,0 +1,98 @@
+{
+  "uid" : "6a8edaa2e8bec15e",
+  "name" : "checkGraphPageLinksTest",
+  "fullName" : "testcases.graphtest.checkGraphPageLinksTest",
+  "historyId" : "ec946346401d41bb281961a2b23cbc74",
+  "time" : {
+    "start" : 1736731788845,
+    "stop" : 1736731789374,
+    "duration" : 529
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736731773713,
+      "stop" : 1736731788813,
+      "duration" : 15100
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736731789381,
+      "stop" : 1736731789850,
+      "duration" : 469
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "FireFoxTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "19136@LAPTOP-39NIES78.TestNG-tests-2(34)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}"
+  }, {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a8edaa2e8bec15e.json",
+  "parameterValues" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "firefox" ]
+}

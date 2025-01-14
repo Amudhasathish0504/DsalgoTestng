@@ -1,0 +1,144 @@
+{
+  "uid" : "8cca9ada7e2a827c",
+  "name" : "clickStackLinkTest",
+  "fullName" : "testcases.HomePageTest.clickStackLinkTest",
+  "historyId" : "5fa96d6161ff4c5b898935e129d69af5",
+  "time" : {
+    "start" : 1736560449344,
+    "stop" : 1736560449703,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialSetUp",
+    "time" : {
+      "start" : 1736560442606,
+      "stop" : 1736560449338,
+      "duration" : 6732
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736560431235,
+      "stop" : 1736560432450,
+      "duration" : 1215
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736560449706,
+      "stop" : 1736560449878,
+      "duration" : 172
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickStackLinkTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "39932@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e69e400dcac4553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736559579201,
+        "stop" : 1736559579616,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "45156f1c163c0e27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736461206658,
+        "stop" : 1736461207019,
+        "duration" : 361
+      }
+    }, {
+      "uid" : "1c93badcd75deea5",
+      "status" : "broken",
+      "statusDetails" : "Unresolved compilation problems: \n\thp cannot be resolved\n\thp cannot be resolved\n",
+      "time" : {
+        "start" : 1736461125356,
+        "stop" : 1736461125361,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "1d95ea09db18c75f",
+      "status" : "skipped",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {value=//button[@class='btn'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.264, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63509/devtoo..., se:cdpVersion: 131.0.6778.264, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "time" : {
+        "start" : 1736461074030,
+        "stop" : 1736461074036,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8cca9ada7e2a827c.json",
+  "parameterValues" : [ ]
+}

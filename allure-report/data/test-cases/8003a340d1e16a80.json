@@ -1,0 +1,95 @@
+{
+  "uid" : "8003a340d1e16a80",
+  "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+  "fullName" : "testcases.StackPageTest.checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+  "historyId" : "402343c7e49dd6ee134d17f688e94029",
+  "time" : {
+    "start" : 1736544631377,
+    "stop" : 1736544633070,
+    "duration" : 1693
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736544627873,
+      "stop" : 1736544631369,
+      "duration" : 3496
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736544633073,
+      "stop" : 1736544633261,
+      "duration" : 188
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "50312@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8003a340d1e16a80.json",
+  "parameterValues" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+}

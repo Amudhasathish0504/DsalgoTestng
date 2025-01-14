@@ -1,0 +1,100 @@
+{
+  "uid" : "205c05608ba2c3ef",
+  "name" : "checkGraphPageTryEditorLinksTest",
+  "fullName" : "testcases.graphtest.checkGraphPageTryEditorLinksTest",
+  "historyId" : "c561d13e0b404f85e9bedc003889b2cf",
+  "time" : {
+    "start" : 1736731855265,
+    "stop" : 1736731855266,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736731848723,
+      "stop" : 1736731855262,
+      "duration" : 6539
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736731855268,
+      "stop" : 1736731855577,
+      "duration" : 309
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageTryEditorLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "FireFoxTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "19136@LAPTOP-39NIES78.TestNG-tests-2(34)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=practice-questions, Expected Result=Practice Questions}"
+  }, {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "205c05608ba2c3ef.json",
+  "parameterValues" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "firefox" ]
+}

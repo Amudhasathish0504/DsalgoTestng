@@ -1,0 +1,114 @@
+{
+  "uid" : "9527b5437cbed4a6",
+  "name" : "checkqueuepageTryEditorLinksTest",
+  "fullName" : "testcases.QueuePageTest.checkqueuepageTryEditorLinksTest",
+  "historyId" : "869f08e2e60e4338dfb4983b2605de16",
+  "time" : {
+    "start" : 1736547060613,
+    "stop" : 1736547062189,
+    "duration" : 1576
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736547056034,
+      "stop" : 1736547060609,
+      "duration" : 4575
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736547004552,
+      "stop" : 1736547005400,
+      "duration" : 848
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736547062297,
+      "stop" : 1736547062691,
+      "duration" : 394
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkqueuepageTryEditorLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "testng"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "53060@LAPTOP-39NIES78.TestNG-test=testng-3(36)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9527b5437cbed4a6.json",
+  "parameterValues" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+}

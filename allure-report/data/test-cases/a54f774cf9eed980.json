@@ -1,0 +1,145 @@
+{
+  "uid" : "a54f774cf9eed980",
+  "name" : "checkqueuepageTryEditorLinksTest",
+  "fullName" : "testcases.QueuePageTest.checkqueuepageTryEditorLinksTest",
+  "historyId" : "3df3650feee5b22f1a6c8bad1525673f",
+  "time" : {
+    "start" : 1736560501870,
+    "stop" : 1736560502881,
+    "duration" : 1011
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736560497543,
+      "stop" : 1736560501867,
+      "duration" : 4324
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736560449880,
+      "stop" : 1736560449897,
+      "duration" : 17
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736560431235,
+      "stop" : 1736560432450,
+      "duration" : 1215
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736560502886,
+      "stop" : 1736560503084,
+      "duration" : 198
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkqueuepageTryEditorLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "39932@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4f6cc125aaaafc44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736559630055,
+        "stop" : 1736559631235,
+        "duration" : 1180
+      }
+    }, {
+      "uid" : "efb3f5d933e02535",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736546453812,
+        "stop" : 1736546454808,
+        "duration" : 996
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a54f774cf9eed980.json",
+  "parameterValues" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+}

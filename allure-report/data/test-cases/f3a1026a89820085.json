@@ -1,0 +1,92 @@
+{
+  "uid" : "f3a1026a89820085",
+  "name" : "clickQueueDropDownTest",
+  "fullName" : "testcases.HomePageTest.clickQueueDropDownTest",
+  "historyId" : "9ea4c7d3410ed33497456ce1c0b8089d",
+  "time" : {
+    "start" : 1736461071074,
+    "stop" : 1736461071469,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialSetUp",
+    "time" : {
+      "start" : 1736461068752,
+      "stop" : 1736461070949,
+      "duration" : 2197
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736461071482,
+      "stop" : 1736461071847,
+      "duration" : 365
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickQueueDropDownTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "52180@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3a1026a89820085.json",
+  "parameterValues" : [ ]
+}

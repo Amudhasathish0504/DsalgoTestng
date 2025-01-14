@@ -1,0 +1,4461 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "HomePageTest",
+      "children" : [ {
+        "name" : "InitialSetUp",
+        "uid" : "822e6df00b4a03fb",
+        "parentUid" : "e7069d90aaecab3c6e5d80cd4af39935",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736461074003,
+          "stop" : 1736461074022,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "InitialSetUp",
+        "uid" : "8d6bd39a81834866",
+        "parentUid" : "e7069d90aaecab3c6e5d80cd4af39935",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736546923666,
+          "stop" : 1736546923667,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "clickQueueDropDownTest",
+        "uid" : "ead5441499e8acf4",
+        "parentUid" : "e7069d90aaecab3c6e5d80cd4af39935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560440872,
+          "stop" : 1736560441745,
+          "duration" : 873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickStackLinkTest",
+        "uid" : "8cca9ada7e2a827c",
+        "parentUid" : "e7069d90aaecab3c6e5d80cd4af39935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560449344,
+          "stop" : 1736560449703,
+          "duration" : 359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "clickGraphLinkTest",
+        "uid" : "c86d474fb6527d03",
+        "parentUid" : "e7069d90aaecab3c6e5d80cd4af39935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729440935,
+          "stop" : 1736729441541,
+          "duration" : 606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "clickQueueDropDownTest",
+        "uid" : "cac9b844ff9cb41f",
+        "parentUid" : "e7069d90aaecab3c6e5d80cd4af39935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729457219,
+          "stop" : 1736729459818,
+          "duration" : 2599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "clickStackLinkTest",
+        "uid" : "f44d1b9f80a492c9",
+        "parentUid" : "e7069d90aaecab3c6e5d80cd4af39935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729469764,
+          "stop" : 1736729470087,
+          "duration" : 323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "clickTreeDropDownTest",
+        "uid" : "c64c95cb064f8598",
+        "parentUid" : "e7069d90aaecab3c6e5d80cd4af39935",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729481914,
+          "stop" : 1736729482708,
+          "duration" : 794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "e7069d90aaecab3c6e5d80cd4af39935"
+    }, {
+      "name" : "StackPageTest",
+      "children" : [ {
+        "name" : "tearDownDriver",
+        "uid" : "d69be7b5c85a05a9",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736463351250,
+          "stop" : 1736463351251,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "5acf1cf73ec98304",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736466972951,
+          "stop" : 1736466973378,
+          "duration" : 427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "Operations in Stack", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "e70d672b4a54f7f6",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736466975391,
+          "stop" : 1736466975703,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "Implementation", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "4223faa5ab8b63d5",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736466978851,
+          "stop" : 1736466979920,
+          "duration" : 1069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "Applications", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "61226db306fc13c9",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736466981676,
+          "stop" : 1736466992349,
+          "duration" : 10673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "practice-questions", "Practice Questions", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "dfd337bd3fc02b2c",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736466994537,
+          "stop" : 1736466996013,
+          "duration" : 1476
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "925221c9e5ef64c",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736466998307,
+          "stop" : 1736466998981,
+          "duration" : 674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "fb495f8e49cfe3a5",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736467000428,
+          "stop" : 1736467001290,
+          "duration" : 862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "2d3b2cf1ed0ccd11",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467002879,
+          "stop" : 1736467003751,
+          "duration" : 872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "system", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "58bda9a314bc61f2",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467005350,
+          "stop" : 1736467006174,
+          "duration" : 824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "hello", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "b4276cfa2057594b",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467007756,
+          "stop" : 1736467008691,
+          "duration" : 935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "david", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "36a25cf00282b5cd",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467010182,
+          "stop" : 1736467010851,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "system", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "28d0747a6cc6cb89",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467012426,
+          "stop" : 1736467013262,
+          "duration" : 836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "hello", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "c6802bb8f810dade",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467014804,
+          "stop" : 1736467015603,
+          "duration" : 799
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "david", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "7604b1d1a55a671e",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467017089,
+          "stop" : 1736467017884,
+          "duration" : 795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "61842978eb79dab9",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467019364,
+          "stop" : 1736467020115,
+          "duration" : 751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "4de7b541005d8ca7",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467021734,
+          "stop" : 1736467022606,
+          "duration" : 872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "3f1e24552131b2be",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467024231,
+          "stop" : 1736467024998,
+          "duration" : 767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "print('hi')", "hi", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "4c81c54502d96bbe",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467026684,
+          "stop" : 1736467027512,
+          "duration" : 828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "print('hello')", "hello", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "4e9c071dfe4b0709",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467029084,
+          "stop" : 1736467029947,
+          "duration" : 863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "print('welcome to programming')", "welcome to programming", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "5680da599d1a84b6",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736467472947,
+          "stop" : 1736467474980,
+          "duration" : 2033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "print('hi')", "hi" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "58adb39c96464b1a",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467479414,
+          "stop" : 1736467480427,
+          "duration" : 1013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "print('hello')", "hello" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "70854ed6c32bfa49",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467484439,
+          "stop" : 1736467485709,
+          "duration" : 1270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "print('welcome to programming')", "welcome to programming" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "9c278deb3686b6c9",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736467721463,
+          "stop" : 1736467723346,
+          "duration" : 1883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "system" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "c13ab9e73e101e8",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467726904,
+          "stop" : 1736467728065,
+          "duration" : 1161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "hello" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "8090d05cad74ad3b",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467731637,
+          "stop" : 1736467732824,
+          "duration" : 1187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "david" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "29c38fc2847ec353",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736468027878,
+          "stop" : 1736468029322,
+          "duration" : 1444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "c6bc0808b8e732f2",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736468033111,
+          "stop" : 1736468034302,
+          "duration" : 1191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "ea16d66ffe8940bb",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736468038271,
+          "stop" : 1736468039419,
+          "duration" : 1148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "8a568c5fd10fe622",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736523283870,
+          "stop" : 1736523294506,
+          "duration" : 10636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "practice-questions", "Practice Questions", "null", "null", "null" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "6b5a9d7374c986b3",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736523916499,
+          "stop" : 1736523916919,
+          "duration" : 420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "Operations in Stack" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "a385cdbf75e2df6b",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736523918535,
+          "stop" : 1736523918873,
+          "duration" : 338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "Implementation" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "d28507f40ca4b012",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736523920517,
+          "stop" : 1736523921094,
+          "duration" : 577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "Applications" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "8a6f3996af0edc59",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736523922645,
+          "stop" : 1736523933198,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "practice-questions", "Practice Questions" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "65aa3e9db922fc85",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736524230546,
+          "stop" : 1736524231116,
+          "duration" : 570
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "Operations in Stack", "system", "print('hi')", "hi" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "513de63f5e2b5df8",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736524235170,
+          "stop" : 1736524235498,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "Implementation", "hello", "print('hello')", "hello" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "6e8b20b5a2bdc6dc",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736524239193,
+          "stop" : 1736524239930,
+          "duration" : 737
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "Applications", "david", "print('welcome to programming')", "welcome to programming" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "a48153de327c10e5",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736524285585,
+          "stop" : 1736524287266,
+          "duration" : 1681
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "Operations in Stack", "system", "print('hi')", "hi" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "f99c58da57d300cc",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736524291164,
+          "stop" : 1736524292234,
+          "duration" : 1070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "Implementation", "hello", "print('hello')", "hello" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "753dc09cb59a032c",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736524295869,
+          "stop" : 1736524297159,
+          "duration" : 1290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "Applications", "david", "print('welcome to programming')", "welcome to programming" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "5bf1db300d90ec3a",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736524395734,
+          "stop" : 1736524396936,
+          "duration" : 1202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "8ce6d2ccc27d4c5c",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736524400640,
+          "stop" : 1736524401892,
+          "duration" : 1252
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "9d75facb24d554d5",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736524405552,
+          "stop" : 1736524406930,
+          "duration" : 1378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "4779e5cc753206d7",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736524442138,
+          "stop" : 1736524443944,
+          "duration" : 1806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "system" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "c1ee5a5ad67e6651",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736524448769,
+          "stop" : 1736524449792,
+          "duration" : 1023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "hello" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "f5f04ff92ceabcd2",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736524453650,
+          "stop" : 1736524454844,
+          "duration" : 1194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "david" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError1",
+        "uid" : "a39a946fd922308",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736525035124,
+          "stop" : 1736525037025,
+          "duration" : 1901
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError1",
+        "uid" : "9da5828e6a010617",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736525042471,
+          "stop" : 1736525043657,
+          "duration" : 1186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError1",
+        "uid" : "db2c3fcb2e03ad5e",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736525047958,
+          "stop" : 1736525049450,
+          "duration" : 1492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError1",
+        "uid" : "c2c89ad65e99c6c6",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736525053199,
+          "stop" : 1736525063806,
+          "duration" : 10607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "e9c7132eea6c7876",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736545390845,
+          "stop" : 1736545391251,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "9253e299e20058a1",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736545395045,
+          "stop" : 1736545395361,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "317e867f7585c520",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736545399269,
+          "stop" : 1736545399798,
+          "duration" : 529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "59c602257852b408",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736545403421,
+          "stop" : 1736545414049,
+          "duration" : 10628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "15625b03ebbf1c2a",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736545902401,
+          "stop" : 1736545902722,
+          "duration" : 321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "c0a52cfcfab183f6",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736545906760,
+          "stop" : 1736545907063,
+          "duration" : 303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "72679ce67ea527f7",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736545911075,
+          "stop" : 1736545911518,
+          "duration" : 443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "810ea9c352ea7fea",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736545915357,
+          "stop" : 1736545925910,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "BackgroundSetUp",
+        "uid" : "b58f37a755575ef8",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736546923869,
+          "stop" : 1736546923870,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "LoadList",
+        "uid" : "17ee639c0d76f565",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736558474666,
+          "stop" : 1736558474668,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "c89626135d559b14",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559045253,
+          "stop" : 1736559045863,
+          "duration" : 610
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "51117b66271c9568",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559056601,
+          "stop" : 1736559056971,
+          "duration" : 370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "1917b7bf1db3f7da",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559064417,
+          "stop" : 1736559065037,
+          "duration" : 620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "187221722115b5bd",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736559073418,
+          "stop" : 1736559085991,
+          "duration" : 12573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "5cf0bef333abd8e",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559089995,
+          "stop" : 1736559091729,
+          "duration" : 1734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "d7d974121c168e47",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559096640,
+          "stop" : 1736559098083,
+          "duration" : 1443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "58060dbfa9fe4b9d",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559102142,
+          "stop" : 1736559104039,
+          "duration" : 1897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "289a75a5d5195c97",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559109194,
+          "stop" : 1736559109196,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "e6b686db6bb9e914",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559115096,
+          "stop" : 1736559117443,
+          "duration" : 2347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "1dc5f70375cfaa5f",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559122289,
+          "stop" : 1736559123900,
+          "duration" : 1611
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "16db152363d5b0d6",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559129375,
+          "stop" : 1736559131300,
+          "duration" : 1925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "4229ac79b5c5096c",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559137629,
+          "stop" : 1736559137630,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "aeeb9e7c0c34ddfa",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559143641,
+          "stop" : 1736559145417,
+          "duration" : 1776
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "9150a12c79c0fa90",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559149899,
+          "stop" : 1736559151762,
+          "duration" : 1863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "30948f990124a494",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559156086,
+          "stop" : 1736559158369,
+          "duration" : 2283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "992b543c1c7c6138",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559163724,
+          "stop" : 1736559163726,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "cdf69ca5bea91806",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559168492,
+          "stop" : 1736559170347,
+          "duration" : 1855
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "c337546f4709ace8",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559175095,
+          "stop" : 1736559176765,
+          "duration" : 1670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "2c7c214b931107ed",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559181649,
+          "stop" : 1736559183351,
+          "duration" : 1702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "2ac7ec03977bb37c",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559188112,
+          "stop" : 1736559188113,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "16cf63a730701cfe",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559193710,
+          "stop" : 1736559195865,
+          "duration" : 2155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "5f8d1081e49f2f42",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559200684,
+          "stop" : 1736559202964,
+          "duration" : 2280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "5e586d36ee443d8e",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559208486,
+          "stop" : 1736559210657,
+          "duration" : 2171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "faf4f9a54e444fc2",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736559215329,
+          "stop" : 1736559215331,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "6ccc36fbdbf266e2",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560638131,
+          "stop" : 1736560639643,
+          "duration" : 1512
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "f57e3dc8ea3f84ff",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560645894,
+          "stop" : 1736560648128,
+          "duration" : 2234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "2e3ada239187bfca",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560652057,
+          "stop" : 1736560653563,
+          "duration" : 1506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "6a45c693b9910e17",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560658135,
+          "stop" : 1736560658136,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "36c90143ba879bff",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560698548,
+          "stop" : 1736560699753,
+          "duration" : 1205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "791784c0ed03fe9b",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560703354,
+          "stop" : 1736560704524,
+          "duration" : 1170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "4d8330099db4157a",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560708270,
+          "stop" : 1736560709512,
+          "duration" : 1242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "d26681f6a5f8b869",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560713458,
+          "stop" : 1736560713458,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "f06bd4cb159e92d5",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560716956,
+          "stop" : 1736560718397,
+          "duration" : 1441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "ccff7a802f058771",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560721903,
+          "stop" : 1736560723337,
+          "duration" : 1434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "da3326ca80c06aa7",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560727398,
+          "stop" : 1736560728973,
+          "duration" : 1575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "deee7b34ff0ecefd",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560732973,
+          "stop" : 1736560732973,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "9a0be039694936d7",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736727777357,
+          "stop" : 1736727779716,
+          "duration" : 2359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "4844c815a0d77b7f",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736727786797,
+          "stop" : 1736727788441,
+          "duration" : 1644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "7fc2b601e5ab7d7",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736727799690,
+          "stop" : 1736727801814,
+          "duration" : 2124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "6cc8eec8f7f7cb0a",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736727812991,
+          "stop" : 1736727812993,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "68c4c4e503b83e08",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736727821773,
+          "stop" : 1736727822043,
+          "duration" : 270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "4326ed0867da45d3",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736727828896,
+          "stop" : 1736727829107,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "feae39ad0cce133a",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736727836793,
+          "stop" : 1736727837047,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "1496683d55a0b16f",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736727843963,
+          "stop" : 1736727843967,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "95105e1ffba322d8",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729359913,
+          "stop" : 1736729360379,
+          "duration" : 466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "dbb158d2e11aab68",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729366877,
+          "stop" : 1736729367215,
+          "duration" : 338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "7c1ada30ed031526",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729375628,
+          "stop" : 1736729376328,
+          "duration" : 700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "35ee0243b27565f1",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736729388149,
+          "stop" : 1736729399279,
+          "duration" : 11130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "3a4b6b9e86b6fa48",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430671,
+          "stop" : 1736729430675,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "eca566e68c620148",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430693,
+          "stop" : 1736729430693,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "45b6dc9ad015c46c",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430710,
+          "stop" : 1736729430711,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "764688b6442ed0bb",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430725,
+          "stop" : 1736729430725,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "c817688df2746fc9",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430738,
+          "stop" : 1736729430738,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "e5312928cd0b0917",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430754,
+          "stop" : 1736729430754,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "BackgroundSetUp",
+        "uid" : "db8511f66e181947",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736738912968,
+          "stop" : 1736738912974,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "4aed87760bd7869c",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736738913143,
+          "stop" : 1736738913144,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkStackPageTryEditorLinksTest",
+        "uid" : "81bdc7cb8e5ba75a",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736738913181,
+          "stop" : 1736738913182,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "320ede9c7fd528f9",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736738913220,
+          "stop" : 1736738913222,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "91bd7c92375cf30b",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736738913397,
+          "stop" : 1736738913398,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "9e533ad1d133ccda",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736738913429,
+          "stop" : 1736738913437,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "7fb0ad3ed78d2b20",
+        "parentUid" : "333aee307fc184b9ae929692a650da2c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736738913467,
+          "stop" : 1736738913467,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "333aee307fc184b9ae929692a650da2c"
+    }, {
+      "name" : "QueuePageTest",
+      "children" : [ {
+        "name" : "BackgroundSetUp",
+        "uid" : "e6df41771208c7b3",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736546377291,
+          "stop" : 1736546377293,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkqueuepageLinksTest1",
+        "uid" : "5cd920f004d4c377",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546377419,
+          "stop" : 1736546377421,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "f1d2ece764954e25",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546377625,
+          "stop" : 1736546377627,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "453d76ba882d16dc",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546377692,
+          "stop" : 1736546377694,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "cd1ea2bb678e7535",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546377885,
+          "stop" : 1736546377887,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "f2aa18f8a7a8989",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546377937,
+          "stop" : 1736546377938,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "a05f879ae4ba1e0c",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546377980,
+          "stop" : 1736546377980,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkqueuepageLinksTest1",
+        "uid" : "febcfd2ebd70dd07",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736546405109,
+          "stop" : 1736546405427,
+          "duration" : 318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest1",
+        "uid" : "579596a6c6b96f65",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736546410436,
+          "stop" : 1736546410793,
+          "duration" : 357
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest1",
+        "uid" : "a6ab1c51b6fa07a7",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736546414826,
+          "stop" : 1736546415136,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest1",
+        "uid" : "bc5bc7d296859bb2",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736546419254,
+          "stop" : 1736546419638,
+          "duration" : 384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest1",
+        "uid" : "64647d3e4215f208",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736546423442,
+          "stop" : 1736546434258,
+          "duration" : 10816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "3565f649deae7966",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546934964,
+          "stop" : 1736546934966,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "a63f0f3fd693fdff",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546935123,
+          "stop" : 1736546935131,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "7553d0339544ae92",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546936988,
+          "stop" : 1736546936995,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "BackgroundSetUp",
+        "uid" : "b44ccdd50b7e2f28",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736546937147,
+          "stop" : 1736546937147,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "e55f594c7cc561b5",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546937213,
+          "stop" : 1736546937215,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "903c96a4d7a9218d",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546937231,
+          "stop" : 1736546937233,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "d4b4e224e098da2",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736546943225,
+          "stop" : 1736546943226,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "e64e727d55b4a7a3",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560453931,
+          "stop" : 1736560454238,
+          "duration" : 307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "c51491b05d1d83cf",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560458757,
+          "stop" : 1736560459086,
+          "duration" : 329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "bcfcc4a70ac928e9",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560462785,
+          "stop" : 1736560463096,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "fbb7d33ef6f09d21",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560466927,
+          "stop" : 1736560467231,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "3c058ad092ae855b",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736560471176,
+          "stop" : 1736560481803,
+          "duration" : 10627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "c5d1643799bdb501",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560486234,
+          "stop" : 1736560487279,
+          "duration" : 1045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "c8008143cdc3525d",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560491125,
+          "stop" : 1736560492230,
+          "duration" : 1105
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "895086a87c641149",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560496304,
+          "stop" : 1736560497332,
+          "duration" : 1028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "a54f774cf9eed980",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560501870,
+          "stop" : 1736560502881,
+          "duration" : 1011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "f5e3e7eae7c4b7be",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560506464,
+          "stop" : 1736560506465,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "490ee3b759404091",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560510355,
+          "stop" : 1736560511882,
+          "duration" : 1527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "2b322fbd9982cb63",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560515552,
+          "stop" : 1736560516972,
+          "duration" : 1420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "21be49bc3154923e",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560520934,
+          "stop" : 1736560522280,
+          "duration" : 1346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "d4cc183ba2bddb63",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736560526087,
+          "stop" : 1736560527457,
+          "duration" : 1370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "ac1269f32023c502",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560531349,
+          "stop" : 1736560531350,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "31b3fb072942fb5",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560535055,
+          "stop" : 1736560536988,
+          "duration" : 1933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "9ac1c8e738f09863",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560540838,
+          "stop" : 1736560542370,
+          "duration" : 1532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "15f0a38dcfde7702",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560546421,
+          "stop" : 1736560548325,
+          "duration" : 1904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "861798d087553bca",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736560552119,
+          "stop" : 1736560553523,
+          "duration" : 1404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "d2d848be41cec451",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560557627,
+          "stop" : 1736560557628,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "8273627e526ee99f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560561628,
+          "stop" : 1736560563010,
+          "duration" : 1382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "7ce83c2ac5305a8f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560566713,
+          "stop" : 1736560567838,
+          "duration" : 1125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "4cc7649896572a2c",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560571812,
+          "stop" : 1736560573162,
+          "duration" : 1350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "beb019663572ed8a",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560577011,
+          "stop" : 1736560578168,
+          "duration" : 1157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "a44025246d76a205",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560581788,
+          "stop" : 1736560581789,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "eea86c2d486a2bab",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560585442,
+          "stop" : 1736560586784,
+          "duration" : 1342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "178c8694c9d53f8f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560591730,
+          "stop" : 1736560593134,
+          "duration" : 1404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "ede01e5c60478137",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560596718,
+          "stop" : 1736560598166,
+          "duration" : 1448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "585c4479cf00f207",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560601749,
+          "stop" : 1736560603338,
+          "duration" : 1589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "ef63211a05062dae",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736560606887,
+          "stop" : 1736560606888,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "a71e5c5edb9c3db9",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729713062,
+          "stop" : 1736729713698,
+          "duration" : 636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "8b935b7d9f6bac40",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729719814,
+          "stop" : 1736729720298,
+          "duration" : 484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "5de76aba88ffc2b1",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729725880,
+          "stop" : 1736729726227,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "3d93865eb29514c4",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729735524,
+          "stop" : 1736729736155,
+          "duration" : 631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "3dbf7bb0768acbe4",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736729742667,
+          "stop" : 1736729755022,
+          "duration" : 12355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "b835cb8a9cb5c93f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729764088,
+          "stop" : 1736729765722,
+          "duration" : 1634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "624a926adc34a592",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729772392,
+          "stop" : 1736729773880,
+          "duration" : 1488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "10dfc850af05901b",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729781572,
+          "stop" : 1736729783120,
+          "duration" : 1548
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "d084a3cf35daf5ff",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729790101,
+          "stop" : 1736729791636,
+          "duration" : 1535
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "81b8ef843ce585f1",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729798198,
+          "stop" : 1736729798200,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "b14cad156044b20f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729807849,
+          "stop" : 1736729809965,
+          "duration" : 2116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "db6bf75eab1ceb68",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729816514,
+          "stop" : 1736729818439,
+          "duration" : 1925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "d910928df1c1387e",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729823547,
+          "stop" : 1736729825060,
+          "duration" : 1513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "e0c370b2ed4dfa88",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736729833023,
+          "stop" : 1736729835545,
+          "duration" : 2522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "f17b8e12bf6d8409",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729842524,
+          "stop" : 1736729842526,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "4c4db91b0714c0ad",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729848966,
+          "stop" : 1736729850704,
+          "duration" : 1738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "daf987a3302ca863",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729857981,
+          "stop" : 1736729860062,
+          "duration" : 2081
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "68224c05d972bf1f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729867277,
+          "stop" : 1736729869554,
+          "duration" : 2277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "9f6baa6ad9dfce1a",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736729876040,
+          "stop" : 1736729878185,
+          "duration" : 2145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "2d7eeaea4413928a",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729887411,
+          "stop" : 1736729887413,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "ed3d98a69f0d7c21",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729894419,
+          "stop" : 1736729896079,
+          "duration" : 1660
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "ef19b570f94a9d3d",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729901967,
+          "stop" : 1736729903471,
+          "duration" : 1504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "28da8f38bba9872b",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729913190,
+          "stop" : 1736729914962,
+          "duration" : 1772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "6c4292ddf331d473",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729922689,
+          "stop" : 1736729924415,
+          "duration" : 1726
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "bc4b50621eb634d0",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729933744,
+          "stop" : 1736729933746,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "483d07c176f63099",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729940613,
+          "stop" : 1736729942680,
+          "duration" : 2067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "805910e3bba28805",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729948950,
+          "stop" : 1736729953226,
+          "duration" : 4276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "a8f9605ede1e8c07",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729960426,
+          "stop" : 1736729963009,
+          "duration" : 2583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "f144e0b5185f7190",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729969160,
+          "stop" : 1736729971197,
+          "duration" : 2037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "80bba05b6ff72d6b",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729979988,
+          "stop" : 1736729979990,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "f6d585241cde2d29",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729989457,
+          "stop" : 1736729990132,
+          "duration" : 675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "c1651c8d266c241d",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736729996098,
+          "stop" : 1736729996463,
+          "duration" : 365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "1eb488fe07a0214f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730006138,
+          "stop" : 1736730006677,
+          "duration" : 539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "e2f2f974fcde5f3c",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730013252,
+          "stop" : 1736730013861,
+          "duration" : 609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "2fd848a0a722c4f1",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736730019486,
+          "stop" : 1736730030443,
+          "duration" : 10957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "88b38d477cd39f11",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730037339,
+          "stop" : 1736730038746,
+          "duration" : 1407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "4188c27f91270aa8",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730044491,
+          "stop" : 1736730045609,
+          "duration" : 1118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "1483993f5338832a",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730054609,
+          "stop" : 1736730056243,
+          "duration" : 1634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "3a78d0c7ba109142",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730062513,
+          "stop" : 1736730063951,
+          "duration" : 1438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinksTest",
+        "uid" : "d450567aeae13c32",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730070262,
+          "stop" : 1736730070263,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "ef483e2f7fc53ccb",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730074597,
+          "stop" : 1736730078438,
+          "duration" : 3841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "3a06ad43cf049c7a",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730085505,
+          "stop" : 1736730087598,
+          "duration" : 2093
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "f9a5d00a443867d",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730093824,
+          "stop" : 1736730095668,
+          "duration" : 1844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "15c3027a4e3dc718",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736730104344,
+          "stop" : 1736730107977,
+          "duration" : 3633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "612334990cba16df",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730114980,
+          "stop" : 1736730114982,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "f5f7ffea1319566e",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730120751,
+          "stop" : 1736730122166,
+          "duration" : 1415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "684e152bb8a65a9b",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730133064,
+          "stop" : 1736730135042,
+          "duration" : 1978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "afb066ffd0054",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730142076,
+          "stop" : 1736730144014,
+          "duration" : 1938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "46e8b0bb3cfadb6c",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736730152474,
+          "stop" : 1736730154945,
+          "duration" : 2471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "4aec965a2226884f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730162087,
+          "stop" : 1736730162088,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "d55c740145abc944",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730168069,
+          "stop" : 1736730169915,
+          "duration" : 1846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "858c59716be431ca",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730176637,
+          "stop" : 1736730178816,
+          "duration" : 2179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "9ca5f8732c9fd626",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730185720,
+          "stop" : 1736730187485,
+          "duration" : 1765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "6fcbdc42583f7f90",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730193898,
+          "stop" : 1736730195514,
+          "duration" : 1616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithNoScriptsTest",
+        "uid" : "12727225a891dd9f",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730204837,
+          "stop" : 1736730204839,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "45d2f10da7751d4d",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730211260,
+          "stop" : 1736730213251,
+          "duration" : 1991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-lists, Expected Result=Implementation of Queue in Python, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "5c362a46a63d956",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730219089,
+          "stop" : 1736730220562,
+          "duration" : 1473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "1a6efe9e706e97f4",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730230033,
+          "stop" : 1736730232309,
+          "duration" : 2276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "b95628e0f0a23ae0",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730238606,
+          "stop" : 1736730240805,
+          "duration" : 2199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "firefox" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+        "uid" : "a02ff2018c894913",
+        "parentUid" : "82212acc4d3f64126b24782f7688499b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736730246508,
+          "stop" : 1736730246510,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "firefox" ]
+      } ],
+      "uid" : "82212acc4d3f64126b24782f7688499b"
+    }, {
+      "name" : "LinkedListPageTest",
+      "children" : [ {
+        "name" : "checkListPageLinksTest",
+        "uid" : "b45d91cf51fea60e",
+        "parentUid" : "562e1a5a51b928116e21e92f00d5b36a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430201,
+          "stop" : 1736729430226,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinksTest",
+        "uid" : "999a5de1c580c82e",
+        "parentUid" : "562e1a5a51b928116e21e92f00d5b36a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430542,
+          "stop" : 1736729430542,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "fa3542b951711a5a",
+        "parentUid" : "562e1a5a51b928116e21e92f00d5b36a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430553,
+          "stop" : 1736729430553,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "4d257087abe50584",
+        "parentUid" : "562e1a5a51b928116e21e92f00d5b36a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430588,
+          "stop" : 1736729430589,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "129cb9bae91aaafe",
+        "parentUid" : "562e1a5a51b928116e21e92f00d5b36a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430626,
+          "stop" : 1736729430626,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinkswithValidCodeTest",
+        "uid" : "3044989e6d1825b4",
+        "parentUid" : "562e1a5a51b928116e21e92f00d5b36a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430658,
+          "stop" : 1736729430658,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "562e1a5a51b928116e21e92f00d5b36a"
+    }, {
+      "name" : "arraytest",
+      "children" : [ {
+        "name" : "checkArrayPageLinksTest",
+        "uid" : "3931071435afeee7",
+        "parentUid" : "a92fde3c65e3403f1cfedc07c092a990",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430201,
+          "stop" : 1736729430226,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPageTryEditorLinksTest",
+        "uid" : "c1253b83020c67ee",
+        "parentUid" : "a92fde3c65e3403f1cfedc07c092a990",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430535,
+          "stop" : 1736729430536,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "a93710bcb34aac9a",
+        "parentUid" : "a92fde3c65e3403f1cfedc07c092a990",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430567,
+          "stop" : 1736729430568,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "830ccfe9ce5bbaaf",
+        "parentUid" : "a92fde3c65e3403f1cfedc07c092a990",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430622,
+          "stop" : 1736729430623,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "6cf055e2fb8790f4",
+        "parentUid" : "a92fde3c65e3403f1cfedc07c092a990",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430636,
+          "stop" : 1736729430637,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPageTryEditorLinkswithValidCodeTest",
+        "uid" : "413defcbe1cbeefb",
+        "parentUid" : "a92fde3c65e3403f1cfedc07c092a990",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430661,
+          "stop" : 1736729430661,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "a92fde3c65e3403f1cfedc07c092a990"
+    }, {
+      "name" : "dataStructuresIntroPage",
+      "children" : [ {
+        "name" : "checkListPageLinksTest",
+        "uid" : "ce7c1841f97eb53d",
+        "parentUid" : "66b00be742eb5bb1d11a346e0fa7148b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430202,
+          "stop" : 1736729430226,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinksTest",
+        "uid" : "690308abff6001e9",
+        "parentUid" : "66b00be742eb5bb1d11a346e0fa7148b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430550,
+          "stop" : 1736729430551,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "fc660ca61c11a44e",
+        "parentUid" : "66b00be742eb5bb1d11a346e0fa7148b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430564,
+          "stop" : 1736729430564,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "35e4aa6e8ace9c59",
+        "parentUid" : "66b00be742eb5bb1d11a346e0fa7148b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430625,
+          "stop" : 1736729430625,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "febcfd687379e456",
+        "parentUid" : "66b00be742eb5bb1d11a346e0fa7148b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430647,
+          "stop" : 1736729430647,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkListPageTryEditorLinkswithValidCodeTest",
+        "uid" : "ef300732969d3434",
+        "parentUid" : "66b00be742eb5bb1d11a346e0fa7148b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430664,
+          "stop" : 1736729430664,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "66b00be742eb5bb1d11a346e0fa7148b"
+    }, {
+      "name" : "ArrayPracticeTest$arraytest",
+      "children" : [ {
+        "name" : "checkArrayPageTryEditorLinkswithValidCodeandClickSubmitBtn",
+        "uid" : "cffb7c4dfb7154b",
+        "parentUid" : "f9141ae8d21c52813a38c15b6fc97e7a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430572,
+          "stop" : 1736729430572,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPracticePageLinksTest",
+        "uid" : "4731075bf033e6c1",
+        "parentUid" : "f9141ae8d21c52813a38c15b6fc97e7a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430602,
+          "stop" : 1736729430603,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickRun",
+        "uid" : "17c5ed4cf6fd91db",
+        "parentUid" : "f9141ae8d21c52813a38c15b6fc97e7a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430633,
+          "stop" : 1736729430633,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPracticePageTryEditorLinkswithInvalidCodeandClickSubmit",
+        "uid" : "79a5de9593f1c9e7",
+        "parentUid" : "f9141ae8d21c52813a38c15b6fc97e7a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736729430651,
+          "stop" : 1736729430652,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkArrayPageTryEditorLinkswithValidCodeTestandClickRunBTn",
+        "uid" : "ca7d3df6a9b4eeb6",
+        "parentUid" : "f9141ae8d21c52813a38c15b6fc97e7a",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736739174025,
+          "stop" : 1736739174030,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "f9141ae8d21c52813a38c15b6fc97e7a"
+    }, {
+      "name" : "graphtest",
+      "children" : [ {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "f00cc43b8937df08",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736731611119,
+          "stop" : 1736731611122,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "ee2b121948cdbcdf",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736731611201,
+          "stop" : 1736731611201,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "a0d3faf3f3635df9",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736731611207,
+          "stop" : 1736731611207,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "30caa81dfa54fa39",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736731611213,
+          "stop" : 1736731611213,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "75f774573d225ed9",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736731611219,
+          "stop" : 1736731611219,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "ac9c7ea6dc3034ec",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736731817620,
+          "stop" : 1736731817620,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "87504c9fb749eaa6",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731845197,
+          "stop" : 1736731848235,
+          "duration" : 3038
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "205c05608ba2c3ef",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731855265,
+          "stop" : 1736731855266,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "ce536e4087e95774",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731861422,
+          "stop" : 1736731861423,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "d7bec582f93367bb",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731866392,
+          "stop" : 1736731866392,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "f4b2b279680ca0c",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731872228,
+          "stop" : 1736731872228,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "b1ce7cd76471fc87",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736731880040,
+          "stop" : 1736731884149,
+          "duration" : 4109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "eafcf69d92ed7d99",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736731892855,
+          "stop" : 1736731895491,
+          "duration" : 2636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "a7657c5d8351bb13",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731904660,
+          "stop" : 1736731904660,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "4fe864e767a657d7",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731910342,
+          "stop" : 1736731912009,
+          "duration" : 1667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "745793c77467659f",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731920714,
+          "stop" : 1736731922378,
+          "duration" : 1664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "5a778e2c33e91b83",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731929094,
+          "stop" : 1736731929094,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "65c506e713897cff",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731936934,
+          "stop" : 1736731939261,
+          "duration" : 2327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "ae9f4644bfadfb4a",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731946933,
+          "stop" : 1736731949121,
+          "duration" : 2188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "d89ae3989098990f",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736731955220,
+          "stop" : 1736731955222,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "BackgroundSetUp",
+        "uid" : "8234917fb986f27a",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736736483768,
+          "stop" : 1736736483770,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "92fb76e178350b3d",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736736483887,
+          "stop" : 1736736483888,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "286cb5f4c0daa01",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736736484169,
+          "stop" : 1736736484171,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "a742a08c91a6f6e2",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736736484330,
+          "stop" : 1736736484331,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "586eda2c3f9b58c6",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736736484463,
+          "stop" : 1736736484464,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "e28af0d3673fe8e5",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736736484581,
+          "stop" : 1736736484582,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "d417e64a1351dd50",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736736484724,
+          "stop" : 1736736484725,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "BackgroundSetUp",
+        "uid" : "b592afb2e5de3b48",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736736579978,
+          "stop" : 1736736579980,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "9593710bd8b9f749",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736736580022,
+          "stop" : 1736736580026,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "45a06f2d103debf0",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737207746,
+          "stop" : 1736737208041,
+          "duration" : 295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "1d4adf5ea3a287db",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737216203,
+          "stop" : 1736737216660,
+          "duration" : 457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "cb88c455c280960c",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736737224343,
+          "stop" : 1736737235076,
+          "duration" : 10733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "9f17956dc9898abc",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736737242444,
+          "stop" : 1736737242957,
+          "duration" : 513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "921c44498594289",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736737674184,
+          "stop" : 1736737674195,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "befec6e8f163e943",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736737674184,
+          "stop" : 1736737674195,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "15ad778a3e83d93b",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736737685770,
+          "stop" : 1736737685773,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "bc608647d644d8fd",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736737685776,
+          "stop" : 1736737685779,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "BackgroundSetUp",
+        "uid" : "935faa464641626",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736737695711,
+          "stop" : 1736737695712,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "7d663944c22c4831",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736737695744,
+          "stop" : 1736737695746,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "bb571fc1aeccb2c2",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1736737697666,
+          "stop" : 1736737697669,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "e7e812a0d525a53d",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737894551,
+          "stop" : 1736737895057,
+          "duration" : 506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "97294ab241fbe42b",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737900159,
+          "stop" : 1736737900664,
+          "duration" : 505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "8aeb77f1580a9592",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736737905535,
+          "stop" : 1736737916469,
+          "duration" : 10934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "63b1493ebd9a5d51",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737922007,
+          "stop" : 1736737923370,
+          "duration" : 1363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "b641af7ecbdab53e",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737928786,
+          "stop" : 1736737930142,
+          "duration" : 1356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "f303cc3849567c35",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737934870,
+          "stop" : 1736737934871,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "d4e4bfdd4c5ddaf4",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737940266,
+          "stop" : 1736737940266,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "3132092122e77fe5",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737945516,
+          "stop" : 1736737945517,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "6d5839eecd29f0",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737949935,
+          "stop" : 1736737949936,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "ad500f9a39964a88",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736737954628,
+          "stop" : 1736737955958,
+          "duration" : 1330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "f80532038d6f5a31",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736737960422,
+          "stop" : 1736737961834,
+          "duration" : 1412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "91f3bfde3d9300cd",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737966442,
+          "stop" : 1736737966443,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "3537e5e5a2726ae1",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737970766,
+          "stop" : 1736737972167,
+          "duration" : 1401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "32dea3b939c8fe48",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737976329,
+          "stop" : 1736737977755,
+          "duration" : 1426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "409b70ccded8856f",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737982256,
+          "stop" : 1736737982257,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "1527e973c23c02d5",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737986660,
+          "stop" : 1736737988287,
+          "duration" : 1627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "6cb82e4d1db5800",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737992515,
+          "stop" : 1736737994037,
+          "duration" : 1522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "a084c47b91735323",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736737998463,
+          "stop" : 1736737998464,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "e7e8c965fa64119f",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738006280,
+          "stop" : 1736738006701,
+          "duration" : 421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "edge" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "aaaea9b63a8be58c",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738014101,
+          "stop" : 1736738014589,
+          "duration" : 488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "edge" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "fe2c5e013dacb6f9",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736738021924,
+          "stop" : 1736738032683,
+          "duration" : 10759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "129683bded54a39c",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738040528,
+          "stop" : 1736738041811,
+          "duration" : 1283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "1fd09aac1db8c968",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738049318,
+          "stop" : 1736738050789,
+          "duration" : 1471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "704a8693edc0fbc2",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738058300,
+          "stop" : 1736738058301,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "75638f7044f3690f",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738066271,
+          "stop" : 1736738066272,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "775290f96d4db8bd",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738073934,
+          "stop" : 1736738073935,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "df3559420d4aaa8c",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738081863,
+          "stop" : 1736738081864,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "32b3166707751b14",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736738090117,
+          "stop" : 1736738091683,
+          "duration" : 1566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "ef2fa6275883595c",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736738099402,
+          "stop" : 1736738100844,
+          "duration" : 1442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "30f5dda0412b8e1f",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738108583,
+          "stop" : 1736738108584,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "7f5bfc27f86ff0df",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738116495,
+          "stop" : 1736738117853,
+          "duration" : 1358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "5f19f0240bfe6cb5",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738125703,
+          "stop" : 1736738127021,
+          "duration" : 1318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "841ec55a6b14b311",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738134815,
+          "stop" : 1736738134816,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "a39c5905290a8cba",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738142477,
+          "stop" : 1736738144182,
+          "duration" : 1705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "f8339f75bd15727a",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738151837,
+          "stop" : 1736738153455,
+          "duration" : 1618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+        "uid" : "1787bb8f2ed82941",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736738161857,
+          "stop" : 1736738161859,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "edge" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "bf51f9c775da294",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736740994878,
+          "stop" : 1736740995234,
+          "duration" : 356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "11434afe05f03108",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "passed",
+        "time" : {
+          "start" : 1736740999539,
+          "stop" : 1736740999903,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "b81c522ad00275e7",
+        "parentUid" : "4ea32965cf9883fbbd342c2e60d77749",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736741056734,
+          "stop" : 1736741067367,
+          "duration" : 10633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      } ],
+      "uid" : "4ea32965cf9883fbbd342c2e60d77749"
+    } ],
+    "uid" : "141fa05f02bf329144b0086cf92149a8"
+  } ]
+}

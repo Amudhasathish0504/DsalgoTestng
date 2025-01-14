@@ -1,0 +1,95 @@
+{
+  "uid" : "48d1ffddf44e2a8f",
+  "name" : "clickStackLinkTest",
+  "fullName" : "testcases.HomePageTest.clickStackLinkTest",
+  "historyId" : "95984c4d8539cba815a75cdfc9673482",
+  "time" : {
+    "start" : 1736557295830,
+    "stop" : 1736557296183,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialSetUp",
+    "time" : {
+      "start" : 1736557290609,
+      "stop" : 1736557295822,
+      "duration" : 5213
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736557296312,
+      "stop" : 1736557296952,
+      "duration" : 640
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickStackLinkTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "testng"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "67800@LAPTOP-39NIES78.TestNG-test=testng-1(34)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48d1ffddf44e2a8f.json",
+  "parameterValues" : [ "chrome" ]
+}

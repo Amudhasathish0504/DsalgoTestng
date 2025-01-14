@@ -1,0 +1,157 @@
+{
+  "uid" : "513de63f5e2b5df8",
+  "name" : "checkStackPageLinksTest",
+  "fullName" : "testcases.StackPageTest.checkStackPageLinksTest",
+  "historyId" : "1aae4f929e15314cc7c10c3f7805630b",
+  "time" : {
+    "start" : 1736524235170,
+    "stop" : 1736524235498,
+    "duration" : 328
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736524226818,
+      "stop" : 1736524227477,
+      "duration" : 659
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736524231392,
+      "stop" : 1736524235163,
+      "duration" : 3771
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736524235500,
+      "stop" : 1736524235658,
+      "duration" : 158
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkStackPageLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "26396@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "implementation"
+  }, {
+    "name" : "arg1",
+    "value" : "Implementation"
+  }, {
+    "name" : "arg2",
+    "value" : "hello"
+  }, {
+    "name" : "arg3",
+    "value" : "print('hello')"
+  }, {
+    "name" : "arg4",
+    "value" : "hello"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e190ccfc0c2beb82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736524195763,
+        "stop" : 1736524196055,
+        "duration" : 292
+      }
+    }, {
+      "uid" : "8db85d6f21d80361",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736523263405,
+        "stop" : 1736523263889,
+        "duration" : 484
+      }
+    }, {
+      "uid" : "fda0c3099dc21dce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736523108990,
+        "stop" : 1736523109350,
+        "duration" : 360
+      }
+    }, {
+      "uid" : "3b5067eeccd98b94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736522923399,
+        "stop" : 1736522923715,
+        "duration" : 316
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "513de63f5e2b5df8.json",
+  "parameterValues" : [ "implementation", "Implementation", "hello", "print('hello')", "hello" ]
+}

@@ -1,0 +1,117 @@
+{
+  "uid" : "45a06f2d103debf0",
+  "name" : "checkGraphPageLinksTest",
+  "fullName" : "testcases.graphtest.checkGraphPageLinksTest",
+  "historyId" : "fba5f50049746f8f817f19571be6749f",
+  "time" : {
+    "start" : 1736737207746,
+    "stop" : 1736737208041,
+    "duration" : 295
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736737190692,
+      "stop" : 1736737207512,
+      "duration" : 16820
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736737208066,
+      "stop" : 1736737209682,
+      "duration" : 1616
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "FireFoxTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "77772@LAPTOP-39NIES78.TestNG-tests-1(32)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}"
+  }, {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3e49c52de6d4859",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=131.0.6778.265)\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [55bb1a0c4d11f6995a74d544496a2919, findElements {using=xpath, value=//a[@href='/tryEditor']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60741}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60741/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 55bb1a0c4d11f6995a74d544496a2919",
+      "time" : {
+        "start" : 1736732074359,
+        "stop" : 1736732074881,
+        "duration" : 522
+      }
+    }, {
+      "uid" : "3d2cd03f8c10fa1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736731770980,
+        "stop" : 1736731771400,
+        "duration" : 420
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45a06f2d103debf0.json",
+  "parameterValues" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+}

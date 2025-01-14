@@ -1,0 +1,98 @@
+{
+  "uid" : "eaeba991f36fcdcd",
+  "name" : "checkGraphPageTryEditorLinkswithValidCodeTest",
+  "fullName" : "testcases.graphtest.checkGraphPageTryEditorLinkswithValidCodeTest",
+  "historyId" : "574a8b1ce43ac9fd67113c5dd7d44f76",
+  "time" : {
+    "start" : 1736737556381,
+    "stop" : 1736737556382,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736737551879,
+      "stop" : 1736737556372,
+      "duration" : 4493
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736737556383,
+      "stop" : 1736737557650,
+      "duration" : 1267
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageTryEditorLinkswithValidCodeTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "EdgeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "27068@LAPTOP-39NIES78.TestNG-tests-1(30)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=practice-questions, Expected Result=Practice Questions}"
+  }, {
+    "name" : "browser",
+    "value" : "edge"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eaeba991f36fcdcd.json",
+  "parameterValues" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "edge" ]
+}

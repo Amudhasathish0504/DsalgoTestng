@@ -1,0 +1,95 @@
+{
+  "uid" : "bfb12970f8e99af1",
+  "name" : "clickStackLinkTest",
+  "fullName" : "testcases.HomePageTest.clickStackLinkTest",
+  "historyId" : "95984c4d8539cba815a75cdfc9673482",
+  "time" : {
+    "start" : 1736466674400,
+    "stop" : 1736466674801,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialSetUp",
+    "time" : {
+      "start" : 1736466671093,
+      "stop" : 1736466674389,
+      "duration" : 3296
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736466674803,
+      "stop" : 1736466674963,
+      "duration" : 160
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickStackLinkTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "class"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "56564@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfb12970f8e99af1.json",
+  "parameterValues" : [ "chrome" ]
+}

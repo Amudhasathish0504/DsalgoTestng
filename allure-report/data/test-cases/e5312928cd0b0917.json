@@ -1,0 +1,130 @@
+{
+  "uid" : "e5312928cd0b0917",
+  "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+  "fullName" : "testcases.StackPageTest.checkStackPageTryEditorLinkswithValidCodeTest",
+  "historyId" : "196354453adfb3bbce6518a1279ffb75",
+  "time" : {
+    "start" : 1736729430754,
+    "stop" : 1736729430754,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null",
+  "statusTrace" : "java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:798)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:740)\r\n\tat org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)\r\n\tat org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1623)\r\nCaused by: java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null\r\n\tat testcases.StackPageTest.stackpage(StackPageTest.java:54)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)\r\n\t... 12 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkStackPageTryEditorLinkswithValidCodeTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "75616@LAPTOP-39NIES78.TestNG-test=ChromeTest-1(39)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "14531329f262f44b",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null",
+      "time" : {
+        "start" : 1736558474825,
+        "stop" : 1736558474826,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c61056ffa86e67fd",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null",
+      "time" : {
+        "start" : 1736557276403,
+        "stop" : 1736557276403,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe7a02c58025067c",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null",
+      "time" : {
+        "start" : 1736555950752,
+        "stop" : 1736555950753,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "eda269576d074a94",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: stale element not found\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [58e2db451d3c1c3aedf14a45a8be36ec, clickElement {id=f.01032F2963D28739A84F380510DAE237.d.60BCB8354B37A6EB990BB766BF79008C.e.3}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60898/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (58e2db451d3c1c3aedf14a45a8be36ec)] -> xpath: //button[@class='btn']]\nSession ID: 58e2db451d3c1c3aedf14a45a8be36ec",
+      "time" : {
+        "start" : 1736546905655,
+        "stop" : 1736546905656,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "72542bb9a2589e74",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: stale element not found\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [58e2db451d3c1c3aedf14a45a8be36ec, clickElement {id=f.01032F2963D28739A84F380510DAE237.d.60BCB8354B37A6EB990BB766BF79008C.e.3}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60898/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (58e2db451d3c1c3aedf14a45a8be36ec)] -> xpath: //button[@class='btn']]\nSession ID: 58e2db451d3c1c3aedf14a45a8be36ec",
+      "time" : {
+        "start" : 1736546905646,
+        "stop" : 1736546905648,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "bbaba3c47266fefb",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: stale element not found\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [58e2db451d3c1c3aedf14a45a8be36ec, clickElement {id=f.01032F2963D28739A84F380510DAE237.d.60BCB8354B37A6EB990BB766BF79008C.e.3}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60898/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (58e2db451d3c1c3aedf14a45a8be36ec)] -> xpath: //button[@class='btn']]\nSession ID: 58e2db451d3c1c3aedf14a45a8be36ec",
+      "time" : {
+        "start" : 1736546905635,
+        "stop" : 1736546905636,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2ea71aece242c3d6",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: stale element not found\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [58e2db451d3c1c3aedf14a45a8be36ec, clickElement {id=f.01032F2963D28739A84F380510DAE237.d.60BCB8354B37A6EB990BB766BF79008C.e.3}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60898/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (58e2db451d3c1c3aedf14a45a8be36ec)] -> xpath: //button[@class='btn']]\nSession ID: 58e2db451d3c1c3aedf14a45a8be36ec",
+      "time" : {
+        "start" : 1736546905613,
+        "stop" : 1736546905615,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5312928cd0b0917.json",
+  "parameterValues" : [ "chrome" ]
+}

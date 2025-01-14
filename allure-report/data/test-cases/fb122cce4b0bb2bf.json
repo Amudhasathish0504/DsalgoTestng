@@ -1,0 +1,98 @@
+{
+  "uid" : "fb122cce4b0bb2bf",
+  "name" : "checkGraphPageTryEditorLinkswithNoScriptsTest",
+  "fullName" : "testcases.graphtest.checkGraphPageTryEditorLinkswithNoScriptsTest",
+  "historyId" : "209234a29d2f9e340e93d815050f0f5b",
+  "time" : {
+    "start" : 1736731877626,
+    "stop" : 1736731881911,
+    "duration" : 4285
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736731871661,
+      "stop" : 1736731877537,
+      "duration" : 5876
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736731881915,
+      "stop" : 1736731882539,
+      "duration" : 624
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageTryEditorLinkswithNoScriptsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "19136@LAPTOP-39NIES78.TestNG-tests-1(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb122cce4b0bb2bf.json",
+  "parameterValues" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "chrome" ]
+}

@@ -1,0 +1,114 @@
+{
+  "uid" : "c2877c2d7554fb95",
+  "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+  "fullName" : "testcases.StackPageTest.checkStackPageTryEditorLinkswithNoScriptsTest",
+  "historyId" : "4d191fc58d56c8658bc0b0f57f88009b",
+  "time" : {
+    "start" : 1736547135925,
+    "stop" : 1736547137583,
+    "duration" : 1658
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736547004552,
+      "stop" : 1736547005400,
+      "duration" : 848
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736547131285,
+      "stop" : 1736547135914,
+      "duration" : 4629
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736547137585,
+      "stop" : 1736547137810,
+      "duration" : 225
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkStackPageTryEditorLinkswithNoScriptsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "testng"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "53060@LAPTOP-39NIES78.TestNG-test=testng-2(35)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2877c2d7554fb95.json",
+  "parameterValues" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "chrome" ]
+}

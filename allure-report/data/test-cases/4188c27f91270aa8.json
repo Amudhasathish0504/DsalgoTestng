@@ -1,0 +1,116 @@
+{
+  "uid" : "4188c27f91270aa8",
+  "name" : "checkqueuepageTryEditorLinksTest",
+  "fullName" : "testcases.QueuePageTest.checkqueuepageTryEditorLinksTest",
+  "historyId" : "263038c80d9fb5ebfa84bb9199bddf0d",
+  "time" : {
+    "start" : 1736730044491,
+    "stop" : 1736730045609,
+    "duration" : 1118
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736729980533,
+      "stop" : 1736729981041,
+      "duration" : 508
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736730039071,
+      "stop" : 1736730044482,
+      "duration" : 5411
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736730045611,
+      "stop" : 1736730045860,
+      "duration" : 249
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkqueuepageTryEditorLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "FireFoxTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "76996@LAPTOP-39NIES78.TestNG-test=FireFoxTest-1(498)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}"
+  }, {
+    "name" : "browser",
+    "value" : "firefox"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4188c27f91270aa8.json",
+  "parameterValues" : [ "{links=implementation-collections.deque, Expected Result=Implementation using collections.deque, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}", "firefox" ]
+}

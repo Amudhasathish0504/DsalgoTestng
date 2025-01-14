@@ -1,0 +1,95 @@
+{
+  "uid" : "d5590e5672c3b529",
+  "name" : "clickQueueDropDownTest",
+  "fullName" : "testcases.HomePageTest.clickQueueDropDownTest",
+  "historyId" : "f186574fc20697fdcbcabf4e644c7fb5",
+  "time" : {
+    "start" : 1736466971665,
+    "stop" : 1736466972303,
+    "duration" : 638
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialSetUp",
+    "time" : {
+      "start" : 1736466966188,
+      "stop" : 1736466971508,
+      "duration" : 5320
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736466972327,
+      "stop" : 1736466972487,
+      "duration" : 160
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickQueueDropDownTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "testng"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "59632@LAPTOP-39NIES78.TestNG-test=testng-1(55)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5590e5672c3b529.json",
+  "parameterValues" : [ "chrome" ]
+}

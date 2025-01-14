@@ -1,0 +1,116 @@
+{
+  "uid" : "e7e8c965fa64119f",
+  "name" : "checkGraphPageLinksTest",
+  "fullName" : "testcases.graphtest.checkGraphPageLinksTest",
+  "historyId" : "d1a56b6378634e24eac6a3b63abd4359",
+  "time" : {
+    "start" : 1736738006280,
+    "stop" : 1736738006701,
+    "duration" : 421
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736737998869,
+      "stop" : 1736738006273,
+      "duration" : 7404
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736738006702,
+      "stop" : 1736738007999,
+      "duration" : 1297
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "EdgeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "79724@LAPTOP-39NIES78.TestNG-test=EdgeTest-1(307)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}"
+  }, {
+    "name" : "browser",
+    "value" : "edge"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "192c7b20ff857ed5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736737630499,
+        "stop" : 1736737630877,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "7174ae4c79249e37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736737434062,
+        "stop" : 1736737434463,
+        "duration" : 401
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7e8c965fa64119f.json",
+  "parameterValues" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "edge" ]
+}

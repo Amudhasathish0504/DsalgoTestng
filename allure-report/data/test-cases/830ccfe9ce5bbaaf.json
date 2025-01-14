@@ -1,0 +1,67 @@
+{
+  "uid" : "830ccfe9ce5bbaaf",
+  "name" : "checkArrayPageTryEditorLinkswithInvalidCodeTestforError",
+  "fullName" : "testcases.arraytest.checkArrayPageTryEditorLinkswithInvalidCodeTestforError",
+  "historyId" : "2ce28e51fb2b72c58204d50cab97cf78",
+  "time" : {
+    "start" : 1736729430622,
+    "stop" : 1736729430623,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null",
+  "statusTrace" : "java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:798)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:740)\r\n\tat org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)\r\n\tat org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1623)\r\nCaused by: java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null\r\n\tat testcases.arraytest.arraypage(arraytest.java:49)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)\r\n\t... 12 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.arraytest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.arraytest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkArrayPageTryEditorLinkswithInvalidCodeTestforError"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.arraytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "75616@LAPTOP-39NIES78.TestNG-test=ChromeTest-3(41)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "830ccfe9ce5bbaaf.json",
+  "parameterValues" : [ "chrome" ]
+}

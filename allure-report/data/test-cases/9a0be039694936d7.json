@@ -1,0 +1,217 @@
+{
+  "uid" : "9a0be039694936d7",
+  "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+  "fullName" : "testcases.StackPageTest.checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+  "historyId" : "c94f7291fdad781bfa515722de6f255f",
+  "time" : {
+    "start" : 1736727777357,
+    "stop" : 1736727779716,
+    "duration" : 2359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736727765805,
+      "stop" : 1736727777150,
+      "duration" : 11345
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736727763216,
+      "stop" : 1736727765733,
+      "duration" : 2517
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736727779764,
+      "stop" : 1736727780362,
+      "duration" : 598
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.StackPageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "78580@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1abd6f071a2ee3d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736727563038,
+        "stop" : 1736727565108,
+        "duration" : 2070
+      }
+    }, {
+      "uid" : "2be0e30a550e8b11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736726832103,
+        "stop" : 1736726833708,
+        "duration" : 1605
+      }
+    }, {
+      "uid" : "b04c9c9e1c4b37e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736726766090,
+        "stop" : 1736726767982,
+        "duration" : 1892
+      }
+    }, {
+      "uid" : "b21c6c79523f1b55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736726615894,
+        "stop" : 1736726619087,
+        "duration" : 3193
+      }
+    }, {
+      "uid" : "bf172a8b76016184",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736726301936,
+        "stop" : 1736726305180,
+        "duration" : 3244
+      }
+    }, {
+      "uid" : "936be136ef927888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736726000177,
+        "stop" : 1736726002613,
+        "duration" : 2436
+      }
+    }, {
+      "uid" : "83f2f267a3fadab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736725867977,
+        "stop" : 1736725871478,
+        "duration" : 3501
+      }
+    }, {
+      "uid" : "d0d77ff4643d79d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736560680275,
+        "stop" : 1736560681591,
+        "duration" : 1316
+      }
+    }, {
+      "uid" : "7fd9d0fecb3ab97c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736559810524,
+        "stop" : 1736559811934,
+        "duration" : 1410
+      }
+    }, {
+      "uid" : "9d34d2fcdf5adaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736545457299,
+        "stop" : 1736545458865,
+        "duration" : 1566
+      }
+    }, {
+      "uid" : "fd62515772ed3154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736545073616,
+        "stop" : 1736545075040,
+        "duration" : 1424
+      }
+    }, {
+      "uid" : "1ff771a8b6d1e7f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736544620707,
+        "stop" : 1736544622246,
+        "duration" : 1539
+      }
+    }, {
+      "uid" : "b017285237a99945",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736525411692,
+        "stop" : 1736525413163,
+        "duration" : 1471
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a0be039694936d7.json",
+  "parameterValues" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+}

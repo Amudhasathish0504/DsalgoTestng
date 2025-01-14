@@ -1,0 +1,156 @@
+{
+  "uid" : "a8f9605ede1e8c07",
+  "name" : "checkqueuepageTryEditorLinkswithValidCodeTest",
+  "fullName" : "testcases.QueuePageTest.checkqueuepageTryEditorLinkswithValidCodeTest",
+  "historyId" : "b27ff486de86188c01d42464119c6fd6",
+  "time" : {
+    "start" : 1736729960426,
+    "stop" : 1736729963009,
+    "duration" : 2583
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "LoadList",
+    "time" : {
+      "start" : 1736729698402,
+      "stop" : 1736729703580,
+      "duration" : 5178
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736729953817,
+      "stop" : 1736729960412,
+      "duration" : 6595
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736729963011,
+      "stop" : 1736729963315,
+      "duration" : 304
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkqueuepageTryEditorLinkswithValidCodeTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.QueuePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "76996@LAPTOP-39NIES78.TestNG-test=ChromeTest-1(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}"
+  }, {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "37d367e605021ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736559237087,
+        "stop" : 1736559238707,
+        "duration" : 1620
+      }
+    }, {
+      "uid" : "7d6125cfb451de67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736558139088,
+        "stop" : 1736558140625,
+        "duration" : 1537
+      }
+    }, {
+      "uid" : "c1efefb07e71f963",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736557442247,
+        "stop" : 1736557443778,
+        "duration" : 1531
+      }
+    }, {
+      "uid" : "1b48a51a97085ce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736556113151,
+        "stop" : 1736556114660,
+        "duration" : 1509
+      }
+    }, {
+      "uid" : "d259f00a504a2c80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736547161964,
+        "stop" : 1736547163579,
+        "duration" : 1615
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8f9605ede1e8c07.json",
+  "parameterValues" : [ "{links=queue operations, Expected Result=Queue Operations, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}", "chrome" ]
+}

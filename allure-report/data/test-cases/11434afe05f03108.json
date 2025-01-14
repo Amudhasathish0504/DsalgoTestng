@@ -1,0 +1,105 @@
+{
+  "uid" : "11434afe05f03108",
+  "name" : "checkGraphPageLinksTest",
+  "fullName" : "testcases.graphtest.checkGraphPageLinksTest",
+  "historyId" : "2d3c142c16d13b1c0598e07c357d1532",
+  "time" : {
+    "start" : 1736740999539,
+    "stop" : 1736740999903,
+    "duration" : 364
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BackgroundSetUp",
+    "time" : {
+      "start" : 1736740995455,
+      "stop" : 1736740999534,
+      "duration" : 4079
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736740999905,
+      "stop" : 1736741000054,
+      "duration" : 149
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "81768@LAPTOP-39NIES78.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d036ae36f3482acf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736740940443,
+        "stop" : 1736740941490,
+        "duration" : 1047
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11434afe05f03108.json",
+  "parameterValues" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}" ]
+}

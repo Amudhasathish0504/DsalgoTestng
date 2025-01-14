@@ -59,7 +59,7 @@ public class StackPageTest extends TestBase{
          return objArray;
 	}
 	
-	@Test (dataProvider="stackpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider="stackpage",retryAnalyzer=Retryautomationscripts.class, priority=1)
 	public void checkStackPageLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String expectedResult=data.get("Expected Result");
@@ -67,7 +67,7 @@ public class StackPageTest extends TestBase{
 			Assert.assertEquals(sp.validateStackPageTitles(), expectedResult);
 		
 	}
-	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class,priority=4)
 	public void checkStackPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
@@ -80,7 +80,7 @@ public class StackPageTest extends TestBase{
 			}
 	}
 	
-	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class, priority=2)
 	public void checkStackPageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			if(!(pageName.equalsIgnoreCase("practice-questions"))) {
@@ -90,7 +90,7 @@ public class StackPageTest extends TestBase{
 			}
 	}
 	
-	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class, priority=3)
 	public void checkStackPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		if(!(pageName.equalsIgnoreCase("practice-questions"))) {
@@ -101,7 +101,7 @@ public class StackPageTest extends TestBase{
 		}
 	}
 	
-	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class,priority=5)
 	public void checkStackPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
@@ -115,7 +115,7 @@ public class StackPageTest extends TestBase{
 	}
 	
 	
-	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "stackpage",retryAnalyzer=Retryautomationscripts.class, priority=6)
 	public void checkStackPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String validCode=data.get("ValidCode");

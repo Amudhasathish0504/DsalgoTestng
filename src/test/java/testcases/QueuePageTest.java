@@ -1,7 +1,5 @@
 
 package testcases;
-
-
 import java.util.List;
 import java.util.Map;
 
@@ -21,8 +19,6 @@ import Pages.TryEditorPage;
 import Pages.loginPage;
 import TestBaseClass.TestBase;
 import retryautomation.Retryautomationscripts;
-
-
 public class QueuePageTest extends TestBase{
 	loginPage lp;
 	HomePage hp;
@@ -56,7 +52,7 @@ public class QueuePageTest extends TestBase{
          return objArray;
 	}
 	
-	@Test (dataProvider="queuepage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider="queuepage",retryAnalyzer=Retryautomationscripts.class,priority=1)
 	public void checkqueuepageLinksTest(Map<String,String> data) {
 			String pageName=data.get("links");
 			String expectedResult=data.get("Expected Result");
@@ -64,7 +60,7 @@ public class QueuePageTest extends TestBase{
 			Assert.assertEquals(qp.validateQueuePageTitles(), expectedResult);
 		
 	}
-	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class,priority=4)
 	public void checkqueuepageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("links");
 			String invalidCode=data.get("InvalidCode");
@@ -77,7 +73,7 @@ public class QueuePageTest extends TestBase{
 			}
 	}
 	
-	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class,priority=2)
 	public void checkqueuepageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("links");
 			if(!(pageName.equalsIgnoreCase("practice questions"))) {
@@ -87,7 +83,7 @@ public class QueuePageTest extends TestBase{
 			}
 	}
 	
-	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class,priority=3)
 	public void checkqueuepageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("links");
 		if(!(pageName.equalsIgnoreCase("practice questions"))) {
@@ -98,7 +94,7 @@ public class QueuePageTest extends TestBase{
 		}
 	}
 	
-	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class,priority=5)
 	public void checkqueuepageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("links");
 			String invalidCode=data.get("InvalidCode");
@@ -110,7 +106,7 @@ public class QueuePageTest extends TestBase{
 			Assert.assertEquals(hp.validatePageTitle(), "Assessment");
 			}
 	}
-	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "queuepage",retryAnalyzer=Retryautomationscripts.class,priority=6)
 	public void checkqueuepageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("links");
 		String validCode=data.get("ValidCode");

@@ -1,0 +1,1005 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {value=//button[@class='btn'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.264, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63509}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63509/devtoo..., se:cdpVersion: 131.0.6778.264, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "InitialSetUp",
+        "uid" : "822e6df00b4a03fb",
+        "parentUid" : "a0ed4300d97ee4c66f2306dbe7b03eed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736461074003,
+          "stop" : 1736461074022,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0ed4300d97ee4c66f2306dbe7b03eed"
+    }, {
+      "name" : "class java.lang.ThreadLocal cannot be cast to class org.openqa.selenium.WebDriver (java.lang.ThreadLocal is in module java.base of loader 'bootstrap'; org.openqa.selenium.WebDriver is in unnamed module of loader 'app')",
+      "children" : [ {
+        "name" : "tearDownDriver",
+        "uid" : "d69be7b5c85a05a9",
+        "parentUid" : "8eaeb97edb11746b06c66979e7f0e9ad",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736463351250,
+          "stop" : 1736463351251,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8eaeb97edb11746b06c66979e7f0e9ad"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//textarea[@tabindex='0']\"}\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e330eb6c6b6fef5a511f403696c0e56b, findElement {value=//textarea[@tabindex='0'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49438/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e330eb6c6b6fef5a511f403696c0e56b",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "2d3b2cf1ed0ccd11",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467002879,
+          "stop" : 1736467003751,
+          "duration" : 872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "system", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "58bda9a314bc61f2",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467005350,
+          "stop" : 1736467006174,
+          "duration" : 824
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "hello", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "b4276cfa2057594b",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467007756,
+          "stop" : 1736467008691,
+          "duration" : 935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "david", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "36a25cf00282b5cd",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467010182,
+          "stop" : 1736467010851,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "system", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "28d0747a6cc6cb89",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467012426,
+          "stop" : 1736467013262,
+          "duration" : 836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "hello", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "c6802bb8f810dade",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467014804,
+          "stop" : 1736467015603,
+          "duration" : 799
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "david", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "3f1e24552131b2be",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467024231,
+          "stop" : 1736467024998,
+          "duration" : 767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "print('hi')", "hi", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "4c81c54502d96bbe",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467026684,
+          "stop" : 1736467027512,
+          "duration" : 828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "print('hello')", "hello", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "4e9c071dfe4b0709",
+        "parentUid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467029084,
+          "stop" : 1736467029947,
+          "duration" : 863
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "print('welcome to programming')", "welcome to programming", "chrome" ]
+      } ],
+      "uid" : "6f2bb1d482578b1bfbd9dbb5377ecc8d"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[text()='Run']\"}\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e330eb6c6b6fef5a511f403696c0e56b, findElement {value=//button[text()='Run'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49438}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49438/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e330eb6c6b6fef5a511f403696c0e56b",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "7604b1d1a55a671e",
+        "parentUid" : "a37c587c02fafebce447d80d9163ba43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467017089,
+          "stop" : 1736467017884,
+          "duration" : 795
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "61842978eb79dab9",
+        "parentUid" : "a37c587c02fafebce447d80d9163ba43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467019364,
+          "stop" : 1736467020115,
+          "duration" : 751
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "chrome" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "4de7b541005d8ca7",
+        "parentUid" : "a37c587c02fafebce447d80d9163ba43",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467021734,
+          "stop" : 1736467022606,
+          "duration" : 872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "chrome" ]
+      } ],
+      "uid" : "a37c587c02fafebce447d80d9163ba43"
+    }, {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {using=xpath, value=//textarea[@tabindex='0']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50159/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "58adb39c96464b1a",
+        "parentUid" : "476f993e98231bb4afca6ae007424195",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467479414,
+          "stop" : 1736467480427,
+          "duration" : 1013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "print('hello')", "hello" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithValidCodeTest",
+        "uid" : "70854ed6c32bfa49",
+        "parentUid" : "476f993e98231bb4afca6ae007424195",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467484439,
+          "stop" : 1736467485709,
+          "duration" : 1270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "print('welcome to programming')", "welcome to programming" ]
+      } ],
+      "uid" : "476f993e98231bb4afca6ae007424195"
+    }, {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {using=xpath, value=//textarea[@tabindex='0']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50603/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "c13ab9e73e101e8",
+        "parentUid" : "91672c764511133488c7188fc85c4091",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467726904,
+          "stop" : 1736467728065,
+          "duration" : 1161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "hello" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "8090d05cad74ad3b",
+        "parentUid" : "91672c764511133488c7188fc85c4091",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736467731637,
+          "stop" : 1736467732824,
+          "duration" : 1187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "david" ]
+      } ],
+      "uid" : "91672c764511133488c7188fc85c4091"
+    }, {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {value=//button[text()='Run'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51178/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "29c38fc2847ec353",
+        "parentUid" : "95c68ee6058134c0203c7ce8a9d49e1f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736468027878,
+          "stop" : 1736468029322,
+          "duration" : 1444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "operations-in-stack" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "c6bc0808b8e732f2",
+        "parentUid" : "95c68ee6058134c0203c7ce8a9d49e1f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736468033111,
+          "stop" : 1736468034302,
+          "duration" : 1191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithNoScriptsTest",
+        "uid" : "ea16d66ffe8940bb",
+        "parentUid" : "95c68ee6058134c0203c7ce8a9d49e1f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736468038271,
+          "stop" : 1736468039419,
+          "duration" : 1148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications" ]
+      } ],
+      "uid" : "95c68ee6058134c0203c7ce8a9d49e1f"
+    }, {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {value=//textarea[@tabindex='0'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54736}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54736/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "f99c58da57d300cc",
+        "parentUid" : "d6dec0ec6f3003354503bfffa208e729",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736524291164,
+          "stop" : 1736524292234,
+          "duration" : 1070
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "Implementation", "hello", "print('hello')", "hello" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "753dc09cb59a032c",
+        "parentUid" : "d6dec0ec6f3003354503bfffa208e729",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736524295869,
+          "stop" : 1736524297159,
+          "duration" : 1290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "Applications", "david", "print('welcome to programming')", "welcome to programming" ]
+      } ],
+      "uid" : "d6dec0ec6f3003354503bfffa208e729"
+    }, {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {value=//textarea[@tabindex='0'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54950}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54950/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "c1ee5a5ad67e6651",
+        "parentUid" : "c385bf899dac4e3ca1331eae45ce85f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736524448769,
+          "stop" : 1736524449792,
+          "duration" : 1023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "implementation", "hello" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "f5f04ff92ceabcd2",
+        "parentUid" : "c385bf899dac4e3ca1331eae45ce85f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736524453650,
+          "stop" : 1736524454844,
+          "duration" : 1194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "applications", "david" ]
+      } ],
+      "uid" : "c385bf899dac4e3ca1331eae45ce85f1"
+    }, {
+      "name" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, findElement {using=xpath, value=//textarea[@tabindex='0']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55281/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError1",
+        "uid" : "9da5828e6a010617",
+        "parentUid" : "3f527ed8027383d00d4da5052af66d63",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736525042471,
+          "stop" : 1736525043657,
+          "duration" : 1186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError1",
+        "uid" : "db2c3fcb2e03ad5e",
+        "parentUid" : "3f527ed8027383d00d4da5052af66d63",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736525047958,
+          "stop" : 1736525049450,
+          "duration" : 1492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      } ],
+      "uid" : "3f527ed8027383d00d4da5052af66d63"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='/tryEditor']\"}\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a73c3b1c797cfaa6488c597a40ea59ee, findElement {using=xpath, value=//a[@href='/tryEditor']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55377/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: a73c3b1c797cfaa6488c597a40ea59ee",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTestforError1",
+        "uid" : "c2c89ad65e99c6c6",
+        "parentUid" : "ab2233c3842272142faa1cc3ed7ce225",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736525053199,
+          "stop" : 1736525063806,
+          "duration" : 10607
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      } ],
+      "uid" : "ab2233c3842272142faa1cc3ed7ce225"
+    }, {
+      "name" : "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=131.0.6778.265)\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [cbbd712bd74704b64e91034fb0b26881, findElement {using=xpath, value=//a[@href='stack']}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59998}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59998/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: cbbd712bd74704b64e91034fb0b26881",
+      "children" : [ {
+        "name" : "BackgroundSetUp",
+        "uid" : "e6df41771208c7b3",
+        "parentUid" : "a27425624d59d95249194d62db2e262f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736546377291,
+          "stop" : 1736546377293,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a27425624d59d95249194d62db2e262f"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name='password']\"}\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [077d078eacbd6f8470988af6bbaca44a, findElement {using=name, value=password}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60897/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 077d078eacbd6f8470988af6bbaca44a",
+      "children" : [ {
+        "name" : "InitialSetUp",
+        "uid" : "8d6bd39a81834866",
+        "parentUid" : "d59945ad3e8b7e838ba756ba54344e63",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736546923666,
+          "stop" : 1736546923667,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "d59945ad3e8b7e838ba756ba54344e63"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name='username']\"}\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [58e2db451d3c1c3aedf14a45a8be36ec, findElement {using=name, value=username}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60898}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60898/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 58e2db451d3c1c3aedf14a45a8be36ec",
+      "children" : [ {
+        "name" : "BackgroundSetUp",
+        "uid" : "b58f37a755575ef8",
+        "parentUid" : "8c3fc8d4a75c3b758a07985bb02607b8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736546923869,
+          "stop" : 1736546923870,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "8c3fc8d4a75c3b758a07985bb02607b8"
+    }, {
+      "name" : "stale element reference: stale element not found\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d3f442413d6993e07e41729e8d30c26d, sendKeysToElement {id=f.578DEBCE0DDBDEE25508A8E95D25327A.d.EE5640ED46BD32CC38274CD640B86FCF.e.14, value=[Ljava.lang.CharSequence;@71315da0}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60901/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (d3f442413d6993e07e41729e8d30c26d)] -> name: username]\nSession ID: d3f442413d6993e07e41729e8d30c26d",
+      "children" : [ {
+        "name" : "BackgroundSetUp",
+        "uid" : "b44ccdd50b7e2f28",
+        "parentUid" : "fcafc12ab066bc5c1288820e83a5d491",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736546937147,
+          "stop" : 1736546937147,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "fcafc12ab066bc5c1288820e83a5d491"
+    }, {
+      "name" : "Cannot invoke \"org.apache.poi.ss.usermodel.Row.getLastCellNum()\" because \"row\" is null",
+      "children" : [ {
+        "name" : "LoadList",
+        "uid" : "17ee639c0d76f565",
+        "parentUid" : "5617339e66d143151aa2e93da8c2853a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736558474666,
+          "stop" : 1736558474668,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "5617339e66d143151aa2e93da8c2853a"
+    }, {
+      "name" : "no such alert\n  (Session info: chrome=131.0.6778.265)\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e3000335c190f9ebf73f0d0f700f7218, getAlertText {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57273/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: e3000335c190f9ebf73f0d0f700f7218",
+      "children" : [ {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "d4cc183ba2bddb63",
+        "parentUid" : "29b64c0667ae07ecd1e35dde130e7a91",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736560526087,
+          "stop" : 1736560527457,
+          "duration" : 1370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      } ],
+      "uid" : "29b64c0667ae07ecd1e35dde130e7a91"
+    }, {
+      "name" : "no such alert\n  (Session info: chrome=131.0.6778.265)\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [c9031eec95efc03f7b978e7937e94f48, getAlertText {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55944}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55944/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: c9031eec95efc03f7b978e7937e94f48",
+      "children" : [ {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "e0c370b2ed4dfa88",
+        "parentUid" : "ac8a5f3e887da74a252dd3e1e7c920c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736729833023,
+          "stop" : 1736729835545,
+          "duration" : 2522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+      } ],
+      "uid" : "ac8a5f3e887da74a252dd3e1e7c920c7"
+    }, {
+      "name" : "no such alert\n  (Session info: chrome=131.0.6778.265)\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [abe15538a0f02becdb7cf469eddc9290, getAlertText {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57879/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: abe15538a0f02becdb7cf469eddc9290",
+      "children" : [ {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "15c3027a4e3dc718",
+        "parentUid" : "577844bdc8cca27a4fe6f4ed6d154c4a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736730104344,
+          "stop" : 1736730107977,
+          "duration" : 3633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "firefox" ]
+      } ],
+      "uid" : "577844bdc8cca27a4fe6f4ed6d154c4a"
+    }, {
+      "name" : "Cannot invoke \"java.lang.CharSequence.codePoints()\" because \"key\" is null",
+      "children" : [ {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "b1ce7cd76471fc87",
+        "parentUid" : "bfc82b9d05b9703bbaaad15cf0b96a5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736731880040,
+          "stop" : 1736731884149,
+          "duration" : 4109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "eafcf69d92ed7d99",
+        "parentUid" : "bfc82b9d05b9703bbaaad15cf0b96a5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736731892855,
+          "stop" : 1736731895491,
+          "duration" : 2636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "ad500f9a39964a88",
+        "parentUid" : "bfc82b9d05b9703bbaaad15cf0b96a5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736737954628,
+          "stop" : 1736737955958,
+          "duration" : 1330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "f80532038d6f5a31",
+        "parentUid" : "bfc82b9d05b9703bbaaad15cf0b96a5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736737960422,
+          "stop" : 1736737961834,
+          "duration" : 1412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "32b3166707751b14",
+        "parentUid" : "bfc82b9d05b9703bbaaad15cf0b96a5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736738090117,
+          "stop" : 1736738091683,
+          "duration" : 1566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "edge" ]
+      }, {
+        "name" : "checkGraphPageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "ef2fa6275883595c",
+        "parentUid" : "bfc82b9d05b9703bbaaad15cf0b96a5d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736738099402,
+          "stop" : 1736738100844,
+          "duration" : 1442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph Representation, Expected Result=Graph Representations, Invalid Code=World, ValidCode=print('good'), Expected Result for Code=good}", "edge" ]
+      } ],
+      "uid" : "bfc82b9d05b9703bbaaad15cf0b96a5d"
+    }, {
+      "name" : "Cannot invoke \"String.toLowerCase()\" because \"browser\" is null",
+      "children" : [ {
+        "name" : "BackgroundSetUp",
+        "uid" : "8234917fb986f27a",
+        "parentUid" : "00e43b225a94320e7265060212a9debc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736736483768,
+          "stop" : 1736736483770,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox" ]
+      }, {
+        "name" : "BackgroundSetUp",
+        "uid" : "b592afb2e5de3b48",
+        "parentUid" : "00e43b225a94320e7265060212a9debc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736736579978,
+          "stop" : 1736736579980,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00e43b225a94320e7265060212a9debc"
+    }, {
+      "name" : "Move target (469, 776) is out of bounds of viewport dimensions (1536, 739)\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [450e179f-2286-4f92-a8ce-783601e3fe1a, actions {actions=[org.openqa.selenium.interactions.Sequence@3c8850c0]}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 134.0, moz:accessibilityChecks: false, moz:buildID: 20241230151726, moz:debuggerAddress: 127.0.0.1:41642, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 66096, moz:profile: C:\\Users\\SMILE\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41642/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: 450e179f-2286-4f92-a8ce-783601e3fe1a",
+      "children" : [ {
+        "name" : "checkGraphPageTryEditorLinksTest",
+        "uid" : "9f17956dc9898abc",
+        "parentUid" : "c7d51e755253ccdd7c008f382e12f28a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736737242444,
+          "stop" : 1736737242957,
+          "duration" : 513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=Graph, Expected Result=Graph, Invalid Code=Hello, ValidCode=print('wow'), Expected Result for Code=wow}", "firefox" ]
+      } ],
+      "uid" : "c7d51e755253ccdd7c008f382e12f28a"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='graph']\"}\n  (Session info: MicrosoftEdge=131.0.2903.112)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [b01bfdf1ef7c3e05e8db7560d96f906a, findElement {value=//a[@href='graph'], using=xpath}]\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62718}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62718/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b01bfdf1ef7c3e05e8db7560d96f906a",
+      "children" : [ {
+        "name" : "BackgroundSetUp",
+        "uid" : "935faa464641626",
+        "parentUid" : "05db22911c9e90536dd37a749324f6a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736737695711,
+          "stop" : 1736737695712,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "edge" ]
+      } ],
+      "uid" : "05db22911c9e90536dd37a749324f6a2"
+    }, {
+      "name" : "\nParameter 'browser' is required by BeforeMethod on method BackgroundSetUp but has not been marked @Optional or defined\nin C:\\Users\\SMILE\\AppData\\Local\\Temp\\testng-eclipse-1202037405\\testng-customsuite.xml",
+      "children" : [ {
+        "name" : "BackgroundSetUp",
+        "uid" : "db8511f66e181947",
+        "parentUid" : "2c6347caff148109017c0cf98c640242",
+        "status" : "broken",
+        "time" : {
+          "start" : 1736738912968,
+          "stop" : 1736738912974,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c6347caff148109017c0cf98c640242"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [Practice Questions] but found [null]",
+      "children" : [ {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "61226db306fc13c9",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736466981676,
+          "stop" : 1736466992349,
+          "duration" : 10673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "practice-questions", "Practice Questions", "chrome" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "8a568c5fd10fe622",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736523283870,
+          "stop" : 1736523294506,
+          "duration" : 10636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "practice-questions", "Practice Questions", "null", "null", "null" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "8a6f3996af0edc59",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736523922645,
+          "stop" : 1736523933198,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "practice-questions", "Practice Questions" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "59c602257852b408",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736545403421,
+          "stop" : 1736545414049,
+          "duration" : 10628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageLinksTest1",
+        "uid" : "810ea9c352ea7fea",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736545915357,
+          "stop" : 1736545925910,
+          "duration" : 10553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest1",
+        "uid" : "64647d3e4215f208",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736546423442,
+          "stop" : 1736546434258,
+          "duration" : 10816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "187221722115b5bd",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736559073418,
+          "stop" : 1736559085991,
+          "duration" : 12573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "3c058ad092ae855b",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736560471176,
+          "stop" : 1736560481803,
+          "duration" : 10627
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkStackPageLinksTest",
+        "uid" : "35ee0243b27565f1",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736729388149,
+          "stop" : 1736729399279,
+          "duration" : 11130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "3dbf7bb0768acbe4",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736729742667,
+          "stop" : 1736729755022,
+          "duration" : 12355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageLinksTest",
+        "uid" : "2fd848a0a722c4f1",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736730019486,
+          "stop" : 1736730030443,
+          "duration" : 10957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=practice questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "cb88c455c280960c",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736737224343,
+          "stop" : 1736737235076,
+          "duration" : 10733
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "firefox" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "8aeb77f1580a9592",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736737905535,
+          "stop" : 1736737916469,
+          "duration" : 10934
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "chrome" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "fe2c5e013dacb6f9",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736738021924,
+          "stop" : 1736738032683,
+          "duration" : 10759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}", "edge" ]
+      }, {
+        "name" : "checkGraphPageLinksTest",
+        "uid" : "b81c522ad00275e7",
+        "parentUid" : "aa082df36362f21496e43151ede52c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736741056734,
+          "stop" : 1736741067367,
+          "duration" : 10633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=practice-questions, Expected Result=Practice Questions}" ]
+      } ],
+      "uid" : "aa082df36362f21496e43151ede52c7f"
+    }, {
+      "name" : "expected [true] but found [false]",
+      "children" : [ {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "861798d087553bca",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736560552119,
+          "stop" : 1736560553523,
+          "duration" : 1404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "9f6baa6ad9dfce1a",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736729876040,
+          "stop" : 1736729878185,
+          "duration" : 2145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "chrome" ]
+      }, {
+        "name" : "checkqueuepageTryEditorLinkswithInvalidCodeTestforError",
+        "uid" : "46e8b0bb3cfadb6c",
+        "parentUid" : "067aa11ae245eca950dc984999fefd6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736730152474,
+          "stop" : 1736730154945,
+          "duration" : 2471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{links=implementation-array, Expected Result=Implementation using array, InvalidCode=\"1234\", ValidCode=print('system.out.println'), Expected Result for Code=system.out.println}", "firefox" ]
+      } ],
+      "uid" : "067aa11ae245eca950dc984999fefd6d"
+    }, {
+      "name" : "expected [Assessment] but found [Stack]",
+      "children" : [ {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "68c4c4e503b83e08",
+        "parentUid" : "edf020dee3b11e51f6738bb444f35657",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736727821773,
+          "stop" : 1736727822043,
+          "duration" : 270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=operations-in-stack, Expected Result=Operations in Stack, InvalidCode=system, ValidCode=print('hi'), Expected Result for Code=hi}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "4326ed0867da45d3",
+        "parentUid" : "edf020dee3b11e51f6738bb444f35657",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736727828896,
+          "stop" : 1736727829107,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=implementation, Expected Result=Implementation, InvalidCode=hello, ValidCode=print('hello'), Expected Result for Code=hello}" ]
+      }, {
+        "name" : "checkStackPageTryEditorLinkswithInvalidCodeTest",
+        "uid" : "feae39ad0cce133a",
+        "parentUid" : "edf020dee3b11e51f6738bb444f35657",
+        "status" : "failed",
+        "time" : {
+          "start" : 1736727836793,
+          "stop" : 1736727837047,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{Links=applications, Expected Result=Applications, InvalidCode=david, ValidCode=print('welcome to programming'), Expected Result for Code=welcome to programming}" ]
+      } ],
+      "uid" : "edf020dee3b11e51f6738bb444f35657"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

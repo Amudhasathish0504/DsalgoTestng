@@ -1,0 +1,202 @@
+{
+  "uid" : "f44d1b9f80a492c9",
+  "name" : "clickStackLinkTest",
+  "fullName" : "testcases.HomePageTest.clickStackLinkTest",
+  "historyId" : "95984c4d8539cba815a75cdfc9673482",
+  "time" : {
+    "start" : 1736729469764,
+    "stop" : 1736729470087,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialSetUp",
+    "time" : {
+      "start" : 1736729461043,
+      "stop" : 1736729469751,
+      "duration" : 8708
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownDriver",
+    "time" : {
+      "start" : 1736729470089,
+      "stop" : 1736729470263,
+      "duration" : 174
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "clickStackLinkTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.HomePageTest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "75616@LAPTOP-39NIES78.TestNG-test=ChromeTest-2(40)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "26699c1859818956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736559055586,
+        "stop" : 1736559056087,
+        "duration" : 501
+      }
+    }, {
+      "uid" : "8bc7cd19f72f2a73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736557958339,
+        "stop" : 1736557964655,
+        "duration" : 6316
+      }
+    }, {
+      "uid" : "48d1ffddf44e2a8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736557295830,
+        "stop" : 1736557296183,
+        "duration" : 353
+      }
+    }, {
+      "uid" : "3d283bc569a8ba56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736555974056,
+        "stop" : 1736555974453,
+        "duration" : 397
+      }
+    }, {
+      "uid" : "826eb8db8b473c0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736547021950,
+        "stop" : 1736547022368,
+        "duration" : 418
+      }
+    }, {
+      "uid" : "8aaaf8b826d7891b",
+      "status" : "skipped",
+      "statusDetails" : "stale element reference: stale element not found\n  (Session info: chrome=131.0.6778.265)\nFor documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception\nBuild info: version: '4.27.0', revision: 'd6e718d134'\nSystem info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [077d078eacbd6f8470988af6bbaca44a, clickElement {id=f.F29698F33A897E0A2426E425015E146F.d.07CB088B50561623DE6A0B06CB1EB505.e.7}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\\Users\\SMILE\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60897/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on windows (077d078eacbd6f8470988af6bbaca44a)] -> xpath: //a[normalize-space()='Sign in']]\nSession ID: 077d078eacbd6f8470988af6bbaca44a",
+      "time" : {
+        "start" : 1736546923675,
+        "stop" : 1736546923678,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "b587216ff17c91c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736545897829,
+        "stop" : 1736545898184,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "7395f7d0472c8fb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736545660714,
+        "stop" : 1736545661494,
+        "duration" : 780
+      }
+    }, {
+      "uid" : "669d7890f022401e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736466980977,
+        "stop" : 1736466981548,
+        "duration" : 571
+      }
+    }, {
+      "uid" : "bfb12970f8e99af1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736466674400,
+        "stop" : 1736466674801,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "4cf85776f4479aab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736466471445,
+        "stop" : 1736466471744,
+        "duration" : 299
+      }
+    }, {
+      "uid" : "abe84939bfe07ec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736464506867,
+        "stop" : 1736464507160,
+        "duration" : 293
+      }
+    }, {
+      "uid" : "7370b3f6aecda07f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1736464457492,
+        "stop" : 1736464457846,
+        "duration" : 354
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f44d1b9f80a492c9.json",
+  "parameterValues" : [ "chrome" ]
+}

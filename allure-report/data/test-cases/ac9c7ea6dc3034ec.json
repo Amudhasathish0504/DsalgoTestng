@@ -1,0 +1,76 @@
+{
+  "uid" : "ac9c7ea6dc3034ec",
+  "name" : "checkGraphPageTryEditorLinksTest",
+  "fullName" : "testcases.graphtest.checkGraphPageTryEditorLinksTest",
+  "historyId" : "78d9c39f19228cc7285a958da768e66c",
+  "time" : {
+    "start" : 1736731817620,
+    "stop" : 1736731817620,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /xl/worksheets/sheet9.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@5508105c. Enable logging via Log4j 2 for more details.",
+  "statusTrace" : "java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /xl/worksheets/sheet9.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@5508105c. Enable logging via Log4j 2 for more details.\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:798)\r\n\tat org.testng.internal.Parameters.handleParameters(Parameters.java:740)\r\n\tat org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)\r\n\tat org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r\n\tat org.testng.TestRunner.run(TestRunner.java:596)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\r\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\r\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\r\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\r\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1623)\r\nCaused by: org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /xl/worksheets/sheet9.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@5508105c. Enable logging via Log4j 2 for more details.\r\n\tat org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:604)\r\n\tat org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1531)\r\n\tat org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1518)\r\n\tat org.apache.poi.openxml4j.opc.ZipPackage.closeImpl(ZipPackage.java:476)\r\n\tat org.apache.poi.openxml4j.opc.OPCPackage.close(OPCPackage.java:502)\r\n\tat org.apache.poi.ooxml.POIXMLDocument.close(POIXMLDocument.java:189)\r\n\tat org.apache.poi.xssf.usermodel.XSSFWorkbook.close(XSSFWorkbook.java:642)\r\n\tat DataProvider.ExcelReader.getData(ExcelReader.java:23)\r\n\tat testcases.graphtest.Graph(graphtest.java:52)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:578)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)\r\n\t... 20 more\r\nCaused by: org.apache.poi.openxml4j.exceptions.OpenXML4JException: The part /xl/worksheets/sheet9.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@5508105c. Enable logging via Log4j 2 for more details.\r\n\tat org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:593)\r\n\t... 33 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkGraphPageTryEditorLinksTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "DsAlgo-testngsuite"
+  }, {
+    "name" : "suite",
+    "value" : "ChromeTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.graphtest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-39NIES78"
+  }, {
+    "name" : "thread",
+    "value" : "19136@LAPTOP-39NIES78.TestNG-tests-1(33)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "86813fcc0fd059f5",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException: Cannot invoke \"java.util.List.size()\" because \"this.excelData\" is null",
+      "time" : {
+        "start" : 1736731611194,
+        "stop" : 1736731611195,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac9c7ea6dc3034ec.json",
+  "parameterValues" : [ "chrome" ]
+}
