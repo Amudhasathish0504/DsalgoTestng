@@ -54,7 +54,7 @@ public class dataStructuresIntroPage extends TestBase {
           } 
          return objArray;
 	}
-	//@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class,priority =1)
 
 	public void checkListPageLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -63,7 +63,7 @@ public class dataStructuresIntroPage extends TestBase {
 			Assert.assertEquals(dp.validateListPageTitles(), expectedResult);		
 	}
 	
-	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class,priority =2)
 
 	public void checkListPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -77,7 +77,7 @@ public class dataStructuresIntroPage extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class,priority =3)
 
 	public void checkListPageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -87,7 +87,7 @@ public class dataStructuresIntroPage extends TestBase {
 			Assert.assertEquals(hp.validatePageTitle(),"Assessment");
 			}
 	}
-	//@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class,priority =4)
 
 			public void checkListPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
@@ -99,7 +99,7 @@ public class dataStructuresIntroPage extends TestBase {
 		}
 	}
 	
-	//@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class,priority =5)
 
 	public void checkListPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -113,7 +113,7 @@ public class dataStructuresIntroPage extends TestBase {
 			}
 	}
 	
-	//@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "datapage",retryAnalyzer=Retryautomationscripts.class,priority =6)
 
 
 	public void checkListPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {

@@ -1,14 +1,11 @@
 package testcases;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -56,7 +53,7 @@ public class arraytest extends TestBase {
 	}
 	
 		
-	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class,priority =1)
 
 
 	public void checkArrayPageLinksTest(Map<String,String> data) {
@@ -66,7 +63,7 @@ public class arraytest extends TestBase {
 			Assert.assertEquals(ap.validateArrayPageTitles(), expectedResult);
 		
 	}
-	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class,priority =2)
 	public void checkArrayPageTryEditorLinkswithInvalidCodeTestforError(Map<String,String> data) {
 			String pageName=data.get("Links");
 			String invalidCode=data.get("InvalidCode");
@@ -79,7 +76,7 @@ public class arraytest extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class,priority =3)
 
 	public void checkArrayPageTryEditorLinksTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -89,7 +86,7 @@ public class arraytest extends TestBase {
 			Assert.assertEquals(hp.validatePageTitle(),"Assessment");
 			}
 	}
-	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class,priority =4)
 
 		public void checkArrayPageTryEditorLinkswithNoScriptsTest(Map<String,String> data) {
 		String pageName=data.get("Links");
@@ -100,7 +97,7 @@ public class arraytest extends TestBase {
 			Assert.assertEquals(tp.isAlertPresent(), false);
 		}
 	}
-	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class,priority =5)
 
 	public void checkArrayPageTryEditorLinkswithInvalidCodeTest(Map<String,String> data) {
 			String pageName=data.get("Links");
@@ -114,7 +111,7 @@ public class arraytest extends TestBase {
 			}
 	}
 	
-	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class)
+	@Test (dataProvider = "arraypage",retryAnalyzer=Retryautomationscripts.class,priority =6)
 	public void checkArrayPageTryEditorLinkswithValidCodeTest(Map<String,String> data) {
 		String pageName=data.get("Links");
 		String validCode=data.get("ValidCode");
